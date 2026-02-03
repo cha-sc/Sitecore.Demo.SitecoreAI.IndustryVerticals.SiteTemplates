@@ -37,12 +37,12 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
         </div>
 
         {/* Product Details */}
-        <div className="bg-background flex grow-1 flex-col items-start px-5 pt-3 pb-9 text-left">
-          <p className="!text-foreground-light">
+        <div className="bg-background flex grow-1 flex-col items-start px-5 pt-3 pb-9 text-left text-white">
+          <p className="text-white/80">
             <Text field={product.Category?.fields?.CategoryName} />
           </p>
 
-          <h6 className="!text-foreground mt-1 line-clamp-2 font-semibold">
+          <h6 className="text-white mt-1 line-clamp-2 font-semibold">
             <Text field={product.Title} />
           </h6>
 
@@ -52,7 +52,7 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
             className="!text-accent mt-1 mb-5"
           />
 
-          <h6 className="!text-foreground mt-auto font-semibold">
+          <h6 className="text-white mt-auto font-semibold">
             <span className="mr-1 align-super text-sm">{currencySymbol} </span>
             {formattedPrice}
           </h6>

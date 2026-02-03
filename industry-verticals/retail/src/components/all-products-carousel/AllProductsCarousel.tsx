@@ -50,7 +50,7 @@ export const Default = ({ params, fields }: ProductCarouselProps) => {
         <div className="bg-border flex flex-wrap justify-center rounded-lg p-1 text-lg leading-8">
           {categories.map((category) => (
             <button
-              className={`!text-foreground rounded-lg px-8 py-2 ${selectedCategory === category ? 'bg-background' : ''}`}
+              className={`rounded-lg px-8 py-2 ${selectedCategory === category ? 'bg-background text-white' : 'text-black'}`}
               onClick={() => setSelectedCategory(category)}
               key={category}
             >
