@@ -169,7 +169,7 @@ Languages:
               s:par="FieldNames=%7B28488BBE-7707-4417-95C1-2B0E866912FD%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D" />
             <r
               uid="{3322063A-EBC7-4FE5-B3B2-0E084039FC58}"
-              s:par="FieldNames=%7BE7FB2EE2-33B4-4536-8453-6ACC1CDEBE72%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D" />
+              s:par="FieldNames=%7B9F924CE2-4C96-4930-B701-8B45F673F53E%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D" />
             <r
               uid="{9E9A7694-8CBD-488D-90F8-C88AE51B223A}"
               s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=17" />
@@ -236,7 +236,7 @@ Languages:
       Value: "Explore Forma Lux’s luxurious furniture collections: heritage craftsmanship meets modern, sustainable design for elegant living spaces."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "059218e9-3f1c-44f3-b9f3-834cae8b66bb"
+      Value: "df7addce-8c18-4176-9d2f-dc3b9c34fe7f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -246,7 +246,7 @@ Languages:
       Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T184404Z
+      Value: 20260203T203606Z
 - Language: "es-ES"
   Versions:
   - Version: 2

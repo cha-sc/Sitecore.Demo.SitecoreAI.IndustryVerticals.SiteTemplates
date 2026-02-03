@@ -31,7 +31,7 @@ SharedFields:
   Value: "{54F89E61-6008-4130-B6D9-3F4C5FDC447B}"
 - ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
   Hint: Name
-  Value: Forma Lux
+  Value: Heart And Stroke Foundation of Canada
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
@@ -40,7 +40,7 @@ SharedFields:
   Value: "<image mediaid='60f2fa17-d633-4703-a65f-28ad007a26bb' />"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7aca4703-0335-470e-8123-18ba940c42a5"
+  Value: "12e7d40f-1f6e-49c8-a098-8a3d6930956a"
 - ID: "e2bf3c8d-a12e-45f4-98d6-a37f13bcf375"
   Hint: SiteTemplate
   Value: "{2867D289-8951-458A-AF19-CE93A67BB494}"
@@ -65,14 +65,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fe1cc577-9e8b-4dcc-81db-beacc64fe7ff"
+      Value: "26c0883a-c40b-4a3e-8c3e-907bf71c0968"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Anonymous
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251205T125816Z
+      Value: 20260203T194508Z
 - Language: "es-ES"
   Versions:
   - Version: 1

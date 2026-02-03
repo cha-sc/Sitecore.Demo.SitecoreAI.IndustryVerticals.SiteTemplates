@@ -81,7 +81,7 @@ export const Default = (props: FeaturesProps) => {
                   <Text field={description} />
                 </div>
                 <div>
-                  <Link field={link} className="cta-btn" />
+                  <Link field={link} className="arrow-btn" />
                 </div>
               </div>
             );
@@ -242,6 +242,49 @@ export const ImageCardGrid = (props: FeaturesProps) => {
             </div>
           );
         })}
+      </div>
+    </FeatureWrapper>
+  );
+};
+
+export const OrderedList = (props: FeaturesProps) => {
+  const results = props.fields.data?.datasource?.children?.results ?? [];
+  const featureSectionTitle = props.fields.data?.datasource?.title;
+
+  return (
+    <FeatureWrapper props={props}>
+      <div className="container py-20">
+        {featureSectionTitle?.jsonValue && (
+          <p className="eyebrow mb-8">
+            <Text field={featureSectionTitle.jsonValue} />
+          </p>
+        )}
+        <div className="flex flex-col">
+          {results.map((item, index) => {
+            const title = item?.featureTitle?.jsonValue;
+            const description = item?.featureDescription?.jsonValue;
+            const link = item?.featureLink?.jsonValue;
+            const hasNextRow = index < results.length - 1;
+            return (
+              <React.Fragment key={index}>
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-[1fr_1fr] md:gap-8">
+                  <h3 className="text-6xl font-bold">
+                    <Text field={title} />
+                  </h3>
+                  <div className="flex flex-col gap-2 md:flex-row md:items-center md:gap-6">
+                    <div className="text-foreground min-w-0 flex-1 leading-7">
+                      <Text field={description} />
+                    </div>
+                    <Link field={link} className="arrow-btn shrink-0 md:ml-auto" />
+                  </div>
+                </div>
+                {hasNextRow && (
+                  <hr className="border-border my-4 w-full md:my-6" aria-hidden />
+                )}
+              </React.Fragment>
+            );
+          })}
+        </div>
       </div>
     </FeatureWrapper>
   );
