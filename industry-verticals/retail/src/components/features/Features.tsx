@@ -278,9 +278,7 @@ export const OrderedList = (props: FeaturesProps) => {
                     <Link field={link} className="arrow-btn shrink-0 md:ml-auto" />
                   </div>
                 </div>
-                {hasNextRow && (
-                  <hr className="border-border my-4 w-full md:my-6" aria-hidden />
-                )}
+                {hasNextRow && <hr className="border-border my-4 w-full md:my-6" aria-hidden />}
               </React.Fragment>
             );
           })}
