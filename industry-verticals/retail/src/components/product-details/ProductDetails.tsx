@@ -117,14 +117,14 @@ export const Default = (props: ProductDetailsProps) => {
             {/* Action Buttons */}
             <div className="flex flex-wrap gap-x-10 gap-y-4">
               {ShowCompareButton && (
-                <button className="action-btn">
+                <button className="cta-btn">
                   <Plus className="size-5" strokeWidth={3} />
                   {t('compare_btn_text') || 'Compare'}
                 </button>
               )}
 
               {ShowAddtoWishlistButton && (
-                <button className="action-btn">
+                <button className="cta-btn">
                   <Heart className="size-5" strokeWidth={3} />
                   {t('wishlist_btn_text') || 'Add to Wishlist'}
                 </button>

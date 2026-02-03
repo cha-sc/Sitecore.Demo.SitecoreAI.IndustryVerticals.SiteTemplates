@@ -35,7 +35,7 @@ export const Default = (props: RelatedProductsProps): JSX.Element => {
         {/* Product Carousel */}
         <ProductCarousel products={props.fields.ProductsList} autoPlay={autoPlay} loop={loop} />
 
-        <Link field={props.fields.ProductsLink} className="arrow-btn" />
+        <Link field={props.fields.ProductsLink} className="cta-btn" />
       </div>
     </section>
   );

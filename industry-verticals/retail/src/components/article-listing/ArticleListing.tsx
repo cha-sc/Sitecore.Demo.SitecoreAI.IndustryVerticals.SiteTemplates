@@ -164,7 +164,7 @@ export const Default = (props: ArticleListingProps) => {
                 />
 
                 {/* Read More Button */}
-                <Link href={article.url} className="arrow-btn" aria-label="Read full article">
+                <Link href={article.url} className="cta-btn" aria-label="Read full article">
                   {t('read_more_btn_text') || 'Read More'}
                 </Link>
               </div>

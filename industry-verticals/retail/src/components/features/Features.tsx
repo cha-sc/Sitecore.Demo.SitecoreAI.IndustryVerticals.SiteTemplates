@@ -81,7 +81,7 @@ export const Default = (props: FeaturesProps) => {
                   <Text field={description} />
                 </div>
                 <div>
-                  <Link field={link} className="arrow-btn" />
+                  <Link field={link} className="cta-btn" />
                 </div>
               </div>
             );

@@ -27,7 +27,7 @@ export const AddToCartButton = ({
       onClick={() =>
         handleAddToCart(productId, product, selectedQuantity, selectedColor, selectedSize)
       }
-      className="main-btn"
+      className="cta-btn w-full"
       aria-label={t('cart_btn_text') || 'Add to Cart'}
       type="button"
     >

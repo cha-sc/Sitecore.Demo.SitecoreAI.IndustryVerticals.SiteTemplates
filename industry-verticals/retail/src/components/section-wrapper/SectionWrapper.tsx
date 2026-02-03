@@ -29,7 +29,7 @@ export const Default = ({ params, fields, rendering }: SectionWrapperProps) => {
           <Placeholder name={placeholderKey} rendering={rendering} />
         </div>
 
-        <Link field={fields.Link} className="arrow-btn" />
+        <Link field={fields.Link} className="cta-btn" />
       </div>
     </section>
   );

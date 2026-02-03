@@ -57,7 +57,7 @@ export const PromoContent = ({ ...props }) => {
         <ContentSdkRichText field={props.fields.PromoDescription} />
       </div>
 
-      <Link field={props.fields.PromoMoreInfo} className="arrow-btn" />
+      <Link field={props.fields.PromoMoreInfo} className="cta-btn" />
     </div>
   );
 };

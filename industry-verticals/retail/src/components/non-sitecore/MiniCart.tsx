@@ -136,7 +136,7 @@ export const MiniCart = ({
           </span>
         </p>
         <PopoverClose asChild>
-          <Link field={checkoutPage} className="main-btn" />
+          <Link field={checkoutPage} className="cta-btn w-full" />
         </PopoverClose>
       </div>
     </div>
