@@ -42,7 +42,7 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
             <Text field={product.Category?.fields?.CategoryName} />
           </p>
 
-          <h6 className="text-white mt-1 line-clamp-2 font-semibold">
+          <h6 className="mt-1 line-clamp-2 font-semibold text-white">
             <Text field={product.Title} />
           </h6>
 
@@ -52,7 +52,7 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
             className="!text-accent mt-1 mb-5"
           />
 
-          <h6 className="text-white mt-auto font-semibold">
+          <h6 className="mt-auto font-semibold text-white">
             <span className="mr-1 align-super text-sm">{currencySymbol} </span>
             {formattedPrice}
           </h6>
