@@ -30,6 +30,12 @@
 }
 
 .container-color-background {
+  --color-foreground: var(--color-black);
+  --color-foreground-light: var(--color-dark-gray);
+  --color-foreground-muted: var(--color-background-muted-dark);
+
+  @apply text-foreground;
+
   > .component-content {
     @apply border-background-accent;
   }
