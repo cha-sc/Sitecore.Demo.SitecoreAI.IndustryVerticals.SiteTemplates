@@ -59,7 +59,7 @@
     "@chromatic-com/storybook": "^4.1.1",
     "@percy/cli": "^1.31.1",
     "@percy/storybook": "^9.0.0",
-    "@sitecore-content-sdk/cli": "^1.2.1",
+    "@sitecore-content-sdk/cli": "^1.4.1",
     "@sitecore-content-sdk/nextjs": "^1.2.1",
     "@storybook/addon-a11y": "^9.1.2",
     "@storybook/addon-docs": "^9.1.2",
