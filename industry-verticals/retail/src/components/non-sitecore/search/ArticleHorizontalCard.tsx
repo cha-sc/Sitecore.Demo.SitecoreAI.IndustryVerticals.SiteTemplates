@@ -48,7 +48,7 @@ const ArticleHorizontalItemCard = ({ className = '', article }: ArticleCardItemC
           <ArticleCard.Subtitle className="text-foreground-light mt-3 line-clamp-2 text-sm">
             {article.description}
           </ArticleCard.Subtitle>
-          <div className="text-foreground bg-background-accent absolute top-4 right-4 rounded-md px-2.5 py-0.5 text-xs font-semibold">
+          <div className="text-background bg-background-accent absolute top-4 right-4 rounded-md px-2.5 py-0.5 text-xs font-semibold">
             {article.type}
           </div>
         </div>

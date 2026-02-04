@@ -111,7 +111,7 @@ export const SearchResultsComponent = ({
 
           <section className="flex flex-1 flex-col md:w-3/4">
             {/* Sort / Controls */}
-            <section className="bg-background-accent flex w-full justify-between rounded-sm">
+            <section className="bg-background-accent text-background flex w-full justify-between rounded-sm">
               <div className="container flex flex-col justify-between gap-5 py-5 sm:flex-row sm:items-center">
                 {totalItems > 0 && (
                   <QueryResultsSummary

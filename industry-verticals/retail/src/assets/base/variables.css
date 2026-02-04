@@ -4,13 +4,13 @@
   --color-foreground-muted: #9f9f9f;
 
   --color-background: #fff;
-  --color-background-accent: #faf3ea;
-  --color-background-muted: #f7f7f7;
-  --color-background-muted-light: #7a7a7a;
-  --color-background-muted-dark: #666;
+  --color-background-accent: #152c3d;
+  --color-background-muted: #003b71;
+  --color-background-muted-light: #0059b3;
+  --color-background-muted-dark: #152c3d;
   --color-background-surface: #fafafa;
 
-  --color-accent: #c1a25f;
+  --color-accent: #b30a00;
 
   --color-success: #2ec1ac;
   --color-danger: #e97171;
@@ -21,6 +21,7 @@
   --font-body: 'Manrope', sans-serif;
 
   --radius-base: 0.5rem;
+  --radius-cta: 0.1em;
 
   /*
   This does not show in the theme editor
@@ -35,3 +36,4 @@
   --radius-3xl: calc(var(--radius-base) * 4);
   --radius-4xl: calc(var(--radius-base) * 5);
 }
+

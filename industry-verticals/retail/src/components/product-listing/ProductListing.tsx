@@ -106,7 +106,7 @@ export const Default = (props: ProductListingProps) => {
   return (
     <section className={`component product-listing ${props?.params.styles.trimEnd()}`} id={id}>
       {/* Sort and Filter */}
-      <div className="bg-background-accent">
+      <div className="bg-background-accent text-background">
         <div className="container flex flex-col justify-between gap-5 py-5 sm:flex-row sm:items-center">
           <div>
             {t('product-listing-showing') || 'Showing'} {Math.min(products.length, startIndex + 1)}{' '}

@@ -28,7 +28,7 @@ const SearchPagination = ({ currentPage, totalPages }: SearchPaginationProps) =>
     >
       <Pagination.PrevPage
         onClick={(e) => e.preventDefault()}
-        className="bg-background-accent rounded-md px-3 py-2 data-[current=true]:hidden md:px-4 md:py-3"
+        className="bg-background-accent text-background rounded-md px-3 py-2 data-[current=true]:hidden md:px-4 md:py-3"
       >
         <span className="md:hidden">
           <ChevronLeft size={16} />
@@ -48,7 +48,7 @@ const SearchPagination = ({ currentPage, totalPages }: SearchPaginationProps) =>
                 page={page as number}
                 onClick={(e) => e.preventDefault()}
                 className={`mx-1 rounded-md px-3 py-2 md:px-4 md:py-3 ${
-                  page === currentPage ? 'bg-accent text-background' : 'bg-background-accent'
+                  page === currentPage ? 'bg-accent text-background' : 'bg-background-accent text-background'
                 }`}
               >
                 {page}
@@ -63,7 +63,7 @@ const SearchPagination = ({ currentPage, totalPages }: SearchPaginationProps) =>
       </Pagination.Pages>
       <Pagination.NextPage
         onClick={(e) => e.preventDefault()}
-        className="bg-background-accent rounded-md px-3 py-2 data-[current=true]:hidden md:px-4 md:py-3"
+        className="bg-background-accent text-background rounded-md px-3 py-2 data-[current=true]:hidden md:px-4 md:py-3"
       >
         <span className="md:hidden">
           <ChevronRight size={16} />

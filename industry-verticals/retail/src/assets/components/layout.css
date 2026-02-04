@@ -36,7 +36,11 @@
 
   &:not(.container),
   &.container > .component-content {
-    @apply bg-background-accent border-background-accent;
+    @apply bg-background-accent border-background-accent text-background;
+
+    * {
+      @apply text-inherit;
+    }
   }
 }
 
@@ -54,7 +58,7 @@
     }
 
     .arrow-btn {
-      @apply border-b-background;
+      @apply border-background hover:bg-background/10 border-2 bg-transparent;
 
       &::after {
         @apply bg-background;
@@ -125,3 +129,4 @@
   background: rgba(255, 255, 255, 0.4);
   padding: 50px;
 }
+

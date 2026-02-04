@@ -47,7 +47,7 @@ export const Default = (props: SubscribeBannerProps): JSX.Element => {
 
               <button
                 type="submit"
-                className="bg-accent group-[.container-dark-background]:bg-background-accent group-[.container-dark-background]:!text-foreground text-background absolute top-1/2 right-2 h-9 -translate-y-1/2 rounded-md px-4 text-sm font-semibold hover:opacity-90 focus-visible:ring-2 focus-visible:outline-none md:right-3 md:h-10 md:px-5"
+                className="bg-accent group-[.container-dark-background]:bg-background-accent text-background absolute top-1/2 right-2 h-9 -translate-y-1/2 rounded-md px-4 text-sm font-semibold hover:opacity-90 focus-visible:ring-2 focus-visible:outline-none md:right-3 md:h-10 md:px-5"
               >
                 {t('button_text') || 'Subscribe'}
               </button>
@@ -93,7 +93,7 @@ export const WithConsent = (props: SubscribeBannerProps): JSX.Element => {
 
           <button
             type="submit"
-            className="bg-accent group-[.container-dark-background]:bg-background-accent text-background group-[.container-dark-background]:!text-foreground mt-3 inline-flex h-12 w-full items-center justify-center rounded-sm font-semibold tracking-widest uppercase hover:opacity-90 md:h-12"
+            className="bg-accent group-[.container-dark-background]:bg-background-accent text-background mt-3 inline-flex h-12 w-full items-center justify-center rounded-sm font-semibold tracking-widest uppercase hover:opacity-90 md:h-12"
           >
             {t('button_text') || 'Subscribe'}
           </button>

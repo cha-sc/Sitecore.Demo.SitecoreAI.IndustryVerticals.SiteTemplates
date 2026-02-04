@@ -163,10 +163,20 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{AE225B7C-0876-4FAE-A959-B3AFC8E0E91B}"
-              s:par="FieldNames=%7B96409BF2-9023-4CE1-8EF3-AA01ED5D1F3A%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1&amp;HideGradientOverlay=0&amp;HideAccentLine=0&amp;WithPlaceholder=0&amp;ReverseLayout=0" />
+              s:par="FieldNames=%7B96409BF2-9023-4CE1-8EF3-AA01ED5D1F3A%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1&amp;HideGradientOverlay=0&amp;HideAccentLine=0&amp;WithPlaceholder=0&amp;ReverseLayout=0" />
+            <r
+              uid="{335D3948-776E-4A8D-B9AC-60E7FE730DC9}">
+              <p:d />
+            </r>
+            <r
+              uid="{3322063A-EBC7-4FE5-B3B2-0E084039FC58}"
+              s:par="FieldNames=%7BE7FB2EE2-33B4-4536-8453-6ACC1CDEBE72%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D" />
+            <r
+              uid="{9E9A7694-8CBD-488D-90F8-C88AE51B223A}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=17" />
             <r
               uid="{D208AC42-DFB1-49D3-87F4-DDF7006DAA69}"
-              s:par="FieldNames=%7BA83A4134-EBAE-4CF9-9648-68D54EBAF239%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=11&amp;CurvedTop&amp;HideShapes=0&amp;Reversed=0&amp;ShowMultipleImages=0&amp;HideQuote=0&amp;HideCurveLine=1&amp;HideShadows=0&amp;CurvedBottom" />
+              s:par="FieldNames=%7BA83A4134-EBAE-4CF9-9648-68D54EBAF239%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=11&amp;CurvedTop&amp;HideShapes=0&amp;Reversed=0&amp;ShowMultipleImages=0&amp;HideQuote=0&amp;HideCurveLine=1&amp;HideShadows=0&amp;CurvedBottom" />
             <r
               uid="{8ABC8A08-490F-45DC-831B-27150008D7B7}"
               p:after="r[@uid='{ED5725EF-03DF-4D4F-BE30-78265C5A7D4F}']"
@@ -215,45 +225,19 @@ Languages:
       Value: "Explore Forma Lux’s luxurious furniture collections: heritage craftsmanship meets modern, sustainable design for elegant living spaces."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3afb0baa-15ba-4847-9f18-51509fde9f51"
+      Value: "a2425fcc-09b3-4503-b2c0-c56626eaea0c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T141842Z
+      Value: 20260204T201131Z
 - Language: "es-ES"
   Versions:
-  - Version: 1
-    Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20250828T085804Z
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\neli.kostadinova@sitecore.com
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\neli.kostadinova@sitecore.com
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "ac3ed4dd-db84-4f11-8eae-bdebe5d59e92"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\isuru.bandara@sitecore.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20251007T075314Z
   - Version: 2
     Fields:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"

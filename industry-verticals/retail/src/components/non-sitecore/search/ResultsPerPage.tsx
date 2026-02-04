@@ -30,7 +30,7 @@ const ResultsPerPage = ({ defaultItemsPerPage }: ResultsPerPageProps) => {
               <Select.SelectItem
                 key={`${option}_${idx}`}
                 value={String(option)}
-                className="text-foreground-muted whitespace-no-wrap hover:text-foreground focus:outline-accent data-[state=checked]:bg-background-accent data-[state=checked]:text-foreground flex h-6 cursor-pointer items-center rounded-sm px-1 leading-none select-none"
+                className="text-foreground-muted whitespace-no-wrap hover:text-foreground focus:outline-accent data-[state=checked]:bg-background-accent data-[state=checked]:text-background flex h-6 cursor-pointer items-center rounded-sm px-1 leading-none select-none"
               >
                 <SortSelect.OptionText>{option}</SortSelect.OptionText>
               </Select.SelectItem>

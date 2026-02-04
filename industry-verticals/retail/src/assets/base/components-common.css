@@ -31,10 +31,10 @@
 }
 
 .arrow-btn {
-  @apply border-b-accent text-accent inline-flex items-center justify-start gap-3 border-b leading-8;
+  @apply bg-accent text-background inline-flex items-center justify-center gap-2 rounded-[var(--radius-cta)] px-4 py-2.5 text-center font-semibold transition-all hover:bg-accent/95;
 
   &::after {
-    @apply bg-accent inline-block h-3 w-11 mask-[url('./images/arrow.svg')] bg-contain bg-no-repeat mask-contain mask-center mask-no-repeat content-[''];
+    @apply bg-background inline-block h-3 w-11 mask-[url('./images/arrow.svg')] bg-contain bg-no-repeat mask-contain mask-center mask-no-repeat content-[''];
   }
 }
 
@@ -59,7 +59,7 @@
 }
 
 .main-btn {
-  @apply bg-accent text-background hover:bg-accent/95 flex w-full items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+  @apply bg-accent text-background hover:bg-accent/95 flex w-full items-center justify-center rounded-[var(--radius-cta)] p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;

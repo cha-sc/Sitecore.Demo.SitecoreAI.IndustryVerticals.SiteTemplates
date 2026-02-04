@@ -188,7 +188,7 @@ export const Default = ({ params, fields }: NavigationProps) => {
     ));
 
   return (
-    <div className={`component navigation bg-background ${styles}`} id={id}>
+    <div className={`component navigation ${styles}`} id={id}>
       <div
         className={clsx(
           'relative z-150 container flex items-center py-4 lg:hidden',
@@ -228,7 +228,7 @@ export const Default = ({ params, fields }: NavigationProps) => {
 
       <nav
         className={clsx(
-          'bg-background z-100 flex duration-300',
+          'z-100 flex duration-300',
           'max-lg:fixed max-lg:inset-0',
           !isMenuOpen && 'max-lg:-translate-y-full max-lg:opacity-0'
         )}

@@ -22,7 +22,7 @@ export const ProductSizeControl = ({
           className={`size-8 rounded text-sm transition-colors ${
             selectedSize?.id === size.id
               ? 'bg-accent text-background'
-              : 'bg-background-accent hover:bg-accent/20'
+              : 'bg-background-accent text-background hover:bg-accent/20'
           }`}
         >
           {size.fields?.ProductSize?.value ?? '-'}
