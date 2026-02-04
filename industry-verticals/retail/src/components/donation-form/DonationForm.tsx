@@ -8,8 +8,7 @@ type Frequency = 'monthly' | 'one-time';
 type AmountOption = '50' | '100' | '150' | 'custom';
 
 const FREQUENCY_MESSAGES: Record<Frequency, string> = {
-  monthly:
-    'Make a lasting impact. Fund life-saving research breakthroughs year-round.',
+  monthly: 'Make a lasting impact. Fund life-saving research breakthroughs year-round.',
   'one-time': 'Accelerate vital research with a one-time gift.',
 };
 
@@ -124,4 +123,3 @@ export function DonationForm() {
     </section>
   );
 }
-
