@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import ContactForm, { type ContactFormProps } from '@/components/contact-form/ContactForm';
+import { ContactForm, type ContactFormProps } from '@/components/contact-form/ContactForm';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { createTextField } from './helpers/createFields';
 
