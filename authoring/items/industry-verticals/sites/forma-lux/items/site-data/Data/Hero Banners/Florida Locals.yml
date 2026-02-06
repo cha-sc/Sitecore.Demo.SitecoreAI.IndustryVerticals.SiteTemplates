@@ -1,0 +1,53 @@
+﻿---
+ID: "020eb926-746c-4a44-8006-5558becf2145"
+Parent: "e79d8586-d4b5-42f5-aec1-ae82c4f47f0f"
+Template: "ac18eef2-f134-4985-8b74-6ad16cca6577"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Hero Banners/Florida Locals"
+SharedFields:
+- ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
+  Hint: Image
+  Value: |
+    <Image mediaid="893fc7c3-3178-49b8-8a46-62774bdbca58" alt="hero-homepage-ford-2026-1920x1200"/>
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "b85740bc-d7c4-4274-9545-849160ee139c"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: "<ul><li>Connect with peers and industry leaders.</li><li>Enjoy exclusive on-site activities and networking.</li><li>Discounted parking passes available.</li></ul>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260205T191732Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "84a164f4-8b3e-45e1-a4ca-fa4c0de72666"
+      Hint: SecondaryCtaLink
+      Value: |
+        <link id="{4e869961-efef-4b47-bb69-170a251d689b}" text="Text" title="" querystring="sc_lang=en&amp;sc_site=Forma+Lux" anchor="" target="" linktype="internal"/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a3edfcf5-3433-4e36-8d2e-14807c04aa2a"
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: Experience the premier event in person in Florida.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260206T030911Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link id="{f68005fd-8bee-4596-b89c-ab04cb597e45}" text="I'll be there!" title="" querystring="sc_lang=en&amp;sc_site=Forma+Lux" anchor="" target="" linktype="internal"/>
