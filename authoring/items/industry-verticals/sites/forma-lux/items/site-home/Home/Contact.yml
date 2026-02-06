@@ -69,6 +69,13 @@ SharedFields:
     </r>
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "8d34a93e-17dd-4f4a-b4f3-60a292610cb7"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: How You Can Help
   Versions:
   - Version: 1
     Fields:
@@ -99,14 +106,14 @@ Languages:
       Value: Get in touch with Forma Lux for design consultations, custom furniture solutions or to explore our collections and dealers.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "90256ebc-2690-41ee-b6ad-4f205d3fc889"
+      Value: "16668731-0745-44da-b813-0bbdf5678727"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T190808Z
+      Value: 20260206T164424Z
 - Language: "es-ES"
   Versions:
   - Version: 1

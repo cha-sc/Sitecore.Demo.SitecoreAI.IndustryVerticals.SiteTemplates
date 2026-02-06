@@ -60,6 +60,13 @@ SharedFields:
     </r>
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "fb13c370-cfc0-479a-9a74-5b43259f3975"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Heart Disease
   Versions:
   - Version: 1
     Fields:
@@ -80,20 +87,20 @@ Languages:
       Value: Heart Disease
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
-      Value: About us
+      Value: Heart Disease
     - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d5544dc5-0294-499f-975a-29171378e8b5"
+      Value: "4047801c-a6f5-4e3a-9280-6df03cf62890"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T190732Z
+      Value: 20260206T164318Z
 - Language: "es-ES"
   Versions:
   - Version: 1

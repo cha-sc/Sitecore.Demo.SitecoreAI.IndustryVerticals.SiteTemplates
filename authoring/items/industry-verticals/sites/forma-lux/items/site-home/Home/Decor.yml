@@ -60,10 +60,10 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "3608f367-b664-4f33-9de3-617931997bd1"
+    Value: "b2a5edeb-89eb-47ec-a67b-89a68ae6a813"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Decor
+    Value: Stroke
   Versions:
   - Version: 1
     Fields:
@@ -84,14 +84,14 @@ Languages:
       Value: Contact us
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "95e76257-8caf-40a8-8779-8f943ad386b0"
+      Value: "69fa384b-89c0-4952-8aaa-044788ada71a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T190742Z
+      Value: 20260206T164346Z
 - Language: "es-ES"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
