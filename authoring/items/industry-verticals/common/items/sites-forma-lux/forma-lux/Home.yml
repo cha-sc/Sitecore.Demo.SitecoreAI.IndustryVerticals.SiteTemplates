@@ -204,17 +204,23 @@ Languages:
               <p:d />
             </r>
             <r
-              uid="{3322063A-EBC7-4FE5-B3B2-0E084039FC58}"
-              s:par="FieldNames=%7BE7FB2EE2-33B4-4536-8453-6ACC1CDEBE72%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D" />
+              uid="{3322063A-EBC7-4FE5-B3B2-0E084039FC58}">
+              <p:d />
+            </r>
             <r
-              uid="{9E9A7694-8CBD-488D-90F8-C88AE51B223A}"
-              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=17" />
+              uid="{9E9A7694-8CBD-488D-90F8-C88AE51B223A}">
+              <p:d />
+            </r>
             <r
               uid="{D208AC42-DFB1-49D3-87F4-DDF7006DAA69}"
               s:par="FieldNames=%7BA83A4134-EBAE-4CF9-9648-68D54EBAF239%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=11&amp;CurvedTop&amp;HideShapes=0&amp;Reversed=0&amp;ShowMultipleImages=0&amp;HideQuote=0&amp;HideCurveLine=1&amp;HideShadows=0&amp;CurvedBottom" />
             <r
+              uid="{ED5725EF-03DF-4D4F-BE30-78265C5A7D4F}">
+              <p:d />
+            </r>
+            <r
               uid="{8ABC8A08-490F-45DC-831B-27150008D7B7}"
-              p:after="r[@uid='{ED5725EF-03DF-4D4F-BE30-78265C5A7D4F}']"
+              p:after="r[@uid='{954AADCA-FC91-45B3-BB1D-21D3462F0236}']"
               s:id="{00000000-0000-0000-0000-000000000000}"
               s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=19" />
             <r
@@ -260,7 +266,7 @@ Languages:
       Value: "Explore Forma Lux’s luxurious furniture collections: heritage craftsmanship meets modern, sustainable design for elegant living spaces."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d56e1ed3-8e30-4bf9-8a0d-4124b8f27d62"
+      Value: "21fc879b-0c32-4922-ad56-00f13bded7c8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -270,7 +276,7 @@ Languages:
       Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260206T031202Z
+      Value: 20260206T061613Z
 - Language: "es-ES"
   Versions:
   - Version: 2
