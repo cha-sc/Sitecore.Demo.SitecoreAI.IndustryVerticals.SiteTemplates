@@ -34,7 +34,7 @@ export const Default = (props: OfferProps) => {
 
   if (!datasource.length) {
     return page.mode.isEditing ? (
-      <div className={`component offers ${styles}`} id={id}>
+      <div className={`component offers bg-foreground text-background ${styles}`} id={id}>
         [OFFERS]
       </div>
     ) : (
@@ -43,7 +43,7 @@ export const Default = (props: OfferProps) => {
   }
 
   return (
-    <div className={`component offers ${styles}`} id={id}>
+    <div className={`component offers bg-foreground text-background ${styles}`} id={id}>
       <div className="mx-auto flex w-full max-w-3xl items-center justify-center gap-5 p-2">
         <button
           className={`swiper-btn-prev-${uid}`}
