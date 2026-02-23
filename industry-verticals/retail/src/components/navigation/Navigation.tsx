@@ -94,7 +94,7 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
           field={getLinkField(fields)}
           editable={page.mode.isEditing}
           onClick={clickHandler}
-          className="whitespace-nowrap transition-colors hover:opacity-90"
+          className="hover:text-foreground-light whitespace-nowrap transition-colors"
         >
           {getLinkContent(fields, logoSrc)}
         </Link>
@@ -188,7 +188,7 @@ export const Default = ({ params, fields }: NavigationProps) => {
     ));
 
   return (
-    <div className={`component navigation bg-foreground text-background ${styles}`} id={id}>
+    <div className={`component navigation bg-background text-black ${styles}`} id={id}>
       <div
         className={clsx(
           'relative z-150 container flex items-center py-4 lg:hidden',
@@ -220,7 +220,7 @@ export const Default = ({ params, fields }: NavigationProps) => {
             }
           }}
           className={clsx(
-            'navigation-mobile-trigger [&_span]:bg-background',
+            'navigation-mobile-trigger',
             !isSimpleLayout && '[.component.header_&]:-order-1'
           )}
         />
@@ -228,7 +228,7 @@ export const Default = ({ params, fields }: NavigationProps) => {
 
       <nav
         className={clsx(
-          'bg-foreground text-background z-100 flex duration-300',
+          'bg-background text-black z-100 flex duration-300',
           'max-lg:fixed max-lg:inset-0',
           !isMenuOpen && 'max-lg:-translate-y-full max-lg:opacity-0'
         )}

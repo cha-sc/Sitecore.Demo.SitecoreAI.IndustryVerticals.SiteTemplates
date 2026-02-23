@@ -10,7 +10,7 @@ export const Default = (props: HeaderProps): JSX.Element => {
   const { styles, RenderingIdentifier: id, DynamicPlaceholderId } = props.params;
 
   return (
-    <div className={`component header bg-foreground text-background ${styles}`} id={id}>
+    <div className={`component header bg-background text-black ${styles}`} id={id}>
       <div className="container flex items-center gap-3 lg:gap-5">
         <div className="max-lg:order-1 lg:flex-[1_1]">
           <Placeholder name={`header-left-${DynamicPlaceholderId}`} rendering={props.rendering} />

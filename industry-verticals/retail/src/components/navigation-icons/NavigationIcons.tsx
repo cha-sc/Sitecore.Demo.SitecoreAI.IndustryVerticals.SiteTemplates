@@ -34,7 +34,7 @@ const IconDropdown = ({
   <Popover>
     <PopoverTrigger
       className={cn(
-        "text-foreground hover:text-accent data-[state=open]:text-accent transition-colors",
+        "text-inherit hover:text-accent data-[state=open]:text-accent transition-colors",
         triggerClassName
       )}
       aria-label={label}
@@ -69,40 +69,28 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
   return (
     <>
       <div className={`component navigation-icons ${props?.params?.styles?.trimEnd()}`} id={id}>
-        <div className="flex items-center gap-3 p-4 lg:gap-5 [.component.header_&]:justify-end [.component.header_&]:px-0 [.component.header_&]:text-background">
+        <div className="flex items-center gap-3 p-4 lg:gap-5 [.component.header_&]:justify-end [.component.header_&]:px-0 text-black">
           <button
             onClick={() => setIsSearchOpen(!isSearchOpen)}
-            className="hover:text-accent text-foreground p-2 transition-colors [.component.header_&]:text-background [.component.header_&]:hover:opacity-90"
+            className="p-2 text-black transition-colors hover:text-accent"
           >
             <Search className="size-5" />
           </button>
 
           {showAccountIcon && (
-            <IconDropdown
-              icon={<User className="size-5" />}
-              label="Account"
-              triggerClassName="[.component.header_&]:text-background [.component.header_&]:hover:opacity-90"
-            >
+            <IconDropdown icon={<User className="size-5" />} label="Account">
               <p>{t('account-empty') || 'You are not logged in.'}</p>
             </IconDropdown>
           )}
 
           {showWishlistIcon && (
-            <IconDropdown
-              icon={<Heart className="size-5" />}
-              label="Wishlist"
-              triggerClassName="[.component.header_&]:text-background [.component.header_&]:hover:opacity-90"
-            >
+            <IconDropdown icon={<Heart className="size-5" />} label="Wishlist">
               <p>{t('wishlist-empty') || 'Your wishlist is empty.'}</p>
             </IconDropdown>
           )}
 
           {showCartIcon && (
-            <IconDropdown
-              icon={<ShoppingCart className="size-5" />}
-              label="Cart"
-              triggerClassName="[.component.header_&]:text-background [.component.header_&]:hover:opacity-90"
-            >
+            <IconDropdown icon={<ShoppingCart className="size-5" />} label="Cart">
               <MiniCart showWishlist={showWishlistIcon} checkoutPage={props.fields?.CheckoutPage} />
             </IconDropdown>
           )}
