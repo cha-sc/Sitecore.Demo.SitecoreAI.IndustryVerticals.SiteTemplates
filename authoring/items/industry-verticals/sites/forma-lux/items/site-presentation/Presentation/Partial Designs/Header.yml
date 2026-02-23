@@ -10,7 +10,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{1C2BA88C-07EA-4753-9123-23AAD9527B7D}" />
+    <image mediaid="{304457D7-41A8-4771-BD47-D8280012416E}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
   Value: "2220ff40-bad6-4c1a-99b7-4688558b5588"
@@ -79,7 +79,16 @@ Languages:
       Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
-      Value: 
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{7B29F928-62B7-4C22-82B6-9B81488A5990}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BCFF73B2F-EC37-4A98-A032-154A8741FA50%7D&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot=1&amp;SerializerFieldNames&amp;SimpleLayout&amp;Logo=%3Cimage%20mediaid%3D%22b66f1b09-244d-4321-bfd3-1214467dd896%22%20%2F%3E&amp;RenderingIdentifier&amp;CSSStyles" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250827T095907Z
@@ -93,14 +102,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9191f297-4a78-4e67-967f-78496457abb9"
+      Value: "cd1e8a66-2033-4a10-987e-9b260f0510fb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260213T053924Z
+      Value: 20260223T070013Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -141,17 +150,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a9982ba1-fa01-4c25-879e-06a96ed2085e"
+      Value: "1430723c-abbf-49b3-a932-b99cfac3620f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20251219T104232Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260213T053925Z
+      Value: 20260223T070014Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -194,11 +203,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f9898bc1-7b82-4a0c-a103-930784763a97"
+      Value: "5d8ebf6b-9df3-440c-b018-dc40998bc4d0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260213T053925Z
+      Value: 20260223T070014Z

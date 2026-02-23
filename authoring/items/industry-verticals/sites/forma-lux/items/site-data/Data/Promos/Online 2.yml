@@ -1,0 +1,45 @@
+﻿---
+ID: "5a2a9071-f515-44f2-a288-de82cfc0e911"
+Parent: "d7bee783-0ed9-4fb5-9cf2-6c7fef0b2f86"
+Template: "08213afb-9cb4-4c1f-a5da-865b9a095601"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Promos/Online 2"
+SharedFields:
+- ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
+  Hint: PromoImageOne
+  Value: |
+    <Image mediaid="9545973d-3a62-45c9-b41f-0a0358362f25" alt="online"/>
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a8ea3cbb-eca2-4b6c-82ed-425c58a0b18e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260206T062545Z
+    - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
+      Hint: PromoDescription
+      Value: 
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "29f2dd50-9482-42a9-a724-4c4201d1cf1f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260206T062802Z
+    - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
+      Hint: PromoTitle
+      Value: "Access recorded content post-event."

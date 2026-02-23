@@ -1,19 +1,20 @@
 ﻿---
-ID: "9776580a-c13e-403f-928a-1d15c2d5e13c"
+ID: "c98f0658-048d-4bbf-a091-121b81cde170"
 Parent: "e79d8586-d4b5-42f5-aec1-ae82c4f47f0f"
 Template: "ac18eef2-f134-4985-8b74-6ad16cca6577"
-Path: "/sitecore/content/industry-verticals/forma-lux/Data/Hero Banners/Home Banner"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Hero Banners/Home Banner_var2"
 SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <image mediaid="9de4aa6e-ee5f-4a83-87a6-3a4b7d4e78c7" />
+    <image mediaid="7b69d3a1-be0a-40a4-bc63-8dfc3d8f8c7f" />
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
-  Value: 
+  Value: |
+    <file mediaid="425126a2-6e66-41d4-9379-0c1277dd1b11" src="-/media/425126A26E6641D493790C1277DD1B11.ashx" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "aa16965e-edbf-4baa-a341-90f6ca6b823a"
+  Value: "91901ea0-ed5e-4faa-b5ea-2bd20f8618f6"
 Languages:
 - Language: en
   Versions:
@@ -25,7 +26,7 @@ Languages:
     - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
       Hint: Description
       Value: |
-        <div class="ck-content"><p>Explore standardized designs to make homebuilding faster.</p></div>
+        <div class="ck-content"><p><span style="color:hsl(0, 0%, 100%);"><span data-teams="true">Affordable, apartment-friendly furniture that looks good and ships fast. Build a space that feels like yours without blowing your budget.</span></span></p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250904T165442Z
@@ -39,21 +40,21 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bbcdf8f3-f2c3-4eb6-ad87-d3409e60dfe2"
+      Value: "83fca05c-e3b9-4e2e-b1f0-1e8f01a5d8a3"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
-      Value: Housing Design Catalgue
+      Value: Your First Place, Your Way
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\chris.haddad@sitecore.com
+        sitecore\megan.chavez@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260223T065704Z
+      Value: 20260210T193634Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |
-        <link linktype="internal" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" querystring="" target="" class="" text="Learn More" title=""/>
+        <link linktype="internal" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" querystring="" target="" class="" text="Shop Student Favorites" title=""/>
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -78,17 +79,17 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "11fa7e71-241e-4f6a-a36b-dc40fda28757"
+      Value: "03b73f04-8ea4-4789-8e1f-9a6f5203ca31"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Descubre el diseño que te habla
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\megan.chavez@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T103505Z
+      Value: 20260210T185201Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |
@@ -115,7 +116,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cad09d7e-092e-4e00-9103-6bf0a29b42ac"
+      Value: "7ca00a4f-836f-4075-adaf-dbac9af20f85"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -125,13 +126,13 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\megan.chavez@sitecore.com
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251219T104340Z
+      Value: 20260210T185202Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |
@@ -160,7 +161,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6b244059-ee64-48c8-95e0-540b864d198c"
+      Value: "8342db79-8280-479b-a44f-57456517307e"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -170,10 +171,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\megan.chavez@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T110149Z
+      Value: 20260210T185202Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |
@@ -202,17 +203,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b46e53a1-5fee-48fd-9be0-77203971f634"
+      Value: "9ff99eef-ce89-49f5-aa69-717c41e8e455"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Découvrez un design qui vous parle
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\megan.chavez@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T103505Z
+      Value: 20260210T185202Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |
