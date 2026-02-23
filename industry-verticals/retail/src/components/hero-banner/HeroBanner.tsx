@@ -99,7 +99,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
           <div
             className={`flex min-h-238 w-full py-10 lg:w-1/2 lg:items-center ${reverseLayout ? 'lg:mr-auto' : 'lg:ml-auto'}`}
           >
-            <div className="max-w-182">
+            <div className="bg-border/80 max-w-182 p-5">
               <div className={clsx({ shim: screenLayer })}>
                 {/* Title */}
                 <h1 className="text-center text-5xl leading-[110%] font-bold capitalize md:text-7xl md:leading-[130%] lg:text-left xl:text-[80px]">
