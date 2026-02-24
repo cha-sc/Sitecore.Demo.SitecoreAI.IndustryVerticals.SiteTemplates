@@ -1,0 +1,54 @@
+﻿---
+ID: "6bfb11d5-3c99-4ed4-bfe9-641ec253fea8"
+Parent: "2255da02-7a2c-4d3e-a41f-0f9ddf9b08a9"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/forma-lux/Icons/icon-research"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/6BFB11D53C994ED4BFE9641EC253FEA8.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "a41cc0b7-3f7e-4d48-8c4e-82eab894f0fc"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiPjxkZWZzPjxjbGlwUGF0aCBpZD0iYSI+PHJlY3Qgd2lkdGg9Ijk2LjEyMSIgaGVpZ2h0PSI4MS4wNiIgZmlsbD0ibm9uZSIvPjwvY2xpcFBhdGg+PGNsaXBQYXRoIGlkPSJkIj48cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGlkPSJjIiBjbGlwLXBhdGg9InVybCgjZCkiPjxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIwIi8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTYuMTMzIDIzLjQ1NykiPjxwYXRoIGQ9Ik0wLDkuNjc2VjBIMy41MjlWNC43ODRBMzAuMzQ1LDMwLjM0NSwwLDAsMCwwLDkuNjczWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjMuMTQ5IDExLjMzKSIgZmlsbD0iIzAwMDkzYSIvPjxwYXRoIGQ9Ik0uMDI5LDM5LjY0OEgtMy41VjBILjAyOVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE4LjYwNCA3LjU1MikiIGZpbGw9IiMwMDA5M2EiLz48cGF0aCBkPSJNLjAyOSwyOC4zMkgtMy41VjBILjAyOVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDExLjA1MiAxOC44OCkiIGZpbGw9IiMwMDA5M2EiLz48ZyBjbGlwLXBhdGg9InVybCgjYSkiPjxwYXRoIGQ9Ik0uMSwyMC43NjhILTMuNVYwSC4xWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy41IDI2LjQzMikiIGZpbGw9IiMwMDA5M2EiLz48cGF0aCBkPSJNMy42LDE1Ljc3MWwwLDBBMzAuODIyLDMwLjgyMiwwLDAsMCwwLDEyLjQwNlYwSDMuNlYxNS43NzFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2OS4zODgpIiBmaWxsPSIjMDAwOTNhIi8+PC9nPjxwYXRoIGQ9Ik0zLjUyNiwyNi40MzFIMy4yOEEyOS4zODQsMjkuMzg0LDAsMCwwLDAsMTQuNjU2VjBIMy41MjZWMjYuNDNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3Ny40ODkgNy41NTIpIiBmaWxsPSIjMDAwOTNhIi8+PHBhdGggZD0iTS4wMjksMzIuMUgtMy41VjBILjAyOVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDg4LjU0MSAxNS4xMDQpIiBmaWxsPSIjMDAwOTNhIi8+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBkPSJNLjEsMzkuNjQ4SC0zLjVWMEguMVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk2LjAxOSA3LjU1MikiIGZpbGw9IiMwMDA5M2EiLz48cGF0aCBkPSJNMTUwLjM0MywxMjkuMzZhNS42NzksNS42NzksMCwwLDEtNC0xLjYyM2wtMjIuOTY5LTIyLjUsMi41NDgtMi41LDIyLjk2OSwyMi41YTIuMTM0LDIuMTM0LDAsMCwwLDIuOSwwLDEuOTgxLDEuOTgxLDAsMCwwLDAtMi44NDRsLTIyLjk3LTIyLjUsMi41NDctMi41LDIyLjk2OSwyMi41YTUuNDU5LDUuNDU5LDAsMCwxLDAsNy44MzVBNS42NzcsNS42NzcsMCwwLDEsMTUwLjM0MywxMjkuMzZaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTkuODc4IC00OC4zKSIgZmlsbD0iIzAwMDkzYSIvPjxwYXRoIGQ9Ik0uMSwyOC4zMkgtMy41VjBILjFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1My42MTQgMTguODgpIiBmaWxsPSIjZGEyOTFjIi8+PHBhdGggZD0iTS4xLDI0LjU0NEgtMy41VjBILjFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NS45MDQgMjIuNjU2KSIgZmlsbD0iI2RhMjkxYyIvPjxwYXRoIGQ9Ik0uMSwxMy4yMTZILTMuNVYwSC4xWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzguMTk1IDMzLjk4NCkiIGZpbGw9IiNkYTI5MWMiLz48cGF0aCBkPSJNLjEsMjAuNzY4SC0zLjVWMEguMVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYxLjMyNCAyNi40MzIpIiBmaWxsPSIjZGEyOTFjIi8+PHBhdGggZD0iTTIzLjM1OC0zLjVjMTQuODEsMCwyNi44NTgsMTEuOCwyNi44NTgsMjYuMzA4UzM4LjE2OCw0OS4xMTYsMjMuMzU4LDQ5LjExNi0zLjUsMzcuMzE1LTMuNSwyMi44MDgsOC41NDktMy41LDIzLjM1OC0zLjVabTAsNDkuMDg3QTIzLjA0NywyMy4wNDcsMCwwLDAsNDYuNjE0LDIyLjgwOCwyMy4wNDcsMjMuMDQ3LDAsMCwwLDIzLjM1OC4wMjksMjMuMDQ3LDIzLjA0NywwLDAsMCwuMSwyMi44MDgsMjMuMDQ3LDIzLjA0NywwLDAsMCwyMy4zNTgsNDUuNTg3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjYuNjMgMTMuMDY0KSIgZmlsbD0iIzAwMDkzYSIvPjwvZz48L2c+PC9nPjwvc3ZnPg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 2197
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "0f7c07c4-546a-4f13-9a4b-31388af70aa1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260224T062202Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "icon-research"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1fcd5bae-6bef-4ada-a36e-b795beccfd84"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260224T062203Z

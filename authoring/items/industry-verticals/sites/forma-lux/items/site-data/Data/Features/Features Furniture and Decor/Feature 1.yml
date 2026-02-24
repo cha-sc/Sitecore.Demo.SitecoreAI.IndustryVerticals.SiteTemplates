@@ -8,13 +8,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <image mediaid="991368da-7c60-4c57-a527-a993ded820f8" />
+    <image mediaid="f5f135d7-c95b-4ad1-b25e-cc768fe224af" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1b64979a-a05c-4659-b910-12df79a36aef"
+  Value: "cfcd2087-f713-4283-b5de-a8b67b236726"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{FC2A5072-99B8-4D58-B5E0-B96C40680096}"
@@ -31,7 +31,7 @@ Languages:
       Value: 20251128T084958Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Crafted from top materials
+      Value: "Contributing to the well-being of the housing system by providing housing finance solutions"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -42,17 +42,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: High Quality
+      Value: Financing
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "26c35e0b-9c2b-409a-990b-c25dbb2ea207"
+      Value: "040ec39b-c42d-42cb-b663-1539c9935be9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T083408Z
+      Value: 20260224T062240Z
 - Language: "es-ES"
   Versions:
   - Version: 1

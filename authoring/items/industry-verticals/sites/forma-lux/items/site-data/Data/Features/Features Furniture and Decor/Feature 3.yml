@@ -7,13 +7,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <image mediaid="6cec01e4-4beb-4d34-bf4e-1efbce9a346b" />
+    <image mediaid="97bf96de-b76a-4a23-8cde-4a3cccd334e5" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 75
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "397171d7-dce3-4a45-8353-e5a35e92e1dd"
+  Value: "2f09073e-9805-4896-83ce-9cd78ed036db"
 Languages:
 - Language: en
   Versions:
@@ -27,7 +27,7 @@ Languages:
       Value: 20251128T085240Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Order over 150 $
+      Value: Helping the Government of Canada deliver on its commitment to make housing more affordable
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -38,17 +38,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Free Shipping
+      Value: Funding
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a02b21b9-a01f-453f-a7cf-9d19c98682aa"
+      Value: "2fc6b948-4b26-4eda-866e-f039c702910f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T085410Z
+      Value: 20260224T062332Z
 - Language: "es-ES"
   Versions:
   - Version: 1

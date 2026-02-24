@@ -7,13 +7,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <image mediaid="9b146bbb-4bd0-459e-b7f9-8e7426326f14" />
+    <image mediaid="6bfb11d5-3c99-4ed4-bfe9-641ec253fea8" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 50
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "21c5580f-ef78-4eaf-9379-3c038ad2df34"
+  Value: "9cf0d6c3-e659-4abb-ba3d-e09f16268ccc"
 Languages:
 - Language: en
   Versions:
@@ -27,7 +27,7 @@ Languages:
       Value: 20251128T085234Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Over 2 years
+      Value: Providing essential, impartial research, data and expertise to inform the housing system.
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -38,17 +38,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Warranty Protection
+      Value: Research
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a5428472-5219-44d5-9053-22ef803e00f7"
+      Value: "8d2b95bd-4fde-454f-8d94-10e6d94986cc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T085354Z
+      Value: 20260224T062307Z
 - Language: "es-ES"
   Versions:
   - Version: 1
