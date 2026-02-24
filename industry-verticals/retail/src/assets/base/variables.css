@@ -1,6 +1,6 @@
 @theme {
   /* CMHC dark blue #00093A and variants */
-  --color-foreground: #00093A;
+  --color-foreground: #00093a;
   --color-foreground-light: #1e2a6b;
   --color-foreground-muted: #4a5490;
 
@@ -20,7 +20,7 @@
   --color-border: #e0e3ec;
 
   --font-heading: 'Manrope', sans-serif;
-  --font-body: 'Manrope', sans-serif;
+  --font-body: 'Roboto', sans-serif;
 
   --radius-base: 0.5rem;
 
@@ -37,3 +37,4 @@
   --radius-3xl: calc(var(--radius-base) * 4);
   --radius-4xl: calc(var(--radius-base) * 5);
 }
+

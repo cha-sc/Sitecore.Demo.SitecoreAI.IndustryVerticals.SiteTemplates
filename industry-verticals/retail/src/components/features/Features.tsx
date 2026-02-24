@@ -61,7 +61,7 @@ export const Default = (props: FeaturesProps) => {
     <FeatureWrapper props={props}>
       <div className="container grid grid-cols-1 py-20 lg:grid-cols-[1fr_2fr] lg:gap-10">
         <div className="mb-20 lg:mb-0">
-          <h2 className="inline-block max-w-md font-bold max-lg:text-[42px]">
+          <h2 className="group-[.container-dark-background]:text-background inline-block max-w-md font-bold max-lg:text-[42px]">
             <Text field={featureSectionTitle.jsonValue} />
             {!hideAccentLine && <AccentLine className="w-full max-w-xs" />}
           </h2>
@@ -74,10 +74,10 @@ export const Default = (props: FeaturesProps) => {
             return (
               <div className="flex flex-col" key={index}>
                 {/* Title, Link and Description */}
-                <div className="mb-5 text-2xl font-bold">
+                <div className="group-[.container-dark-background]:text-background mb-5 text-2xl font-bold">
                   <Text field={title} />
                 </div>
-                <div className="text-foreground mb-3.5 flex-auto leading-7">
+                <div className="text-foreground group-[.container-dark-background]:text-background mb-3.5 flex-auto leading-7">
                   <Text field={description} />
                 </div>
                 <div>
@@ -118,23 +118,27 @@ export const ThreeColGridCentered = (props: FeaturesProps) => {
 
   return (
     <FeatureWrapper props={props}>
-      <div className="container flex flex-col flex-wrap justify-evenly gap-20 md:flex-row lg:gap-20">
+      <div className="container flex flex-col flex-wrap justify-evenly gap-20 py-5 md:flex-row lg:gap-20">
         {results.map((item, index) => {
           const title = item.featureTitle.jsonValue;
           const description = item.featureDescription.jsonValue;
           const image = item.featureImage.jsonValue;
           return (
-            <div className="flex flex-col items-center justify-start 2xl:w-80" key={index}>
+            <div className="flex min-w-0 flex-col items-center justify-start 2xl:w-80" key={index}>
               {/* Image */}
-              <div className="bg-accent mb-7 flex h-20 w-20 items-center justify-center rounded-full">
+              <div className="group-[.container-dark-background]:bg-background/20 mb-7 flex h-20 w-20 items-center justify-center rounded-full">
                 <Image field={image} />
               </div>
               {/* Title and Description */}
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex min-w-0 flex-col items-center justify-center">
                 <div className="mb-2 leading-0.5">
-                  <Text tag="h5" className="text-accent" field={title} />
+                  <Text
+                    tag="h5"
+                    className="text-foreground group-[.container-dark-background]:text-background"
+                    field={title}
+                  />
                 </div>
-                <div className="text-background-muted-light text-center">
+                <div className="text-background-muted-light group-[.container-dark-background]:text-background/90 min-w-0 text-center wrap-break-word">
                   <Text field={description} />
                 </div>
               </div>
@@ -158,19 +162,19 @@ export const NumberedGrid = (props: FeaturesProps) => {
           const description = item?.featureDescription.jsonValue;
           return (
             <div
-              className="group text-background hover:bg-accent cursor-pointer rounded-xl p-6"
+              className="feature-card group hover:bg-accent group-[.container-dark-background]:text-background cursor-pointer rounded-xl p-6"
               key={index}
             >
               {/* Generated Number */}
-              <h1 className="group-hover:text-background text-background-muted-dark mb-2 text-7xl leading-24">
+              <h1 className="text-background-muted-dark group-hover:text-background group-[.container-dark-background]:text-background/80 mb-2 text-7xl leading-24">
                 {generateIndexes(index)}
               </h1>
               {/* Title and Description */}
               <div>
-                <div className="text-accent group-hover:text-background mb-4 text-2xl leading-8 font-bold">
+                <div className="text-accent group-hover:text-background group-[.container-dark-background]:text-background mb-4 text-2xl font-bold">
                   <Text field={title} />
                 </div>
-                <div className="text-background-muted-dark group-hover:text-background leading-7">
+                <div className="text-background-muted-dark group-hover:text-background group-[.container-dark-background]:text-background/90 leading-7">
                   <Text field={description} />
                 </div>
               </div>
@@ -201,10 +205,10 @@ export const FourColGrid = (props: FeaturesProps) => {
               </div>
               {/* Title and Description */}
               <div className="flex flex-col justify-center">
-                <div className="text-xl leading-9 font-bold">
+                <div className="group-[.container-dark-background]:text-background text-xl leading-9 font-bold">
                   <Text className="text-foreground" field={title} />
                 </div>
-                <div className="text-background-muted-light leading-8">
+                <div className="text-background-muted-light group-[.container-dark-background]:text-background/90 leading-8">
                   <Text field={description} />
                 </div>
               </div>
@@ -232,11 +236,11 @@ export const ImageCardGrid = (props: FeaturesProps) => {
                 <Image field={image} className="h-full w-full object-cover" />
               </div>
 
-              <h6>
+              <h6 className="group-[.container-dark-background]:text-background">
                 <Text field={title} />
               </h6>
 
-              <p className="text-foreground-muted mt-1 text-lg">
+              <p className="text-foreground-muted group-[.container-dark-background]:text-background/90 mt-1 text-lg">
                 <Text field={description} />
               </p>
             </div>
