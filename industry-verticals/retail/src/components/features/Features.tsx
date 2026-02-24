@@ -118,13 +118,16 @@ export const ThreeColGridCentered = (props: FeaturesProps) => {
 
   return (
     <FeatureWrapper props={props}>
-      <div className="container flex flex-col flex-wrap justify-evenly gap-20 py-5 md:flex-row lg:gap-20">
+      <div className="container grid grid-cols-1 gap-20 py-5 md:grid-cols-3 lg:gap-20">
         {results.map((item, index) => {
           const title = item.featureTitle.jsonValue;
           const description = item.featureDescription.jsonValue;
           const image = item.featureImage.jsonValue;
           return (
-            <div className="flex min-w-0 flex-col items-center justify-start 2xl:w-80" key={index}>
+            <div
+              className="flex min-w-0 flex-col items-center justify-start"
+              key={index}
+            >
               {/* Image */}
               <div className="group-[.container-dark-background]:bg-background/20 mb-7 flex h-20 w-20 items-center justify-center rounded-full">
                 <Image field={image} />
