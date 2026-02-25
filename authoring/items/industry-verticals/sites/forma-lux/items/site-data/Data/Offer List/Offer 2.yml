@@ -138,7 +138,7 @@ Languages:
     Fields:
     - ID: "15b40d2f-fd70-4928-b4c0-b85a48eb18d2"
       Hint: OfferText
-      Value: 20 % DE RÉDUCTION SUR VOTRE PREMIÈRE COMMANDE | NOUVEAUX CLIENTS UNIQUEMENT
+      Value: Rapport sur le marché locatif 2025
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250910T094642Z
@@ -152,11 +152,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "993947df-b1ea-418a-9207-ee7cc7189df0"
+      Value: "3b5bf150-7bef-4867-9ed2-e7c27dd58592"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250910T094651Z
+      Value: 20260225T095541Z

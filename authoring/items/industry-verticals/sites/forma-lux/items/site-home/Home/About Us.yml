@@ -284,7 +284,7 @@ Languages:
       Value: 20250828T085329Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: About us
+      Value: Info SCHL
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
       Value: Façonner des espaces avec âme et substance
@@ -298,11 +298,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "749be45f-3b4e-45bc-977b-d96639b77605"
+      Value: "30614926-9bf2-4b75-ac11-1849bcbd2d70"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250918T062744Z
+      Value: 20260225T095240Z

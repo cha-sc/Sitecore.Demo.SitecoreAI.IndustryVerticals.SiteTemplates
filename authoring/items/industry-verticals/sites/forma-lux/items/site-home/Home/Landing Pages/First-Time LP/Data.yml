@@ -1,19 +1,16 @@
 ﻿---
-ID: "b57d3516-0024-42a3-ab0e-57e71dc9c13c"
-Parent: "c2d986bf-f496-4849-897a-bbcb90ae8733"
-Template: "0b2e48d3-e9e8-4cd0-87c1-db7b36b6ca08"
-Path: "/sitecore/content/industry-verticals/forma-lux/Data/Offer List/Offer 5"
+ID: "fa6ea13d-830d-4026-b0c5-1523d97d8754"
+Parent: "2680ac54-9d4d-4aa1-97d2-52c33cd3c2e9"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Landing Pages/First-Time LP/Data"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "15b40d2f-fd70-4928-b4c0-b85a48eb18d2"
-      Hint: OfferText
-      Value: "Canada's housing supply shortages: moving to a new framework"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260225T075826Z
+      Value: 20260225T154759Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -24,24 +21,46 @@ Languages:
         sitecore\chris.haddad@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ec7bc0ff-967b-4dd5-8a4e-a7db11011c4c"
+      Value: "fbe64221-8756-4430-840c-95f0365f2b3e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260225T075839Z
+      Value: 20260225T154759Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260225T154759Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f74dd269-1dec-4091-9c00-4b17d573f17b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260225T154759Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
     Fields:
-    - ID: "15b40d2f-fd70-4928-b4c0-b85a48eb18d2"
-      Hint: OfferText
-      Value: "Pénurie de logements au Canada : un nouveau cadre d'analyse"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260225T095658Z
+      Value: 20260225T154759Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -52,14 +71,11 @@ Languages:
         sitecore\chris.haddad@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "04d925e1-b454-4475-9768-efaaf50bdece"
-    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
-      Hint: __Version Name
-      Value: Offer 5
+      Value: "d6e3f991-94e6-4aa4-b0d2-249a31f7ff62"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260225T095721Z
+      Value: 20260225T154759Z

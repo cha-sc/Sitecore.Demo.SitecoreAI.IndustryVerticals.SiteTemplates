@@ -129,7 +129,7 @@ Languages:
     Fields:
     - ID: "15b40d2f-fd70-4928-b4c0-b85a48eb18d2"
       Hint: OfferText
-      Value: "ACHETEZ-EN 2, OBTENEZ-EN 1 GRATUIT SUR UNE SÉLECTION D'ARTICLES | OFFRE À DURÉE LIMITÉE"
+      Value: "Rapport sur le secteur des prêts hypothécaires résidentiels - automne 2025"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250910T094703Z
@@ -143,11 +143,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "39c12477-205f-44bb-aae3-8dad247d584b"
+      Value: "9c63e599-9618-47a3-a6e7-9305eb487f93"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250910T094717Z
+      Value: 20260225T095622Z

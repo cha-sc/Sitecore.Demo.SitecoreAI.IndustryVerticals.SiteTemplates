@@ -7,10 +7,10 @@ SharedFields:
 - ID: "2895a16e-c1b8-4e79-959a-802d5bc81a5a"
   Hint: Logo
   Value: |
-    <image mediaid="b66f1b09-244d-4321-bfd3-1214467dd896" />
+    <image mediaid="bdf421a4-82b5-4d5a-9cf5-385675e5d3b9" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "41d51062-02b8-41a6-a5e4-8d9adb8270e1"
+  Value: "f200d08d-bbc1-4a02-8399-1d8fe740b75d"
 Languages:
 - Language: en
   Versions:
@@ -248,6 +248,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250910T094604Z
@@ -273,7 +276,7 @@ Languages:
       Value: Droits d'auteur © 2025
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7a0061ad-0408-4b4a-b531-ba9b359f37b1"
+      Value: "eb522489-90dc-499b-b75b-4afad393ad86"
     - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
       Hint: PolicyText
       Value: |
@@ -281,7 +284,7 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d12db112-ac8e-4701-9186-1c25d7c2c148"
       Hint: TitleTwo
       Value: Services
@@ -290,7 +293,7 @@ Languages:
       Value: "Suivez-nous"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250910T104309Z
+      Value: 20260225T095942Z
     - ID: "e646865b-2d8d-4608-a43e-42c7f1d21675"
       Hint: TitleFive
       Value: Installer l'application

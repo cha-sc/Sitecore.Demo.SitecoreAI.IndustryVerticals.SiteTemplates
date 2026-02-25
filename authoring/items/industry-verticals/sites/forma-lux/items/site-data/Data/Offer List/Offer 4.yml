@@ -129,7 +129,7 @@ Languages:
     Fields:
     - ID: "15b40d2f-fd70-4928-b4c0-b85a48eb18d2"
       Hint: OfferText
-      Value: RETOURS GRATUITS SOUS 30 JOURS*
+      Value: Rapport sur l'offre de logements de le SCHL, automne 2025
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250910T094729Z
@@ -143,11 +143,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f6d0ccb4-659a-4d48-8bbe-454612bbf9e8"
+      Value: "98fe41b6-0daa-4296-82b1-1a8001651334"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250910T094738Z
+      Value: 20260225T095645Z

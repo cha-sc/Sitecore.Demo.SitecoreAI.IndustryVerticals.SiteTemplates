@@ -39,17 +39,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bbcdf8f3-f2c3-4eb6-ad87-d3409e60dfe2"
+      Value: "7f7ba393-20ea-4ce0-b6e9-d5fd416735ff"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
-      Value: Housing Design Catalgue
+      Value: Housing Design Catalogue
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260223T065704Z
+      Value: 20260225T162842Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |
@@ -188,7 +188,7 @@ Languages:
     - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
       Hint: Description
       Value: |
-        <div class="ck-content"><p>Une collection soignée de pièces modernes alliant élégance et fonctionnalité.</p></div>
+        <div class="ck-content"><p>Découvrez des conceptions normalisées pour faciliter et accélérer la construction des logements.</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250910T094841Z
@@ -202,18 +202,18 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b46e53a1-5fee-48fd-9be0-77203971f634"
+      Value: "eff62e05-8ccb-40f0-b513-1b7592aa447f"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
-      Value: Découvrez un design qui vous parle
+      Value: Catalogue de conception de logement
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T103505Z
+      Value: 20260225T094518Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |
-        <link class="" querystring="" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" target="" title="" linktype="internal" text="Découvrez les nouveautés" url="/industry-verticals/forma-lux/Home" />
+        <link linktype="internal" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" querystring="" target="" class="" text="Explorer" title=""/>

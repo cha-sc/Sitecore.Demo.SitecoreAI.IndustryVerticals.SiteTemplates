@@ -135,7 +135,7 @@ Languages:
       Value: 20251128T085240Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Commande de plus de 150 $
+      Value: Nous aidons le gouvernement du Canada à respecter son engagement à rendre le logement plus abordable.
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -146,17 +146,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Livraison gratuite
+      Value: Fonds
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f07d6a55-0541-4f79-9ab2-d71a9b0f4f99"
+      Value: "e069fc14-ef8d-4b93-bed6-190fe5ebcb2b"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T104128Z
+      Value: 20260225T094746Z
