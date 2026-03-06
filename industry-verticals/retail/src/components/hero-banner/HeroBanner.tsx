@@ -15,11 +15,12 @@ import { CommonStyles, HeroBannerStyles, LayoutStyles } from '@/types/styleFlags
 import clsx from 'clsx';
 
 interface Fields {
-  Image: ImageField;
-  Video: ImageField;
   Title: Field<string>;
   Description: Field<string>;
+  Image: ImageField;
   CtaLink: LinkField;
+  SecondaryCtaLink: LinkField;
+  Video: ImageField;
 }
 
 interface HeroBannerProps extends ComponentProps {
@@ -173,5 +174,53 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
         </div>
       </div>
     </HeroBannerCommon>
+  );
+};
+
+type TwoColumnProps = {
+  fields: Fields;
+  params?: { [key: string]: string };
+  rendering?: { uid?: string; params?: { [key: string]: string }; dataSource?: string };
+};
+
+export const TwoColumn = (
+  props: TwoColumnProps = {
+    fields: {
+      Title: { value: '' },
+      Description: { value: '' },
+      Image: { value: { src: '', alt: '' } },
+      CtaLink: { value: { href: '', text: '' } },
+      SecondaryCtaLink: { value: { href: '', text: '' } },
+      Video: { value: { src: '', alt: '' } },
+    },
+    params: {},
+    rendering: {},
+  }
+) => {
+  if (!props?.fields) return null;
+  const styles = props?.params?.styles || '';
+
+  return (
+    <section className={`component two-column ${styles}`} id={props?.rendering?.uid || undefined}>
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col items-start gap-8 py-10 md:flex-row md:items-center">
+          <div className="md:w-1/2">
+            <h1 className="text-4xl font-bold leading-tight md:text-5xl">
+              <ContentSdkText field={props.fields.Title} />
+            </h1>
+            <div className="mt-6 text-lg md:text-xl">
+              <ContentSdkRichText field={props.fields.Description} />
+            </div>
+            <div className="mt-8 flex flex-wrap gap-4">
+              <Link field={props.fields.CtaLink} className="btn btn-primary" />
+              <Link field={props.fields.SecondaryCtaLink} className="btn btn-secondary" />
+            </div>
+          </div>
+          <div className="md:w-1/2">
+            <ContentSdkImage field={props.fields.Image} className="w-full h-auto object-cover" />
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
