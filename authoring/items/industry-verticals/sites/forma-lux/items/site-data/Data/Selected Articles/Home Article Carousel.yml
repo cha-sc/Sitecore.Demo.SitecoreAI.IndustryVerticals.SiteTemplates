@@ -35,7 +35,7 @@ Languages:
     - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
       Hint: ExploreLink
       Value: |
-        <link class="" querystring="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" anchor="" target="" title="" linktype="internal" text="Explore more" url="/industry-verticals/forma-lux/Home/Products" />
+        <link class="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" querystring="" anchor="" target="" title="" linktype="internal" text="Explorez plus" url="/industry-verticals/forma-lux/Home/Products" />
     - ID: "a6a4a7d3-4017-4996-9264-27b1d3030273"
       Hint: Articles
       Value: |
@@ -79,7 +79,7 @@ Languages:
     - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
       Hint: ExploreLink
       Value: |
-        <link class="" querystring="" id="e9a6e6f8-3dd6-4664-a6e0-1923816f94c6" anchor="" target="" title="" linktype="internal" text="Explora más" url="/industry-verticals/forma-lux/Home/Articles" />
+        <link class="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" querystring="" anchor="" target="" title="" linktype="internal" text="Explorez plus" url="/industry-verticals/forma-lux/Home/Products" />
     - ID: "a6a4a7d3-4017-4996-9264-27b1d3030273"
       Hint: Articles
       Value: |
@@ -122,7 +122,7 @@ Languages:
     - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
       Hint: ExploreLink
       Value: |
-        <link class="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" querystring="" anchor="" target="" title="" linktype="internal" text="Explora más" url="/industry-verticals/forma-lux/Home/Products" />
+        <link class="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" querystring="" anchor="" target="" title="" linktype="internal" text="Explorez plus" url="/industry-verticals/forma-lux/Home/Products" />
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated

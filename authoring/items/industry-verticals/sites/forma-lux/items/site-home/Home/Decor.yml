@@ -60,10 +60,10 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "3608f367-b664-4f33-9de3-617931997bd1"
+    Value: "30781b40-6815-4989-ac41-81afe2f8fd33"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Decor
+    Value: Career & Growth
   Versions:
   - Version: 1
     Fields:
@@ -78,20 +78,20 @@ Languages:
       Value: Decor
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Decor
+      Value: Career & Growth
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
       Value: Contact us
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5663c927-6fe6-4f8b-af7f-869baa28f90d"
+      Value: "110f5bdd-0884-47a7-ac5a-3309b1749731"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260129T163933Z
+      Value: 20260306T061253Z
 - Language: "es-ES"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

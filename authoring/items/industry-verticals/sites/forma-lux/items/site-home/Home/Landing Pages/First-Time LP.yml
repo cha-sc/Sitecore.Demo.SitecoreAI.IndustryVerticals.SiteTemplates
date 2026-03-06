@@ -1,0 +1,86 @@
+﻿---
+ID: "2680ac54-9d4d-4aa1-97d2-52c33cd3c2e9"
+Parent: "af977a9b-c5e9-4195-aa90-00c05f900365"
+Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Landing Pages/First-Time LP"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B3B904A1-8081-4A66-BFCF-11A0C2171B4A}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8cc9b741-33c3-404c-84e1-1e4827205bc7"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CE7016BA-D269-4982-B7A2-CB3119AA6A13}"
+              p:before="*"
+              s:ds="966a8f28-c4dc-4c5b-8b9e-9e8dc0302117"
+              s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B96409BF2-9023-4CE1-8EF3-AA01ED5D1F3A%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
+              uid="{FA65B58C-25D8-477B-A4F7-5DFEB132BE6B}"
+              p:after="r[@uid='{CE7016BA-D269-4982-B7A2-CB3119AA6A13}']"
+              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+              s:par="ColumnWidth1=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D&amp;ColumnWidth2=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main" />
+            <r
+              uid="{AE055F29-D40B-40CB-BF01-4A147ED8BEA0}"
+              p:after="r[@uid='{FA65B58C-25D8-477B-A4F7-5DFEB132BE6B}']"
+              s:id="{C5F905F8-FD1F-444E-A9E5-AC6B774FF0DE}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB9BD517B-9816-4306-AF64-69AA50E7BDEB%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="/headless-main/column-1-2" />
+            <r
+              uid="{C23C06B3-1491-4BD9-97C7-4082FE66627D}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/form"
+              s:id="{44DCC929-7EE5-4430-81BF-D7F041420CBF}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Reversed&amp;ShowMultipleImages&amp;HideCurveLine&amp;HideShapes&amp;HideShadows&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="/headless-main/column-2-2" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260225T085957Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "First-Time LP"
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: "First-Time LP"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: "<p>Buying your first home is exciting — but it can also feel overwhelming. From saving for a down payment to understanding mortgage options and closing costs, there’s a lot to keep track of.</p><p>That’s why CMHC created a simple, step-by-step First-Time Home Buyer Checklist.</p><p>Inside, you’ll discover:</p><ul><li>What to budget for beyond your down payment</li><li>How to prepare your finances before applying for a mortgage</li><li>Key questions to ask lenders and real estate professionals</li><li>Important steps from house hunting to closing day</li><li>Available tax credits, rebates, and other financing options</li></ul><p>Download your free checklist and move forward with clarity and confidence.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "58578f09-4162-43ff-a653-4fa42659e76b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260225T163949Z

@@ -1,8 +1,19 @@
 ﻿---
-ID: "0e875c09-1c1a-4b22-9cc1-33e14b2c02cd"
-Parent: "7a2bb670-2048-43bf-a4eb-a59d64f01f11"
-Template: "9baa006b-188e-42ef-8f5c-5f623395ed7d"
-Path: "/sitecore/content/industry-verticals/forma-lux/Data/Navigation Icons/Header Navigation Items"
+ID: "e0883f6c-d193-4b0c-8d79-c9fe541241fc"
+Parent: "b43d59d1-d98b-4d9d-8e4b-997561560197"
+Template: "6f108e3c-5d57-42f8-a910-c22920269b0a"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Link Lists/Landing Pages_var2/Link 1"
+BranchID: "f2490b61-7d7d-4bbf-8cf6-3b355fdf4ce4"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "080b82f4-e1ce-477d-a430-371a4e4dc8b1"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{0D4590EB-C925-4056-BDB9-222EC424247B}"
 Languages:
 - Language: en
   Versions:
@@ -13,29 +24,29 @@ Languages:
       Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251016T103827Z
+      Value: 20251201T092531Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.google.com/" target="_blank" text="Google Search"/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8261c4b2-c50a-49a6-adbe-02d14d349fd5"
+      Value: "916f427e-ce48-413f-b96d-47ded24f883c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T103506Z
-    - ID: "f4d4d1d7-9afb-43e6-833e-9bb3a6a4d233"
-      Hint: CheckoutPage
-      Value: |
-        <link class="" id="f91dacac-c5bf-4539-94a3-6e5f2187e152" querystring="" anchor="" target="" title="" linktype="internal" text="Aller à la caisse" url="/industry-verticals/forma-lux/Home/Checkout" />
+      Value: 20260205T202319Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -45,32 +56,32 @@ Languages:
       Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251016T103827Z
+      Value: 20251201T092531Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
+      Hint: Link
+      Value: |
+        <link target="_blank" linktype="external" text="Búsqueda de Google" url="https://www.google.com/" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "49d48c01-aaa8-4a0e-8033-172d358a8b18"
+      Value: "ef6145fc-6d3a-4d0c-bff6-7145886cd6e7"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251219T104340Z
-    - ID: "f4d4d1d7-9afb-43e6-833e-9bb3a6a4d233"
-      Hint: CheckoutPage
-      Value: |
-        <link class="" id="f91dacac-c5bf-4539-94a3-6e5f2187e152" querystring="" anchor="" target="" title="" linktype="internal" text="Aller à la caisse" url="/industry-verticals/forma-lux/Home/Checkout" />
+      Value: 20260205T202320Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -80,32 +91,32 @@ Languages:
       Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251016T103827Z
+      Value: 20251201T092531Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
+      Hint: Link
+      Value: |
+        <link target="_blank" linktype="external" text="Recherche Google" url="https://www.google.com/" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1accb33d-de49-4db8-acf2-cd163959b15a"
+      Value: "df555455-fe5b-4639-8eea-e77cc830041b"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T110149Z
-    - ID: "f4d4d1d7-9afb-43e6-833e-9bb3a6a4d233"
-      Hint: CheckoutPage
-      Value: |
-        <link class="" id="f91dacac-c5bf-4539-94a3-6e5f2187e152" querystring="" anchor="" target="" title="" linktype="internal" text="Aller à la caisse" url="/industry-verticals/forma-lux/Home/Checkout" />
+      Value: 20260205T202320Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -115,29 +126,29 @@ Languages:
       Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251016T103827Z
+      Value: 20251201T092531Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
+      Hint: Link
+      Value: |
+        <link target="_blank" linktype="external" text="Recherche Google" url="https://www.google.com/" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b87f95e9-4080-4045-ba9a-7301124f76aa"
+      Value: "eadf23fb-030e-4214-99da-c982bb582403"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T104030Z
-    - ID: "f4d4d1d7-9afb-43e6-833e-9bb3a6a4d233"
-      Hint: CheckoutPage
-      Value: |
-        <link class="" id="f91dacac-c5bf-4539-94a3-6e5f2187e152" querystring="" anchor="" target="" title="" linktype="internal" text="Aller à la caisse" url="/industry-verticals/forma-lux/Home/Checkout" />
+      Value: 20260205T202320Z
