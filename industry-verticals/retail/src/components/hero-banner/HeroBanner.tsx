@@ -19,7 +19,6 @@ interface Fields {
   Description: Field<string>;
   Image: ImageField;
   CtaLink: LinkField;
-  SecondaryCtaLink: LinkField;
   Video: ImageField;
 }
 
@@ -190,7 +189,6 @@ export const TwoColumn = (
       Description: { value: '' },
       Image: { value: { src: '', alt: '' } },
       CtaLink: { value: { href: '', text: '' } },
-      SecondaryCtaLink: { value: { href: '', text: '' } },
       Video: { value: { src: '', alt: '' } },
     },
     params: {},
@@ -213,7 +211,6 @@ export const TwoColumn = (
             </div>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link field={props.fields.CtaLink} className="btn btn-primary" />
-              <Link field={props.fields.SecondaryCtaLink} className="btn btn-secondary" />
             </div>
           </div>
           <div className="md:w-1/2">
