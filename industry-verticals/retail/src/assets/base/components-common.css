@@ -65,3 +65,15 @@
     @apply pointer-events-none opacity-60;
   }
 }
+
+/* Round button with ASCE light-to-dark blue gradient as border */
+.btn-gradient-ring-inner {
+  background-color: var(--color-background);
+  color: var(--color-asce-dark-blue);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.btn-gradient-ring-inner:hover {
+  background: var(--gradient-asce-blue-horizontal);
+  color: var(--color-background);
+}

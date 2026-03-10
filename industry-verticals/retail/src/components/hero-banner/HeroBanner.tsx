@@ -210,7 +210,15 @@ export const TwoColumn = (
               <ContentSdkRichText field={props.fields.Description} />
             </div>
             <div className="mt-8 flex flex-wrap gap-4">
-              <Link field={props.fields.CtaLink} className="btn btn-primary" />
+              <span
+                className="inline-block rounded-full p-[3px]"
+                style={{ background: 'var(--gradient-asce-blue-horizontal)' }}
+              >
+                <Link
+                  field={props.fields.CtaLink}
+                  className="btn-gradient-ring-inner block rounded-full px-6 py-3 text-center font-semibold no-underline"
+                />
+              </span>
             </div>
           </div>
           <div className="md:w-1/2">
