@@ -147,6 +147,22 @@ Languages:
                 <ruleset
                   s:pet="true">
                   <rule
+                    uid="{BD30B8E2-CF92-4D5D-B1BB-94B11671E130}"
+                    s:name="8a82c309b40b46fb96e29414ba7270c5">
+                    <conditions>
+                      <condition
+                        uid="2F1A8797083D44FEBB83B4E508864459"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8a82c309b40b46fb96e29414ba7270c5" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{641F794B-4B22-45D0-9C1A-F2C20D3A1E4C}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="78c21b19-bea4-4050-b6eb-eea9bba5430d" />
+                    </actions>
+                  </rule>
+                  <rule
                     uid="{4F95F196-E681-4176-8D22-76E2567F3B29}"
                     s:name="13741d1ba55544bf9c0b25817f46852c">
                     <conditions>
@@ -187,8 +203,38 @@ Languages:
               p:after="r[@uid='{AE225B7C-0876-4FAE-A959-B3AFC8E0E91B}']"
               s:ds="8dcd8766-673e-40ee-91b8-1da4b0b83621"
               s:id="{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7FB2EE2-33B4-4536-8453-6ACC1CDEBE72%7D&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D&amp;RenderingIdentifier&amp;CSSStyles"
-              s:ph="headless-main" />
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7FB2EE2-33B4-4536-8453-6ACC1CDEBE72%7D&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D&amp;RenderingIdentifier&amp;CSSStyles"
+              s:ph="headless-main">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{D2D7E910-D98D-4E42-8955-3372B98B2D28}"
+                    s:name="8a82c309b40b46fb96e29414ba7270c5">
+                    <conditions>
+                      <condition
+                        uid="0B0C4385688F4CDABA0D4FC14646A70E"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8a82c309b40b46fb96e29414ba7270c5" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{B0313892-C59F-481E-A627-71F2BC2FED49}"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="A0B5FEE65A474644A1D30DB9598A765B"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{3322063A-EBC7-4FE5-B3B2-0E084039FC58}">
               <p:d />
@@ -250,7 +296,7 @@ Languages:
       Value: "Explore Forma Lux’s luxurious furniture collections: heritage craftsmanship meets modern, sustainable design for elegant living spaces."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0e8c7996-9375-4a18-b32c-71622dade23d"
+      Value: "73b6b036-15f4-474d-8d33-2b6ee5640db9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -260,7 +306,7 @@ Languages:
       Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260310T063807Z
+      Value: 20260310T152215Z
 - Language: "es-ES"
   Versions:
   - Version: 2
