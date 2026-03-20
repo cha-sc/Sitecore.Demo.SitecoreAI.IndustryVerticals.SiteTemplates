@@ -7,28 +7,25 @@ BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "1ee576af-ba8e-4312-9fbd-2ccf8395baa1"
   Hint: StartItem
-  Value: a3a58074c4b7478bb0b4386243e7e48e
+  Value: "{A3A58074-C4B7-478B-B0B4-386243E7E48E}"
 - ID: "301e719a-6f65-4874-b565-a953a7b5ac83"
   Hint: OtherProperties
   Value: isSiteThumbnailSource=true
 - ID: "475031d8-724d-463c-80b2-90839dd1ad98"
   Hint: VirtualFolder
   Value: 
-- ID: "4e9e2ae5-36db-4955-9af1-5a1934a27c7d"
-  Hint: Language Embedding
-  Value: 0
 - ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
   Hint: ThumbnailsRootPath
   Value: "{25DA0015-281A-4455-9197-1C1B0F52998E}"
 - ID: "6e6da5b0-8d01-4514-b7dd-1940aff3e8cd"
   Hint: FieldLanguageFallback
-  Value: 0
+  Value: 1
 - ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
   Hint: Name
   Value: Gridwell
 - ID: "8c436235-b85d-4097-89cf-d5a4fa70cc0a"
   Hint: ItemLanguageFallback
-  Value: 0
+  Value: 1
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
   Value: *
@@ -43,7 +40,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4dd624f5-1124-4a8e-8838-11cdd7bf48bc"
+  Value: "f441e2c5-c70f-4adf-baed-3d061222db28"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: energy
@@ -68,11 +65,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dc94ba6e-9e88-4a80-92ea-0693a9387046"
+      Value: "65ad4921-01ae-42ec-bd90-7a30a8d2e6cd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\chris.haddad@sitecore.com
+        sitecore\neli.kostadinova@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260202T201418Z
+      Value: 20260213T053324Z
