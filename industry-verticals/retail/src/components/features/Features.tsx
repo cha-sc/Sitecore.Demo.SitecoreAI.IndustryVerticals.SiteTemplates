@@ -18,6 +18,7 @@ interface Fields {
         results: Feature[];
       };
       title: IGQLTextField;
+      description: IGQLTextField;
     };
   };
 }
@@ -218,30 +219,43 @@ export const FourColGrid = (props: FeaturesProps) => {
 
 export const ImageCardGrid = (props: FeaturesProps) => {
   const results = props.fields.data.datasource.children.results;
+  const featureSelectionTitle = props.fields.data.datasource.title;
+  const featureSelectionDescription = props.fields.data.datasource.description;
 
   return (
     <FeatureWrapper props={props}>
-      <div className="outline-non container grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-        {results.map((item, index) => {
-          const title = item.featureTitle.jsonValue;
-          const description = item.featureDescription.jsonValue;
-          const image = item.featureImage.jsonValue;
-          return (
-            <div key={index}>
-              <div className="mb-7 aspect-4/3 w-full overflow-hidden rounded-lg bg-white">
-                <Image field={image} className="h-full w-full object-cover" />
+      <div className="outline-non container py-[25px]">
+        <div className="mb-10 text-center">
+          <h2 className="text-3xl font-bold md:text-4xl">
+            <Text field={featureSelectionTitle.jsonValue} />
+          </h2>
+          <p className="text-foreground mx-auto mt-3 max-w-2xl text-lg">
+            <Text field={featureSelectionDescription.jsonValue} />
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+          {results.map((item, index) => {
+            const title = item.featureTitle.jsonValue;
+            const description = item.featureDescription.jsonValue;
+            const image = item.featureImage.jsonValue;
+            return (
+              <div className="rounded-lg bg-white p-6" key={index}>
+                <div className="mb-7 aspect-4/3 w-full overflow-hidden rounded-lg">
+                  <Image field={image} className="h-full w-full object-cover" />
+                </div>
+
+                <h6>
+                  <Text field={title} />
+                </h6>
+
+                <p className="text-foreground-muted mt-1 text-lg">
+                  <Text field={description} />
+                </p>
               </div>
-
-              <h6>
-                <Text field={title} />
-              </h6>
-
-              <p className="text-foreground-muted mt-1 text-lg">
-                <Text field={description} />
-              </p>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </FeatureWrapper>
   );
