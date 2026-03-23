@@ -112,6 +112,7 @@ export const FeatureImageGrid: Story = {
           count: 5,
           topLevelFields: {
             title: createIGQLField(createTextField('Features Title')),
+            description: createIGQLField(createTextField('Features Description')),
           },
           createItems: (count) =>
             Array.from({ length: count }, () => ({
