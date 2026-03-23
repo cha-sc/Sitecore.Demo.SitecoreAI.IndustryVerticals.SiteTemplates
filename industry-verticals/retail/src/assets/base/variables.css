@@ -1,24 +1,46 @@
 @theme {
-  --color-foreground: #1e1e1e;
-  --color-foreground-light: #505050;
-  --color-foreground-muted: #9f9f9f;
+  /*
+   * Semantic palette derived from Fonds de solidarité FTQ (fondsftq.com) production styles:
+   * deep teal headlines (#00373d), signature turquoise (#00a1b1), dark UI text (#172a2d),
+   * cool tinted surfaces (#f5fcfd, #ecf4f4), pale teal borders (#cfddde), brand red (#d50000).
+   */
+  --color-foreground: #172a2d;
+  --color-foreground-light: #425a5c;
+  --color-foreground-muted: #779b9c;
 
-  --color-background: #fff;
-  --color-background-accent: #faf3ea;
-  --color-background-muted: #f7f7f7;
-  --color-background-muted-light: #7a7a7a;
-  --color-background-muted-dark: #666;
-  --color-background-surface: #fafafa;
+  --color-background: #ffffff;
+  --color-background-accent: #569fe6; /* #fdf7e5; */
+  --color-background-muted: #ecf4f4;
+  --color-background-muted-light: #779b9c;
+  --color-background-muted-dark: #5e7f82;
+  --color-background-surface: #f5fcfd;
 
-  --color-accent: #c1a25f;
+  --color-accent: #85d1dc; /* #00a1b1; */
 
-  --color-success: #2ec1ac;
-  --color-danger: #e97171;
+  --color-success: #5cb57d;
+  --color-danger: #d50000;
 
-  --color-border: #e8e8e8;
+  --color-border: #cfddde;
 
-  --font-heading: 'Manrope', sans-serif;
-  --font-body: 'Manrope', sans-serif;
+  /* Brand-specific FTQ tokens (turquoise scale, highlights, secondary accents — beyond fg/bg slots) */
+  --color-brand-teal-deep: #00373d;
+  --color-brand-teal-mid: #007682;
+  --color-brand-turquoise-soft: #85d1dc;
+  --color-brand-surface-aqua: #d9f0f2;
+  --color-brand-surface-mist: #c3d5d7;
+  --color-brand-amber: #f2b700;
+  --color-brand-forest: #1f5343;
+  --color-brand-mint: #bff2a7;
+  --color-brand-mint-surface: #e3f9e0;
+  --color-brand-link: #056dd4;
+  --color-brand-sky: #569fe6;
+
+  /*
+   * Lausanne (FTQ’s web font) is not on Google Fonts; Plus Jakarta Sans + DM Sans approximate
+   * its confident grotesk headline / neutral body pairing.
+   */
+  --font-heading: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
 
   --radius-base: 0.5rem;
 
