@@ -83,6 +83,7 @@ export const FeatureDefault: Story = {
           count: 3,
           topLevelFields: {
             title: createIGQLField(createTextField('Features Title')),
+            description: createIGQLField(createTextField('Features Description')),
           },
           createItems: (count) =>
             Array.from({ length: count }, () => ({
@@ -142,6 +143,7 @@ export const FeatureNumberedGrid: Story = {
           count: 3,
           topLevelFields: {
             title: createIGQLField(createTextField('Features Title')),
+            description: createIGQLField(createTextField('Features Description')),
           },
           createItems: (count) =>
             Array.from({ length: count }, () => ({
@@ -171,6 +173,7 @@ export const FeatureThreeColGridCentered: Story = {
           count: 3,
           topLevelFields: {
             title: createIGQLField(createTextField('Features Title')),
+            description: createIGQLField(createTextField('Features Description')),
           },
           createItems: (count) =>
             Array.from({ length: count }, () => ({
@@ -200,6 +203,7 @@ export const FeatureFourColGrid: Story = {
           count: 4,
           topLevelFields: {
             title: createIGQLField(createTextField('Features Title')),
+            description: createIGQLField(createTextField('Features Description')),
           },
           createItems: (count) =>
             Array.from({ length: count }, () => ({
