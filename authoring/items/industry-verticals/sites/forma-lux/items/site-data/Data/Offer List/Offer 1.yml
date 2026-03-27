@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "15b40d2f-fd70-4928-b4c0-b85a48eb18d2"
       Hint: OfferText
-      Value: FREE STANDARD SHIPPING ON PURCHASES OVER $150*  
+      Value: Fonds de solidarité FTQ Share Value Rises to $67.98
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250828T151912Z
@@ -24,14 +24,14 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ec721688-2e48-4027-8400-a1474a22bcf9"
+      Value: "7ec331c0-7968-4267-b625-811009ce3775"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250902T094943Z
+      Value: 20260323T155710Z
 - Language: "es-ES"
   Versions:
   - Version: 1
