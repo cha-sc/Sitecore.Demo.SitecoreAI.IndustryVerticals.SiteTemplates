@@ -120,7 +120,10 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
                   {withPlaceholder ? (
                     <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
                   ) : (
-                    <Link field={fields.CtaLink} className="arrow-btn" />
+                    <Link
+                      field={fields.CtaLink}
+                      className="inline-flex items-center justify-center rounded-full bg-brand-accent px-7 py-3 text-base font-semibold text-(--color-brand-primary) transition-colors hover:bg-[color-mix(in_srgb,var(--color-brand-accent)_92%,#000)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-(--color-brand-primary) focus-visible:ring-offset-2 focus-visible:ring-offset-(--color-background)"
+                    />
                   )}
                 </div>
               </div>

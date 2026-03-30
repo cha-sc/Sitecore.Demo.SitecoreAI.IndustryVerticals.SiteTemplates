@@ -1,21 +1,28 @@
 @theme {
-  --color-foreground: #1e1e1e;
-  --color-foreground-light: #505050;
-  --color-foreground-muted: #9f9f9f;
+  --color-foreground: #09243e;
+  --color-foreground-light: #4e5665;
+  --color-foreground-muted: #6c7684;
 
   --color-background: #fff;
-  --color-background-accent: #faf3ea;
-  --color-background-muted: #f7f7f7;
-  --color-background-muted-light: #7a7a7a;
-  --color-background-muted-dark: #666;
-  --color-background-surface: #fafafa;
+  --color-background-accent: #f0f6f8;
+  --color-background-muted: #f3f4f7;
+  --color-background-muted-light: #f2f7f9;
+  --color-background-muted-dark: #e9ebf0;
+  --color-background-surface: #fff;
 
-  --color-accent: #c1a25f;
+  --color-accent: #0060b9;
 
-  --color-success: #2ec1ac;
-  --color-danger: #e97171;
+  --color-success: #0b8182;
+  --color-danger: #ff4545;
 
-  --color-border: #e8e8e8;
+  --color-border: #e5e8ed;
+
+  --color-brand-primary: #0060b9;
+  --color-brand-secondary: #09243e;
+  --color-brand-accent: #ecb84c;
+  --color-brand-teal: #008ba1;
+  --color-highlight-gold: #ffd14e;
+  --color-highlight-blue: #a9d1ff;
 
   --font-heading: 'Manrope', sans-serif;
   --font-body: 'Manrope', sans-serif;
