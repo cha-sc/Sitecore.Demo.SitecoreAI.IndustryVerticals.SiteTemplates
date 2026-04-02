@@ -213,7 +213,7 @@ Languages:
       Value: Contact
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
-      Value: "Contactez-nous"
+      Value: Notre Impact
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -231,17 +231,17 @@ Languages:
       Value: Contactez Forma Lux pour des consultations en design, des solutions de meubles sur mesure ou pour explorer nos collections et nos revendeurs.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "79e5ac40-0dde-4506-8354-0d53d4f1a3d9"
+      Value: "6bebae49-8df6-4357-acc6-a36539d80472"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T110105Z
+      Value: 20260402T042316Z
 - Language: "fr-FR"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

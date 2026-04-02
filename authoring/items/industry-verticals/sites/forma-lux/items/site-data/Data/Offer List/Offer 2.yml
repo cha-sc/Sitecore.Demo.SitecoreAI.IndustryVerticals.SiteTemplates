@@ -107,7 +107,7 @@ Languages:
       Value: <r />
     - ID: "15b40d2f-fd70-4928-b4c0-b85a48eb18d2"
       Hint: OfferText
-      Value: 20 % DE RABAIS SUR VOTRE PREMIÈRE COMMANDE | NOUVEAUX CLIENTS SEULEMENT
+      Value: Il est temps pour les entreprises québécoises de faire leur transition écologique.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250828T151921Z
@@ -121,17 +121,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "03602ee3-1e83-4f95-94c1-128ad2daf326"
+      Value: "012824ea-c9ac-493c-b4c6-d3c8ee5cd03b"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T110149Z
+      Value: 20260402T041945Z
 - Language: "fr-FR"
   Versions:
   - Version: 1

@@ -231,7 +231,7 @@ Languages:
       Value: À propos de Forma Lux – Héritage & Artisanat Moderne
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: À propos de nous
+      Value: Financement d'entreprise
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
       Value: Façonner des espaces avec âme et substance
@@ -251,20 +251,20 @@ Languages:
       Value: Découvrez comment Forma Lux allie artisanat, matériaux de qualité supérieure et philosophie de design moderne pour créer des meubles intemporels.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a5492243-d586-4451-80f6-09a0697ce748"
+      Value: "e840b2df-7fb4-4626-a551-b303b8e6f0c6"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: Notre héritage, nos matériaux et notre éthique de design—Forma Lux est là où la tradition rencontre la modernité pour des pièces qui durent.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T110105Z
+      Value: 20260402T042305Z
 - Language: "fr-FR"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

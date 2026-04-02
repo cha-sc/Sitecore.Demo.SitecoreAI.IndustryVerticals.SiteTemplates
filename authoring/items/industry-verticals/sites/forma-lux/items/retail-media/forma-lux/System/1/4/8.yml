@@ -1,8 +1,8 @@
 ﻿---
-ID: "81a61660-c5bc-44e2-bc29-f6822a34f8fd"
-Parent: "d2e98db1-8ee5-4605-a15f-005fcc9a8cfb"
-Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Landing Pages/post-heart month/Data"
+ID: "e53056aa-8679-4f79-8bab-7d9335748c76"
+Parent: "a4df3eb5-7e1a-49ed-9260-0ae544b44497"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/industry-verticals/forma-lux/System/1/4/8"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260206T205242Z
+      Value: 20260401T131222Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\chris.haddad@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1132cebe-71e0-4ec8-99dc-ffc6010a70d1"
+      Value: "e08de805-b2f1-4ee9-b722-491725c4ba75"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260206T205242Z
+      Value: 20260401T131222Z

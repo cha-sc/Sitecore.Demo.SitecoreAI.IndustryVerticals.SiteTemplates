@@ -1,26 +1,35 @@
 ﻿---
-ID: "b989625c-1ed7-4ed4-b728-12d91b0bed20"
-Parent: "fa6ea13d-830d-4026-b0c5-1523d97d8754"
-Template: "d14feb7c-05e7-4ac1-a5c3-981db9372840"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Landing Pages/First-Time LP/Data/form"
+ID: "e47691d3-03fb-4959-8ad3-f3fd34ee9e33"
+Parent: "64c4f646-a3fa-4205-b98e-4de2c609b60f"
+Template: "f68f13a6-3395-426a-b9a1-fa2dc60d94eb"
+Path: "/sitecore/system/Languages/fr-CA"
 SharedFields:
-- ID: "3849c8a9-5391-4eab-abf3-7d3bc771af97"
-  Hint: SubmitText
-  Value: Get Access
+- ID: "0620f810-9294-4f14-af9f-f5772efca0b2"
+  Hint: Regional Iso Code
+  Value: "fr-CA"
+- ID: "49e5e8f3-ed4a-4a06-abe1-b9408951dee9"
+  Hint: Charset
+  Value: "iso-8859-1"
+- ID: "8728d8ff-66d9-40c2-8b34-c4fc1466942e"
+  Hint: Encoding
+  Value: "utf-8"
+- ID: "990596ce-0024-43f3-bf4c-a991bfa69b45"
+  Hint: Code page
+  Value: 65001
+- ID: "c437e416-8948-427d-a982-8ed37ae3f553"
+  Hint: Iso
+  Value: fr
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9a9640bb-0152-419c-860d-ede0a0c68a12"
+  Value: "4ee4163f-9c57-47c2-9698-40692467da01"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260225T154826Z
+      Value: 20260401T131102Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +40,11 @@ Languages:
         sitecore\chris.haddad@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b8b20e19-5753-4069-a3c5-e795050655da"
+      Value: "ec214570-51dc-45f3-9080-4c76fb8689ff"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260225T154849Z
+      Value: 20260401T131103Z

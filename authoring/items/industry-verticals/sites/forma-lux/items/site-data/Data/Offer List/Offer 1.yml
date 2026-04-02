@@ -98,7 +98,7 @@ Languages:
     Fields:
     - ID: "15b40d2f-fd70-4928-b4c0-b85a48eb18d2"
       Hint: OfferText
-      Value: LIVRAISON STANDARD GRATUITE SUR LES ACHATS DE PLUS DE 150 $*
+      Value: La valeur de l'action du Fonds de solidarité FTQ s'élève à $67.98
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250828T151912Z
@@ -112,17 +112,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "89cae3d3-fcc0-49f9-9729-ee773ab0c159"
+      Value: "6cbce60f-c1f5-4585-97ed-a8e08a5af1e5"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T110149Z
+      Value: 20260402T041858Z
 - Language: "fr-FR"
   Versions:
   - Version: 1

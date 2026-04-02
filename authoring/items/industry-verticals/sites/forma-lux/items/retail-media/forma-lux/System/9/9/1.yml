@@ -1,8 +1,8 @@
 ﻿---
-ID: "66fff2a5-7cf0-4f7f-8f0d-27ecb6f2f11e"
-Parent: "48eeb3f7-4aba-4d04-a90e-e319d8e6ee1a"
-Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Landing Pages/rising senior/Data"
+ID: "42af74b5-dda9-46aa-9aed-00d120018922"
+Parent: "62cf53d7-e27e-4f45-a148-5af41ff13585"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/industry-verticals/forma-lux/System/9/9/1"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260310T145627Z
+      Value: 20260402T141954Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\chris.haddad@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d92cc477-fb30-43d7-823c-9e140bc37c4a"
+      Value: "173ff011-62a9-47b0-88b5-ea2528f876e3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260310T145627Z
+      Value: 20260402T141954Z

@@ -1,8 +1,8 @@
 ﻿---
-ID: "437d73e2-634a-42ef-a042-0b0e966a6e30"
-Parent: "30dfce7f-323e-4ff4-9d38-e7fb47cbb1ec"
-Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Landing Pages/Online-only IBS/Data"
+ID: "a4df3eb5-7e1a-49ed-9260-0ae544b44497"
+Parent: "c5088e32-5254-4315-8290-da9437df359b"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/industry-verticals/forma-lux/System/1/4"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260206T062734Z
+      Value: 20260401T131222Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\chris.haddad@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2224e1d5-265d-42fc-adcd-5eb925962e61"
+      Value: "3161aaf0-70ab-4b21-b15a-ee5bd6848f54"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260206T062734Z
+      Value: 20260401T131222Z
