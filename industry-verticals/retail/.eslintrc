@@ -5,13 +5,9 @@
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
   ],
-  "plugins": [
-    "@typescript-eslint",
-    "prettier",
-    "react"
-  ],
+  "plugins": ["@typescript-eslint", "prettier", "react"],
   "ignorePatterns": [".generated/**/*", "**/*.d.ts", "**/*.js"],
   "rules": {
     "@next/next/no-img-element": "off", // Don't force next/image
@@ -20,10 +16,12 @@
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
-        "caughtErrorsIgnorePattern": "."
-      }
+        "caughtErrorsIgnorePattern": ".",
+      },
     ],
     "@typescript-eslint/no-explicit-any": "error",
-    "jsx-quotes": ["error", "prefer-double"]
-  }
+    "jsx-quotes": ["error", "prefer-double"],
+    "prettier/prettier": "off",
+  },
 }
+
