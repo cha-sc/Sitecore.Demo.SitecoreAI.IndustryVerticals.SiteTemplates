@@ -1,0 +1,17 @@
+/*
+  Panoramic skyline above the global footer (see Layout.tsx <footer>).
+  Image is centered horizontally with a responsive banner height.
+*/
+@layer base {
+  footer::before {
+    content: '';
+    display: block;
+    width: min(100%, 1920px);
+    margin-inline: auto;
+    height: clamp(3.5rem, 9vw, 7.5rem);
+    background-image: url('https://cha-moonshot.sitecoresandbox.cloud/api/public/content/04d65a5094944729b56857c1ff96b789?v=8aa14d4c');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+  }
+}

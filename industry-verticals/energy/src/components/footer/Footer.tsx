@@ -64,7 +64,7 @@ const Footer = (props: FooterProps): JSX.Element => {
   ];
 
   return (
-    <div className={`bg-foreground py-12 text-white ${sxaStyles}`} id={id}>
+    <div className={`bg-primary-dark py-12 text-background ${sxaStyles}`} id={id}>
       <div className="container mx-auto">
         {/* content section */}
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
