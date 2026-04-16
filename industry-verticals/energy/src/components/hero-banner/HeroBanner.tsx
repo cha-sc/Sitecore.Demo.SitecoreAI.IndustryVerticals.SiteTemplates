@@ -23,12 +23,24 @@ interface HeroBannerProps extends ComponentProps {
   fields: Fields;
 }
 
+/** Splits after the first sentence ending (. ! ?) so the rest can use accent styling. */
+function splitAfterFirstSentence(text: string): { first: string; rest: string | null } {
+  const trimmed = text.trim();
+  const match = trimmed.match(/^([\s\S]+?[.!?])\s+([\s\S]+)$/);
+  if (match) {
+    return { first: match[1], rest: match[2] };
+  }
+  return { first: trimmed, rest: null };
+}
+
 export const Default = ({ params, fields }: HeroBannerProps) => {
   const { page } = useSitecore();
   const { styles, RenderingIdentifier: id } = params;
   const isPageEditing = page.mode.isEditing;
 
   const hasMedia = fields?.Video?.value?.src || fields?.Image?.value?.src;
+  const titlePlain = fields?.Title?.value?.toString() ?? '';
+  const { first: titleFirst, rest: titleRest } = splitAfterFirstSentence(titlePlain);
 
   if (!fields) {
     return isPageEditing ? (
@@ -66,7 +78,14 @@ export const Default = ({ params, fields }: HeroBannerProps) => {
       <div className="relative z-3 container mx-auto flex flex-col items-center justify-center">
         {/* Title - styled in accent/primary color */}
         <h1 className={`${hasMedia ? 'text-accent' : 'text-background'} text-center`}>
-          <ContentSdkText field={fields.Title} />
+          {isPageEditing || !titleRest ? (
+            <ContentSdkText field={fields.Title} />
+          ) : (
+            <>
+              <span>{titleFirst}</span>{' '}
+              <span className="text-highlight">{titleRest}</span>
+            </>
+          )}
         </h1>
 
         {/* Description/Tagline - white text */}
