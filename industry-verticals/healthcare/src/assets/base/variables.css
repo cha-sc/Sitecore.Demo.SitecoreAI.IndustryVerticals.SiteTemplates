@@ -1,21 +1,37 @@
 @theme {
+  /*
+   * University of Miami Health System (UHealth) — palette derived from umiamihealth.org
+   * Brand orange PMS 1665 C · UM / UHealth green · digital link blue
+   */
+
+  /* Core brand (reference tokens; use semantic tokens below in components) */
+  --color-brand-orange: #f47321;
+  --color-brand-orange-muted: #fbe6d5;
+  --color-brand-orange-deep: #e85833;
+  --color-brand-green: #005030;
+  --color-brand-green-dark: #002a16;
+  --color-brand-green-mid: #28764d;
+  --color-brand-teal: #006a51;
+  --color-link: #005da9;
+  --color-link-hover: #2077a3;
+
   --color-background: #ffffff;
-  --color-background-secondary: #f4fdfd;
-  --color-background-tertiary: #b8eff2;
-  --color-foreground: #023859;
+  --color-background-secondary: #f5f5f5;
+  --color-background-tertiary: #dcece2;
+  --color-foreground: #292d30;
 
-  --color-background-dark: #011119;
-  --color-background-secondary-dark: #047294;
-  --color-background-tertiary-dark: #023859;
+  --color-background-dark: #002a16;
+  --color-background-secondary-dark: #28764d;
+  --color-background-tertiary-dark: #005030;
   --color-foreground-dark: #ffffff;
-  --color-foreground-secondary-dark: #b8eff2;
+  --color-foreground-secondary-dark: #d0eeac;
 
-  --color-accent: #6cd8c9;
-  --color-accent-muted: #a3ddcf;
+  --color-accent: var(--color-brand-orange);
+  --color-accent-muted: var(--color-brand-orange-muted);
 
-  --color-background-input: #e7f7f4;
-  --color-disabled: #dcdcdc;
-  --color-disabled-dark: #70a7b8;
+  --color-background-input: #f8f8f8;
+  --color-disabled: #cecece;
+  --color-disabled-dark: #6b9e86;
 
   --color-border: #e8e8e8;
 
