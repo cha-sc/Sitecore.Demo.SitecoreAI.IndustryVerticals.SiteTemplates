@@ -57,7 +57,7 @@ const createHeroBannerFields = (options: HeroBannerFieldOptions = {}) => {
   const ctaLinkValue = {
     ...createLinkField('Find your care team').value,
     title: 'CTA illustration',
-    ...(includeCtaIllustration ? { src: createPlaceholderImageSrc('placeholder') } : {}),
+    ...(includeCtaIllustration ? { src: createPlaceholderImageSrc() } : {}),
     ...(includeCtaHref ? {} : { href: '' as const }),
   };
 
