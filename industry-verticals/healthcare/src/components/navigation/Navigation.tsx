@@ -69,7 +69,10 @@ export const Default = (props: NavigationProps) => {
     ));
 
   return (
-    <div className={`component navigation font-heading text-lg ${styles}`} id={id ? id : undefined}>
+    <div
+      className={`component navigation font-heading w-full text-lg ${styles}`}
+      id={id ? id : undefined}
+    >
       <div
         className="z-50 flex h-6 w-6 cursor-pointer items-center justify-center lg:hidden"
         onClick={() => handleToggleMenu()}
@@ -77,13 +80,15 @@ export const Default = (props: NavigationProps) => {
         <FontAwesomeIcon icon={isOpenMenu ? faTimes : faBars} width={16} height={16} />
       </div>
 
-      <div className="component-content">
+      <div className="component-content w-full">
         <nav
           className={`${
             isOpenMenu ? 'flex' : 'hidden'
-          } bg-background dark:bg-background-dark absolute top-full right-0 left-0 z-100 lg:static lg:flex`}
+          } bg-background dark:bg-background-dark absolute top-full right-0 left-0 z-100 lg:static lg:flex lg:w-full`}
         >
-          <ul className={`container flex flex-col gap-x-8 pb-8 lg:flex-row lg:pb-0 xl:gap-x-14`}>
+          <ul
+            className={`container flex w-full flex-col gap-y-4 pb-8 lg:flex-row lg:items-center lg:gap-x-6 lg:gap-y-0 lg:pb-0 xl:gap-x-10`}
+          >
             {list}
           </ul>
         </nav>
@@ -100,6 +105,7 @@ const NavigationList = (props: NavigationListProps) => {
   )}`;
 
   const isRootItem = props.fields.Styles.includes('level0');
+  const isTopLevel = props.relativeLevel === 1;
 
   let children: React.JSX.Element[] = [];
   if (props.fields.Children && props.fields.Children.length) {
@@ -115,7 +121,9 @@ const NavigationList = (props: NavigationListProps) => {
 
   return (
     <li
-      className={`${classNameList} relative flex flex-col ${isRootItem ? 'lg:flex-row' : ''} gap-x-8 gap-y-4 xl:gap-x-14 ${active ? 'active' : ''} uppercase`}
+      className={`${classNameList} relative flex flex-col ${
+        isTopLevel ? 'lg:min-w-0 lg:flex-1 lg:flex-row lg:justify-center' : ''
+      } gap-x-8 gap-y-4 xl:gap-x-14 ${active ? 'active' : ''} uppercase`}
       key={props.fields.Id}
       tabIndex={0}
     >

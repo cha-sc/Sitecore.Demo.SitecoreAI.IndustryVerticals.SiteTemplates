@@ -49,12 +49,6 @@ export const DefaultHeaderExtended = (props: HeaderProps) => {
             />
           </Link>
         </div>
-        <div className="order-last lg:order-0 lg:mr-4 xl:mr-8">
-          <Placeholder
-            name={`header-extended-nav-${props?.params?.DynamicPlaceholderId}`}
-            rendering={props.rendering}
-          />
-        </div>
         <div className="mx-2 lg:mx-0">
           <Placeholder
             name={`header-extended-theme-switcher-${props?.params?.DynamicPlaceholderId}`}
@@ -75,6 +69,12 @@ export const DefaultHeaderExtended = (props: HeaderProps) => {
             <FontAwesomeIcon icon={faPhone} width={14} height={14} />
           </ContentSdkLink>
         </div>
+      </div>
+      <div className="bg-brand-green text-background [&_a]:text-background [&_svg]:text-background mt-6 w-full min-w-0 py-3 [&_nav]:bg-transparent [&_nav]:dark:bg-transparent">
+        <Placeholder
+          name={`header-extended-nav-${props?.params?.DynamicPlaceholderId}`}
+          rendering={props.rendering}
+        />
       </div>
     </section>
   );
