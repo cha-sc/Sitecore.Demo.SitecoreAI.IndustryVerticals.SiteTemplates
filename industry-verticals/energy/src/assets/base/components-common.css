@@ -71,7 +71,7 @@
 }
 
 .info-card {
-  @apply bg-background space-y-4 rounded-lg border p-6 text-sm shadow-sm;
+  @apply bg-background space-y-4 rounded-lg border p-6 text-sm shadow-lg shadow-black/10;
 
   .info-card-title {
     @apply text-foreground mb-6 flex items-center gap-2 text-base font-bold;
