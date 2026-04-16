@@ -3,7 +3,7 @@
   Image is centered horizontally with a responsive banner height.
 */
 @layer base {
-  footer::before {
+  main::after {
     content: '';
     display: block;
     width: min(100%, 1920px);
@@ -13,5 +13,11 @@
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: contain;
+    background-color: transparent;
+  }
+
+  main {
+    background-image: var(--gradient-teal-vertical);
+    background-color: var(--color-cool-mint);
   }
 }

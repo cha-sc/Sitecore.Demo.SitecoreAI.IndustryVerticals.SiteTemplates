@@ -29,6 +29,7 @@
   /* Highlight and energy (gold banner, orange CTAs on ieso.ca) */
   --color-highlight: #ffd24f;
   --color-mint: #ace8b6;
+  --color-cool-mint: #bfdadc;
   --color-energy-orange: #f26d04;
   --color-energy-orange-dark: #e75a00;
 
@@ -37,6 +38,13 @@
   --color-danger: #c62828;
 
   --color-border: #d7d7d7;
+
+  /* Teal vertical wash (#bfdadc → #53a5aa); use with background / background-image */
+  --gradient-teal-vertical: linear-gradient(
+    to bottom,
+    rgba(191, 218, 220, 1) 0%,
+    rgba(83, 165, 170, 1) 100%
+  );
 
   --font-heading: 'Open Sans', sans-serif;
   --font-body: 'Open Sans', sans-serif;

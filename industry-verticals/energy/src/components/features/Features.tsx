@@ -47,7 +47,7 @@ const FeatureItem = ({
   if (layout === 'horizontal') {
     // Card variant: horizontal layout with button
     return (
-      <li key={feature?.id} className="border-border flex flex-col gap-4 rounded-lg border p-6">
+      <li key={feature?.id} className="border-border bg-background flex flex-col gap-4 rounded-lg border p-6">
         <div className="mb-3.5 flex items-center gap-1">
           <ContentSdkImage
             field={feature?.featureImage?.jsonValue}
@@ -73,7 +73,7 @@ const FeatureItem = ({
   return (
     <li
       key={feature?.id}
-      className="border-border bg-secondary flex flex-col gap-4 rounded-lg border p-6"
+      className="border-border bg-background flex flex-col gap-4 rounded-lg border p-6"
     >
       <div className="flex items-start gap-4">
         <div className="flex h-16 w-16 shrink-0 items-center justify-center">
