@@ -123,20 +123,28 @@ export const ThreeColGridCentered = (props: FeaturesProps) => {
           const title = item.featureTitle.jsonValue;
           const description = item.featureDescription.jsonValue;
           const image = item.featureImage.jsonValue;
+          const link = item.featureLink.jsonValue;
+          const imageSrc = image?.value?.src;
           return (
-            <div className="flex flex-col items-center justify-start 2xl:w-80" key={index}>
-              {/* Image */}
-              <div className="bg-accent mb-7 flex h-20 w-20 items-center justify-center rounded-full">
-                <Image field={image} />
-              </div>
-              {/* Title and Description */}
-              <div className="flex flex-col items-center justify-center">
-                <div className="mb-2 leading-0.5">
-                  <Text tag="h5" className="text-accent" field={title} />
-                </div>
-                <div className="text-background-muted-light text-center">
-                  <Text field={description} />
-                </div>
+            <div
+              className="bg-background-muted relative flex min-h-[500px] w-full max-w-md flex-col justify-start overflow-hidden rounded-xl bg-cover bg-center 2xl:w-80"
+              key={index}
+              style={imageSrc ? { backgroundImage: `url(${imageSrc})` } : undefined}
+            >
+              <div
+                className="absolute inset-0 bg-linear-to-t from-black/25 via-black/45 to-black/80"
+                aria-hidden
+              />
+              <div className="relative z-10 flex flex-col gap-3 p-6 text-left">
+                <h3 className="text-base font-semibold tracking-wide text-white uppercase">
+                  <Link className="text-white hover:underline" field={link} />
+                </h3>
+                <Text tag="h2" className="text-2xl font-bold text-white" field={title} />
+                <Text
+                  tag="p"
+                  className="text-sm leading-relaxed text-white/90"
+                  field={description}
+                />
               </div>
             </div>
           );
