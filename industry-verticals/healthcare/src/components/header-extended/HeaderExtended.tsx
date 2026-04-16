@@ -27,7 +27,7 @@ export const DefaultHeaderExtended = (props: HeaderProps) => {
 
   return (
     <section
-      className={`bg-background dark:bg-background-dark relative py-8 ${props.params.styles}`}
+      className={`bg-background dark:bg-background-dark relative pt-8 pb-0 ${props.params.styles}`}
       id={id ? id : undefined}
     >
       <div className="container flex items-center gap-2 lg:gap-4">
