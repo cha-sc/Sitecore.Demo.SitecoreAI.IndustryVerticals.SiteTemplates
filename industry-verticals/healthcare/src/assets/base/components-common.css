@@ -39,7 +39,7 @@
 }
 
 .btn {
-  @apply text-background font-heading bg-foreground inline-flex items-center gap-4 rounded-lg px-6 py-2 text-lg font-bold lg:text-xl;
+  @apply bg-accent text-background hover:bg-accent/95 font-heading inline-flex items-center gap-4 rounded-lg px-6 py-2 text-lg font-bold transition-colors lg:text-xl;
 }
 
 .btn-icon {

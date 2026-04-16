@@ -47,20 +47,14 @@ const FeatureItem = ({
   useAccentColor: boolean;
   layout: 'vertical' | 'horizontal';
 }) => {
-  const borderStyles = `border-2 rounded-lg ${
-    useAccentColor ? 'border-accent' : 'border-foreground dark:border-foreground-dark'
-  }`;
-
   return (
     <li
       key={feature?.id}
       className={`flex flex-col gap-6 ${
-        layout === 'horizontal' ? 'lg:flex-row lg:items-center' : ''
+        layout === 'horizontal' ? 'lg:flex-row lg:items-center' : 'items-center text-center'
       }`}
     >
-      <div
-        className={`flex h-20 w-20 shrink-0 items-center justify-center p-3 lg:h-26 lg:w-26 ${borderStyles}`}
-      >
+      <div className="flex h-20 w-20 shrink-0 items-center justify-center p-3 lg:h-26 lg:w-26">
         <ContentSdkImage
           field={feature?.featureImage?.jsonValue}
           className={`h-full w-full object-contain ${!useAccentColor ? 'dark:hidden' : ''}`}
@@ -76,7 +70,7 @@ const FeatureItem = ({
         <h5>
           <ContentSdkText field={feature?.featureTitle?.jsonValue} />
         </h5>
-        <p className="text-lg">
+        <p className="text-lg italic">
           <ContentSdkText field={feature?.featureDescription?.jsonValue} />
         </p>
       </div>
@@ -94,12 +88,12 @@ const DefaultFeatures = ({ fields, params }: FeaturesProps) => {
     <section className={`relative py-16 ${params?.styles}`} id={id || undefined}>
       {!hideBlobAccent && <BlobAccent className="absolute top-16 right-4 z-0" />}
       <div className="relative z-10 container">
-        <div className="max-w-4xl">
+        <div className="mx-auto max-w-4xl text-center">
           <h2>
             <ContentSdkText field={fields?.data?.datasource?.title?.jsonValue} />
           </h2>
           <ContentSdkRichText
-            className="text-lg"
+            className="text-lg [&_*]:text-center"
             field={fields?.data?.datasource?.description?.jsonValue}
           />
         </div>
