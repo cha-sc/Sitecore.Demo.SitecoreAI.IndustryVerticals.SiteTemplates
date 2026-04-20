@@ -68,7 +68,46 @@ Languages:
       Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
-      Value: 
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{FE78EDFD-7DAF-43BF-9F3D-A6C5771180EA}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{2B5D3885-39B8-4CA3-A2C9-8A1F5389B09A}"
+                    s:name="fe78edfd7daf43bf9f3da6c5771180ea_17aa904b25bd4c3390d56b011f0fa9c5">
+                    <conditions>
+                      <condition
+                        uid="BFAEB2748535494387DF2739058D19CC"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="fe78edfd7daf43bf9f3da6c5771180ea_17aa904b25bd4c3390d56b011f0fa9c5" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{01A557EB-C611-4BC5-9402-6E3F80E44F47}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="a8df3c1b-139d-441e-9370-471ba8983dc7" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="E9B93F8F38E64F4E8FE4E1770B2A8E1E"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
       Value: "A study in balance and intention, The Heart of the Room: Fireplace & Lounge captures Forma Lux’s handmade design philosophy—where every beam, textile, and curve contributes to a harmonious whole. The story unfolds in textures: reclaimed oak and iron, wool and linen, concrete and light. This piece celebrates how craftsmanship transforms raw materials into quiet luxury, evoking warmth, authenticity, and timeless comfort."
@@ -99,17 +138,17 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "01829705-022b-46e2-9a2c-7128923d73bb"
+      Value: "251e9258-ffac-46ba-8891-b8ce6455320b"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "The Heart of the Room: Fireplace"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082512Z
+      Value: 20260416T033827Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: "The Heart of the Room: Fireplace & Lounge | Forma Lux Journal – Handmade Design with Warmth & Craft"

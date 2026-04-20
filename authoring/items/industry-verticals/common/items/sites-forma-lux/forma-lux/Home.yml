@@ -142,7 +142,42 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{AE225B7C-0876-4FAE-A959-B3AFC8E0E91B}"
-              s:par="FieldNames=%7B96409BF2-9023-4CE1-8EF3-AA01ED5D1F3A%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D%7C%7BEB728F9E-C2AC-4572-8AE4-A948B68B7EC8%7D%7C%7B8CD18CE9-CDDC-4FD0-988D-DC9E41EF026F%7D%7C%7B8F923E25-1E81-4AE7-AC50-6C0D195B328B%7D%7C%7B1D7E4033-FFD2-40D3-99EB-E0BE364BB74F%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1&amp;HideGradientOverlay=0&amp;HideAccentLine=0&amp;WithPlaceholder=0&amp;ReverseLayout=0" />
+              s:par="FieldNames=%7B96409BF2-9023-4CE1-8EF3-AA01ED5D1F3A%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D%7C%7BEB728F9E-C2AC-4572-8AE4-A948B68B7EC8%7D%7C%7B8CD18CE9-CDDC-4FD0-988D-DC9E41EF026F%7D%7C%7B8F923E25-1E81-4AE7-AC50-6C0D195B328B%7D%7C%7B1D7E4033-FFD2-40D3-99EB-E0BE364BB74F%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1&amp;HideGradientOverlay=0&amp;HideAccentLine=0&amp;WithPlaceholder=0&amp;ReverseLayout=0">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{67121E80-B2A0-4AC0-BF7E-06A2E1F51AA5}"
+                    s:name="1276366d905148afa5ca8c1e5addc401">
+                    <conditions>
+                      <condition
+                        uid="22F731A609AF4561A89AE9FF9029D252"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="1276366d905148afa5ca8c1e5addc401" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{5C745E19-0C44-46ED-BA25-3B1746874A43}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="b2d82bee-3533-43b0-88c2-9b5340138e04" />
+                      <action
+                        uid="{6D4A62DC-657B-4825-826F-AF0C31879914}"
+                        s:id="{525C7B5A-8FD2-4B99-89F6-4F3F6D23BB02}"
+                        s:Parameters="FieldNames=%7B96409BF2-9023-4CE1-8EF3-AA01ED5D1F3A%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D%7C%7BEB728F9E-C2AC-4572-8AE4-A948B68B7EC8%7D%7C%7B8CD18CE9-CDDC-4FD0-988D-DC9E41EF026F%7D%7C%7B8F923E25-1E81-4AE7-AC50-6C0D195B328B%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1&amp;HideGradientOverlay=0&amp;HideAccentLine=0&amp;WithPlaceholder=0&amp;ReverseLayout=0" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="BA49C279B79B4F698BA0DF9A2AE2D1FB"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{335D3948-776E-4A8D-B9AC-60E7FE730DC9}">
               <p:d />
@@ -215,7 +250,7 @@ Languages:
       Value: "Explore Forma Lux’s luxurious furniture collections: heritage craftsmanship meets modern, sustainable design for elegant living spaces."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "06e7f39c-d9c0-4854-bad4-1efa6137485d"
+      Value: "913c9aba-8ba5-478e-aa89-e5f1be160dd8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -225,7 +260,7 @@ Languages:
       Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260409T054716Z
+      Value: 20260417T064856Z
 - Language: "es-ES"
   Versions:
   - Version: 2
