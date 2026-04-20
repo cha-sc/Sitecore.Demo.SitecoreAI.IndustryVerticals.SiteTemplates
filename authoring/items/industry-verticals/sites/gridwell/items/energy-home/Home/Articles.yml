@@ -62,7 +62,7 @@ Languages:
       Value: Gridwell Insights & Energy Articles
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Articles
+      Value: Learn
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
       Value: Articles
@@ -71,14 +71,14 @@ Languages:
       Value: Explore Gridwell’s collection of articles covering energy conservation, grid operations, emergency preparedness, and market analysis. These insights are designed to help Texans better understand the grid and make informed energy decisions.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bc7990cb-f277-44ba-bce5-5e9cec7d0580"
+      Value: "4a75db2d-cc5d-4efc-b41b-4acd4ad0bb40"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: The Gridwell Articles page brings together educational content on energy reliability, conservation, alerts, and market trends. Visitors can explore expert insights and practical guidance that explain how the grid works and how individual actions support system stability.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T090606Z
+      Value: 20260416T041021Z

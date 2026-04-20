@@ -7,11 +7,14 @@ SharedFields:
 - ID: "d53d7eee-4d9a-46a9-afcf-bc46d0e6974d"
   Hint: LogoLight
   Value: |
-    <image mediaid="1e2893d1-3578-4372-b350-c72f8f0982be" />
+    <image mediaid="742b4f86-ee80-45e1-861a-9b3290d7c68b" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8246c893-819a-4923-aba5-0c9a37f322cf"
 - ID: "fe72d918-559d-4a56-bc6d-1c108017d768"
   Hint: LogoDark
   Value: |
-    <image mediaid="00aca506-fc61-4b1d-9d1f-9bccca845e98" />
+    <image mediaid="742b4f86-ee80-45e1-861a-9b3290d7c68b" />
 Languages:
 - Language: en
   Versions:
@@ -33,7 +36,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "385bc137-bb6a-4449-90ef-647ae6f88f14"
+      Value: "aeae0299-fc5e-4f70-bdfb-b633c69e7220"
     - ID: "b3731078-ddd2-4faa-9535-87138237566f"
       Hint: MailLink
       Value: |
@@ -41,10 +44,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251118T083725Z
+      Value: 20260416T063445Z
     - ID: "fcdd653f-a7af-41a9-b65b-be60ad68b640"
       Hint: PhoneLink
       Value: |

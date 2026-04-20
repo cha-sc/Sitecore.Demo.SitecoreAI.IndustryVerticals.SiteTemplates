@@ -1,0 +1,190 @@
+﻿---
+ID: "54a41b11-64c3-447c-8470-a3907582e9b1"
+Parent: "09dbe61d-b540-470b-b4df-34ba542f66ee"
+Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Uhealth"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D55ECCC7-4F20-4260-AFFA-1389D92DFF49}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C971A99A-DC42-4DBA-9722-04EC5F3481D6}"
+              p:before="*"
+              s:ds="86ec8941-de8d-46d0-9290-982ae81064ae"
+              s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
+              uid="{8F359DF0-AA40-44FF-BB80-2092051E0044}"
+              p:after="*[1=2]"
+              s:ds="82b6ae05-037c-40ef-97a8-2ca6c19e1ca7"
+              s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BD9F86216-48A0-4A5C-B75A-41B929E2D829%7D&amp;Styles=%7C%7BC01523D9-4024-4A44-AC30-D8EDFA71D31F%7D%7C%7BBC189FF0-FD22-457F-BB08-150B7D751F49%7D%7C%7B14CE993C-E8F9-4600-AA7F-C0585B22365F%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{893180D8-2004-429A-AB2D-A8A7E880A406}"
+                    s:name="e11bb4afbe4d49a3b988fa241157c578">
+                    <conditions>
+                      <condition
+                        uid="32559B2741F8410C9F6C29687AB59E07"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="e11bb4afbe4d49a3b988fa241157c578" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{9C408AF4-402A-443B-9A62-3A6F1E2E6B4C}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="ad804c3a-b1a6-4c54-9a05-bdefa4091b05" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="2FCDDF1809AA4530B28247F59A002A4A"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260416T182605Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Uhealth
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Uhealth
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6943bff4-bf8d-43c9-911b-5fe492610b59"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260416T183353Z
+- Language: "es-MX"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C971A99A-DC42-4DBA-9722-04EC5F3481D6}"
+              p:before="*"
+              s:ds="86ec8941-de8d-46d0-9290-982ae81064ae"
+              s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
+              uid="{8F359DF0-AA40-44FF-BB80-2092051E0044}"
+              p:after="*[1=2]"
+              s:ds="82b6ae05-037c-40ef-97a8-2ca6c19e1ca7"
+              s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BD9F86216-48A0-4A5C-B75A-41B929E2D829%7D&amp;Styles=%7C%7BC01523D9-4024-4A44-AC30-D8EDFA71D31F%7D%7C%7BBC189FF0-FD22-457F-BB08-150B7D751F49%7D%7C%7B14CE993C-E8F9-4600-AA7F-C0585B22365F%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{893180D8-2004-429A-AB2D-A8A7E880A406}"
+                    s:name="e11bb4afbe4d49a3b988fa241157c578">
+                    <conditions>
+                      <condition
+                        uid="32559B2741F8410C9F6C29687AB59E07"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="e11bb4afbe4d49a3b988fa241157c578" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{9C408AF4-402A-443B-9A62-3A6F1E2E6B4C}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="ad804c3a-b1a6-4c54-9a05-bdefa4091b05" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="2FCDDF1809AA4530B28247F59A002A4A"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260416T182605Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Uhealth
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Uhealth
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c1f7bc78-f9fa-47c2-b3bf-3a7bcbf77fe9"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260416T184006Z

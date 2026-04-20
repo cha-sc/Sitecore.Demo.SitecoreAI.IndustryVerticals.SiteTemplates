@@ -1,20 +1,20 @@
 ﻿---
-ID: "70cb84aa-3441-4f8e-a5cd-a7a0ad1ca216"
-Parent: "f5ca1159-e1f0-402c-bde3-6f51523db1d7"
+ID: "54ed7952-c782-425b-8781-88723a39f905"
+Parent: "ee762fcc-c2a9-4b5d-b75c-e6e86a70eb6a"
 Template: "0a39f168-834c-46c5-8866-65a60764c0a4"
-Path: "/sitecore/content/industry-verticals/forma-lux/Data/Features/Features Features/Feature 4"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Features/SaveOn/Feature 2"
 BranchID: "82ac1f90-61f1-4812-9553-e1a4c81405fe"
 SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <image mediaid="601b579f-415e-41ee-9f1f-128cfd7af0c6" />
+    <image mediaid="481f8e6b-89eb-4e1c-b5e2-095aff080758" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c9003384-37ff-4a04-9902-5bd404f4bc7a"
+  Value: "aa55dd7f-f847-49d9-bd22-80e0b0489f9a"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{FC2A5072-99B8-4D58-B5E0-B96C40680096}"
@@ -23,12 +23,15 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250904T103649Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Dedicated Support
+      Value: 
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -39,27 +42,31 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: 24 / 7 Support
+      Value: Save energy at scale with this new program
+    - ID: "69536d16-4033-4ebf-9416-436f0f5a3cb6"
+      Hint: FeatureLink
+      Value: |
+        <link linktype="internal" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" querystring="" target="" class="" text="XLerate" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d1c20e17-11b7-41b5-b81a-6331e0d94c0f"
+      Value: "1fb7c826-5661-4b8b-b0a2-75fe8c273474"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251002T100020Z
+      Value: 20260416T054148Z
 - Language: "es-ES"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250910T094342Z
+      Value: 20250910T094336Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Soporte dedicado
+      Value: Más de 2 años
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -70,17 +77,17 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Soporte 24/7
+      Value: Protección de garantía
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "51104866-f79c-4afd-96a5-a01695ecdb4a"
+      Value: "e24dd658-34c1-4398-bdcb-048c7f6d9c17"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250910T100751Z
+      Value: 20250910T100653Z
   - Version: 2
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -88,7 +95,7 @@ Languages:
       Value: 20250904T103649Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Soporte dedicado
+      Value: Más de 2 años
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -99,10 +106,10 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Soporte 24/7
+      Value: Protección de garantía
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eef53225-79c5-4643-a254-7fc167a25a6c"
+      Value: "2f2927a1-d9b6-4c62-aec5-4a2dc90960ce"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -115,7 +122,7 @@ Languages:
       Value: 
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251219T104452Z
+      Value: 20251219T104451Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -125,7 +132,7 @@ Languages:
       Value: 20250904T103649Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Support Dédié
+      Value: Plus de 2 ans
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -136,10 +143,10 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Assistance 24/7
+      Value: Protection de garantie
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9f5a0993-8b7b-45cc-a22a-bb3d649b11e3"
+      Value: "e602e40d-544b-4ced-b5f0-fe9105a9111e"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -149,17 +156,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T110303Z
+      Value: 20251217T110300Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250910T094541Z
+      Value: 20250910T094535Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Assistance dédiée
+      Value: Plus de 2 ans
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -170,14 +177,14 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Assistance 24h/24 et 7j/7
+      Value: Garantie
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a206245e-a9e4-4fbd-acf2-0b55eaa8a4e1"
+      Value: "2f637ab6-019c-41a3-bbb3-7b0cda5e8bbe"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250910T100810Z
+      Value: 20250910T100722Z

@@ -10,7 +10,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{B91E04B2-D78E-4F5D-B566-3BB873684E1A}" />
+    <image mediaid="{37897F45-DBCC-4F00-A1A2-6A8EB65A0177}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
   Value: "184bc0e9-3863-4943-9619-ebfe1ab8a6e5"
@@ -69,6 +69,18 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9ED40A16-D26E-4750-97D0-4D8A83FF83F8}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B544E6DC9-76C4-4C6A-B86A-9E34726E3890%7D&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter&amp;Flattened&amp;AddRoot&amp;SerializerFieldNames&amp;SimpleLayout&amp;Logo&amp;RenderingIdentifier&amp;CSSStyles" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251114T110411Z
@@ -82,11 +94,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7f640d33-8397-4662-840a-b4172bfa2f7d"
+      Value: "f7c7a2d2-6435-4083-9e45-264ffd021a14"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260106T202510Z
+      Value: 20260416T063445Z

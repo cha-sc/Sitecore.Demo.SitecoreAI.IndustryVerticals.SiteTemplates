@@ -1,0 +1,60 @@
+﻿---
+ID: "8af9fd89-9a3d-4fbc-97a2-63630e0b737e"
+Parent: "c2da822e-f0c8-4503-bcae-65b0db1a4341"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/industry-verticals/nova-medical/Features/appointmnet"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/8AF9FD899A3D4FBC97A263630E0B737E.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 72
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "5b26984d-fd11-471a-91e4-c84cbf9b7869"
+  Value: PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjcyIgogICBoZWlnaHQ9IjcyIgogICB2aWV3Qm94PSIwIDAgNzIgNzIiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzMiCiAgIHNvZGlwb2RpOmRvY25hbWU9ImFwcG9pbnRtbmV0LnN2ZyIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMS4zICgwZTE1MGVkLCAyMDIzLTA3LTIxKSIKICAgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiCiAgIHhtbG5zOnNvZGlwb2RpPSJodHRwOi8vc29kaXBvZGkuc291cmNlZm9yZ2UubmV0L0RURC9zb2RpcG9kaS0wLmR0ZCIKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiCiAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyI+CiAgPGRlZnMKICAgICBpZD0iZGVmczMiIC8+CiAgPHNvZGlwb2RpOm5hbWVkdmlldwogICAgIGlkPSJuYW1lZHZpZXczIgogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzAwMDAwMCIKICAgICBib3JkZXJvcGFjaXR5PSIwLjI1IgogICAgIGlua3NjYXBlOnNob3dwYWdlc2hhZG93PSIyIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwLjAiCiAgICAgaW5rc2NhcGU6cGFnZWNoZWNrZXJib2FyZD0iMCIKICAgICBpbmtzY2FwZTpkZXNrY29sb3I9IiNkMWQxZDEiCiAgICAgaW5rc2NhcGU6em9vbT0iMy4yNzc3Nzc4IgogICAgIGlua3NjYXBlOmN4PSIzNS44NDc0NTgiCiAgICAgaW5rc2NhcGU6Y3k9IjM2IgogICAgIGlua3NjYXBlOndpbmRvdy13aWR0aD0iMTMxMiIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSI0NDkiCiAgICAgaW5rc2NhcGU6d2luZG93LXg9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjI1IgogICAgIGlua3NjYXBlOndpbmRvdy1tYXhpbWl6ZWQ9IjAiCiAgICAgaW5rc2NhcGU6Y3VycmVudC1sYXllcj0ic3ZnMyIgLz4KICA8dGl0bGUKICAgICBpZD0idGl0bGUxIj5pY29uLS1hcHBvaW50bWVudHM8L3RpdGxlPgogIDxnCiAgICAgZmlsbD0ibm9uZSIKICAgICBmaWxsLXJ1bGU9ImV2ZW5vZGQiCiAgICAgaWQ9ImczIj4KICAgIDxjaXJjbGUKICAgICAgIGZpbGw9IiM4OTk2MjAiCiAgICAgICBjeD0iMzYiCiAgICAgICBjeT0iMzYiCiAgICAgICByPSIzNiIKICAgICAgIGlkPSJjaXJjbGUxIiAvPgogICAgPGcKICAgICAgIGZpbGwtcnVsZT0ibm9uemVybyIKICAgICAgIGZpbGw9IiNmZmZmZmYiCiAgICAgICBpZD0iZzIiPgogICAgICA8cGF0aAogICAgICAgICBkPSJtIDMzLjMxMyw0MS44NDQgLTMuMzc2LC0zLjgxMyAtMS4xNTYsMS4wMzIgNC40MzgsNS4wMyA5LjI1LC04LjY4NyAtMS4wNjMsLTEuMTU2IHoiCiAgICAgICAgIGlkPSJwYXRoMSIgLz4KICAgICAgPHBhdGgKICAgICAgICAgZD0iTSA0Mi4yODEsMjMuNzgxIFYgMjEuMTU2IEggNDAuNzIgdiAyLjYyNSBoIC00LjMxMyB2IC0yLjYyNSBoIC0xLjU2MiB2IDIuNjI1IEggMzAuNTYzIFYgMjEuMTU2IEggMjkgdiAyLjYyNSBoIC05IHYgMjEuMjgyIGwgNS43NSw1Ljc1IGggMjUuNSBWIDIzLjc4IGggLTguOTY5IHogbSA3LjQwNywyNS41IEggMjYuODc1IFYgNDMuOTcgSCAyMS41NjIgViAzMi4wNjIgaCAyOC4xMjUgdiAxNy4yMiB6IgogICAgICAgICBpZD0icGF0aDIiIC8+CiAgICA8L2c+CiAgPC9nPgogIDxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTMiPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6dGl0bGU+aWNvbi0tYXBwb2ludG1lbnRzPC9kYzp0aXRsZT4KICAgICAgPC9jYzpXb3JrPgogICAgPC9yZGY6UkRGPgogIDwvbWV0YWRhdGE+Cjwvc3ZnPgo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 2048
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "88571f8a-dfac-4cc2-bf2b-cec3bfa85373"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 72
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260416T071407Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: appointmnet
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "193f9e7c-3eed-4349-af77-943ba1438355"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260416T072432Z

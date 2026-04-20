@@ -1,0 +1,190 @@
+﻿---
+ID: "3fe3611d-8e94-447b-a87c-9d2f2bc6720c"
+Parent: "ee762fcc-c2a9-4b5d-b75c-e6e86a70eb6a"
+Template: "0a39f168-834c-46c5-8866-65a60764c0a4"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Features/SaveOn/Feature 3"
+BranchID: "82ac1f90-61f1-4812-9553-e1a4c81405fe"
+SharedFields:
+- ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
+  Hint: FeatureImage
+  Value: |
+    <image mediaid="7feb8503-f0c3-4839-bfa9-372840c2630d" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f9f19ffb-e4f4-465d-83b2-ebe7b7780146"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FC2A5072-99B8-4D58-B5E0-B96C40680096}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T103649Z
+    - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
+      Hint: FeatureDescription
+      Value: 
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
+      Hint: FeatureTitle
+      Value: Up to $330,000 in funding
+    - ID: "69536d16-4033-4ebf-9416-436f0f5a3cb6"
+      Hint: FeatureLink
+      Value: |
+        <link linktype="internal" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" querystring="" target="" class="" text="First Nations Community Building Retrofit Program" title=""/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5485554c-86ab-4d0d-99b8-4be235257c8a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260416T054227Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250910T094339Z
+    - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
+      Hint: FeatureDescription
+      Value: Pedidos superiores a 150 $
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
+      Hint: FeatureTitle
+      Value: Envío gratis
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "97f33625-91e0-4acc-b61f-8b12f463ff91"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250910T100725Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T103649Z
+    - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
+      Hint: FeatureDescription
+      Value: Pedido superior a 150 $
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
+      Hint: FeatureTitle
+      Value: Envío gratis
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f43734d0-2aaf-4759-83c5-743c0f683e01"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251219T104452Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T103649Z
+    - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
+      Hint: FeatureDescription
+      Value: Commande de plus de 150 $
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
+      Hint: FeatureTitle
+      Value: Livraison gratuite
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ff960f63-09f5-4837-be73-29e7d1738152"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\isuru.bandara@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T110303Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250910T094539Z
+    - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
+      Hint: FeatureDescription
+      Value: Commande de plus de 150 $
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
+      Hint: FeatureTitle
+      Value: Livraison gratuite
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d6f1fb1-496f-4d26-aac7-f117015f895b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250910T100747Z

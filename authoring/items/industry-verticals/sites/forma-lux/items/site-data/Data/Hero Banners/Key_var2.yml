@@ -1,0 +1,53 @@
+﻿---
+ID: "df409550-4799-44d5-aa1b-7f6d18dde7ae"
+Parent: "e79d8586-d4b5-42f5-aec1-ae82c4f47f0f"
+Template: "ac18eef2-f134-4985-8b74-6ad16cca6577"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Hero Banners/Key_var2"
+SharedFields:
+- ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
+  Hint: Image
+  Value: |
+    <image mediaid="b5ff45ff-e14a-4f4f-bced-653fff761005" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f760d598-1b3a-4b80-ba74-b6e256f0b11b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>reinvest your tax return to grow your savings while contributing to the local economy.</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260323T145503Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d44443b-fe9e-4a86-af24-0ac4d1e29ef1"
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: Transform Your Tax Refund Into Future Opportunities
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260323T170756Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link linktype="internal" id="{4e869961-efef-4b47-bb69-170a251d689b}" anchor="" querystring="sc_lang=en&amp;sc_site=Forma+Lux" target="" class="" text="Discover FlexiFonds products" title=""/>

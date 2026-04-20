@@ -27,7 +27,7 @@ Languages:
       Value: 20260119T172353Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Subscribe to our newsletter to receive the latest updates from Gridwell, as well as other resources to help you learn more about the Gridwell grid and market.
+      Value: Subscribe to our newsletter to receive the latest updates from Gridwell, as well as other resources to help you learn more about IESO
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -45,11 +45,11 @@ Languages:
         <link text="Sign Up" linktype="anchor" url="#sign-up" anchor="#sign-up" title="" class="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "90d2efd9-c7bd-48bf-8b30-d8be2baa1555"
+      Value: "87909c60-655a-4cd1-b824-bdf3fbd2307e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T090608Z
+      Value: 20260416T040726Z

@@ -7,10 +7,14 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <image mediaid="56143046-82ba-463c-8bb7-1cf4ff053272" />
+    <image mediaid="53b57fbb-dca4-4b8a-ae2a-0d1a900f1357" />
+- ID: "86778b86-6ddc-4d81-ae29-6aac5cebbaf8"
+  Hint: FeatureImageDark
+  Value: |
+    <image mediaid="53b57fbb-dca4-4b8a-ae2a-0d1a900f1357" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "47f48c04-54c5-4c0c-8541-f0997026d0a3"
+  Value: "a7bdd83d-38ff-4190-a6df-c65e98f4c9d8"
 Languages:
 - Language: en
   Versions:
@@ -24,7 +28,7 @@ Languages:
       Value: 20251117T120048Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Keep your smile bright and healthy with our expert dental care services. From cleanings to fillings, we ensure gentle, effective treatment for your dental needs.
+      Value: Search for a clinical trial by disease or condition
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -35,14 +39,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: General Dentistry
+      Value: Clinical Trials
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "55e790fa-e614-4a71-8f89-155c21db2490"
+      Value: "cf18e1d4-a298-44b0-981f-a3e9e3039594"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251120T123102Z
+      Value: 20260416T075055Z

@@ -86,7 +86,7 @@ Languages:
       Value: Contact Forma Lux – Luxury Furniture Inquiries
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Contact
+      Value: First Nations Energy Programs
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
       Value: Get in Touch
@@ -99,14 +99,14 @@ Languages:
       Value: Get in touch with Forma Lux for design consultations, custom furniture solutions or to explore our collections and dealers.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d1809a33-45ef-4a6a-887b-c1117ddebafc"
+      Value: "87fa0244-f8ac-4d37-81d2-1e2b454660ef"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeffrey.isham@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260210T163811Z
+      Value: 20260416T055007Z
 - Language: "es-ES"
   Versions:
   - Version: 1

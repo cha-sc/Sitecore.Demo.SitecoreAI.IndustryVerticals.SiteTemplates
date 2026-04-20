@@ -7,10 +7,14 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <image mediaid="e6fe48fc-525b-4720-bff3-541497615e5e" />
+    <image mediaid="9187efc0-b3e5-4d2b-9b1c-cb71bee0677a" />
+- ID: "86778b86-6ddc-4d81-ae29-6aac5cebbaf8"
+  Hint: FeatureImageDark
+  Value: |
+    <image mediaid="9187efc0-b3e5-4d2b-9b1c-cb71bee0677a" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "425c5648-3aaf-49f0-94ae-016ee8e9f0c2"
+  Value: "3e2a131e-1096-4719-9d20-cc122770496d"
 Languages:
 - Language: en
   Versions:
@@ -24,7 +28,7 @@ Languages:
       Value: 20251117T120025Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: "Get fast, accurate, and reliable diagnostic results with our state-of-the-art laboratory facilities. From routine blood work to advanced screenings, we’ve got you covered."
+      Value: "Let us help you connect with world-class physicians"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -35,14 +39,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Laboratory Tests
+      Value: Our Doctors
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c1dc3194-4a16-4fb8-8b1e-bc1f3a5fcbd6"
+      Value: "8859ce8e-39b8-4dd2-a278-1bbe56de363e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251120T123110Z
+      Value: 20260416T075045Z

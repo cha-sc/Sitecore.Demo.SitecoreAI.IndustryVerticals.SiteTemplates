@@ -7,14 +7,14 @@ SharedFields:
 - ID: "2895a16e-c1b8-4e79-959a-802d5bc81a5a"
   Hint: Logo
   Value: |
-    <image mediaid="{1E2893D1-3578-4372-B350-C72F8F0982BE}" />
+    <image mediaid="742b4f86-ee80-45e1-861a-9b3290d7c68b" />
 - ID: "adbf8159-4982-49d9-ba49-fe665175d647"
   Hint: LogoDark
   Value: |
     <image mediaid="{00ACA506-FC61-4B1D-9D1F-9BCCCA845E98}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "21c5aee1-165f-4fe5-8ff6-221579bc54ad"
+  Value: "9d5658ba-ff6d-43f6-9d50-14a9f45a0a10"
 Languages:
 - Language: en
   Versions:
@@ -45,7 +45,7 @@ Languages:
       Value: Copyright © 2024. All Rights Reserved.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a4bc5132-16eb-4454-9923-10e56ed6c6e5"
+      Value: "7df93bd6-c0fb-4bc7-a5b5-dc3d860be4fa"
     - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
       Hint: PolicyText
       Value: |
@@ -53,7 +53,7 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d12db112-ac8e-4701-9186-1c25d7c2c148"
       Hint: TitleTwo
       Value: About us
@@ -62,7 +62,7 @@ Languages:
       Value: Hospital Time
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251119T120710Z
+      Value: 20260416T060957Z
     - ID: "ff56e380-2171-49bf-a693-84ee1bc9413b"
       Hint: TermsText
       Value: |

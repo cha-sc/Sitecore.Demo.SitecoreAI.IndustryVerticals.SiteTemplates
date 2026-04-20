@@ -72,17 +72,17 @@ Languages:
       Value: The Texas Advisory Notification System (TXANS) helps Texans prepare for potential grid stress before an emergency occurs. This article explains how TXANS works, how it differs from Energy Emergency Alerts, and why early awareness and voluntary conservation play a critical role in grid reliability.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9a573c70-34fd-4fa5-999d-f52e919891f5"
+      Value: "75b5db17-b6a3-4930-a39e-610fe3560def"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: Understanding the TXANS Alert System
+      Value: Understanding the IESO Peak Tracker
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T090607Z
+      Value: 20260416T040745Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
       Value: Understanding the TXANS Alert System

@@ -1,0 +1,62 @@
+﻿---
+ID: "f8895639-b2d6-4eeb-ab5d-34eb53282902"
+Parent: "08737f6e-6ae0-4044-a550-05b98b9ccf69"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/gridwell/Home/Articles/New page"
+SharedFields:
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <image mediaid="a9a826db-d73d-46c0-ace7-4b13d21ab1a6" />
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{76984A66-FBA9-4A16-82B6-AF08E50081EB}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2f948a63-2a01-4799-9b9a-d07e8f3e7767"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260416T172346Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{46DA5376-10DC-4B66-B464-AFDAA29DE84F}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: New page
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Energy efficiency goes beyond saving energy—it enhances home comfort and aesthetics.</p><p>Save on Energy offers Ontario residents tips and resources to reduce electricity use, regardless of home size. Find these at SaveOnEnergy.ca.</p><p>Optimize your home: Access Save on Energy buying guides for energy-efficient windows, smart thermostats, heat pumps, and insulation.</p><p>Lifestyle tips: Articles share ways to integrate energy efficiency into daily life.</p><p>Support for low-income residents: The Energy Affordability Program aids eligible Ontario homeowners, tenants, and housing providers.</p><p>Rebates for upgrades: The Home Renovation Program by Save on Energy &amp; Enbridge Gas offers rebates for heat pumps, solar panels, insulation, and more.</p><p>Summer rewards: Save on Energy’s Peak Perks Program compensates smart thermostat users for reducing energy during high-demand periods. Participants earn prepaid MasterCard® rewards.</p><p>Cooling savings: The Coolsaver Program helps residents in select Ontario regions upgrade cooling systems to lower energy use.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5d0c41ef-a89d-4859-ba99-7024500afa05"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Energy Efficiency for Homes
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260416T174213Z

@@ -44,7 +44,7 @@ Languages:
       Value: Committees & Working Groups | Gridwell Governance
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Committees and Groups
+      Value: Get Involved
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
       Value: Committees and Groups
@@ -53,14 +53,14 @@ Languages:
       Value: "Gridwell’s committees and working groups support transparent decision-making, collaboration, and oversight across grid operations and market activities. This page provides information on committee roles, participation, and governance responsibilities."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1b5d368e-124d-4694-a000-38c1512ecf1b"
+      Value: "81eafe65-0712-46eb-9960-b4b1a4548835"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: This page outlines the committees and working groups that help guide Gridwell’s operations and governance. It highlights how collaboration and stakeholder input contribute to transparency, accountability, and reliable grid management.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T090607Z
+      Value: 20260416T041032Z

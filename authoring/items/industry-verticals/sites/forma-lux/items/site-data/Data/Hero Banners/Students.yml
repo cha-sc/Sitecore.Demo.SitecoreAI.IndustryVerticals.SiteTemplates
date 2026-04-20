@@ -1,0 +1,49 @@
+﻿---
+ID: "78c21b19-bea4-4050-b6eb-eea9bba5430d"
+Parent: "e79d8586-d4b5-42f5-aec1-ae82c4f47f0f"
+Template: "ac18eef2-f134-4985-8b74-6ad16cca6577"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Hero Banners/Students"
+SharedFields:
+- ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
+  Hint: Image
+  Value: |
+    <Image mediaid="a5a86fc3-9c3c-4ad6-983f-c40df786d634" alt="students"/>
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d8b6615f-5781-4745-8762-b7d4bac4e0c4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: <p>Make a difference in the civil engineering professional community while still in college. Enjoy mentorship connections, networking opportunities and educational resources. For free.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260310T054646Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "60d99fef-bc3c-4756-a5fb-731894f5fdee"
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: ASCE on campus
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260310T054736Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link id="{4e869961-efef-4b47-bb69-170a251d689b}" text="Learn more" title="" querystring="sc_lang=en&amp;sc_site=Forma+Lux" anchor="" target="" linktype="internal"/>

@@ -6,14 +6,14 @@ Path: "/sitecore/content/industry-verticals/nova-medical/Home/About Us"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: 250
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{3DB762EE-DEE8-438B-AF5F-AA83D3952789}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fa988076-e114-47b7-b078-07f1fab9c726"
+  Value: "d1b13e8f-71cd-4175-ba93-8256b76f5e0f"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -62,7 +62,7 @@ Languages:
       Value: 20251114T094910Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: About Us
+      Value: Locations
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
       Value: About Us
@@ -76,11 +76,11 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "02e63e2a-cddf-4ada-94c8-278821b15662"
+      Value: "5b8d1bb1-4500-4860-a2fa-23cd3049a689"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T101600Z
+      Value: 20260416T063833Z

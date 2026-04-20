@@ -40,7 +40,7 @@ Languages:
       Value: Gridwell Services | Powering Reliable Energy Operations
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Services
+      Value: Data Hub
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
       Value: Services
@@ -49,14 +49,14 @@ Languages:
       Value: Gridwell provides critical services that ensure reliable grid operations, transparent market coordination, and clear public communication. These services support households, businesses, and energy partners across Texas.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "89d84d44-b54a-4dc7-9d37-0b946663e73d"
+      Value: "83f8ed9f-35ea-4fb4-9182-f74d52171d13"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: Gridwell’s services support the safe and reliable operation of the power grid through system coordination, market oversight, and public communication. This page outlines how Gridwell works with communities and partners to maintain grid stability and trust.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T090607Z
+      Value: 20260416T041043Z

@@ -34,7 +34,7 @@ SharedFields:
   Value: *
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
-  Value: "en=forma-lux"
+  Value: "en=forma-lux&fr-CA=forma-lux_1"
 - ID: "b59e43ab-84da-49f3-87a1-d2fcf648365b"
   Hint: Scheme
   Value: 
@@ -46,7 +46,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "76a34328-758f-47f7-8c5b-7f5dc6652c66"
+  Value: "4609ad2c-18a6-493c-b86a-04091cf4a1d7"
 - ID: "e5b5ccb5-17a1-429d-bd3e-6122b3216e52"
   Hint: TargetHostName
   Value: 
@@ -77,14 +77,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ff34ae4a-c31f-4d8f-a1be-ecfaa098999f"
+      Value: "830dbf9a-bc97-4f35-b698-9427c2f4540c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260202T201301Z
+      Value: 20260402T143907Z
 - Language: "es-ES"
   Versions:
   - Version: 1
