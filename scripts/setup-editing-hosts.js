@@ -11,23 +11,48 @@ const readline = require("readline");
 const HOSTS = [
   {
     name: "nextjsstarter",
-    variables: {},
+    variables: {
+      'NEXT_PUBLIC_SEARCH_API_KEY': '01-8fa0d33b-6fefe6b976b8efc209b6d71333d76141d2f549be',
+      'NEXT_PUBLIC_SEARCH_CUSTOMER_KEY': '202092313-225191452',
+      'NEXT_PUBLIC_SEARCH_ENV': 'prod',
+      'NEXT_PUBLIC_SEARCH_SOURCE': '1179013',
+    },
   },
   {
     name: "travel",
-    variables: {},
+    variables: {
+      'NEXT_PUBLIC_SEARCH_API_KEY': '01-8fa0d33b-6fefe6b976b8efc209b6d71333d76141d2f549be',
+      'NEXT_PUBLIC_SEARCH_CUSTOMER_KEY': '202092313-225191452',
+      'NEXT_PUBLIC_SEARCH_ENV': 'prod',
+      'NEXT_PUBLIC_SEARCH_SOURCE': '1181209',
+    },
   },
   {
     name: "energy",
-    variables: {},
+    variables: {
+      'NEXT_PUBLIC_SEARCH_API_KEY': '01-8fa0d33b-6fefe6b976b8efc209b6d71333d76141d2f549be',
+      'NEXT_PUBLIC_SEARCH_CUSTOMER_KEY': '202092313-225191452',
+      'NEXT_PUBLIC_SEARCH_ENV': 'prod',
+      'NEXT_PUBLIC_SEARCH_SOURCE': '1170797',
+    },
   },
   {
     name: "healthcare",
-    variables: {},
+    variables: {
+      'NEXT_PUBLIC_SEARCH_API_KEY': '01-8fa0d33b-6fefe6b976b8efc209b6d71333d76141d2f549be',
+      'NEXT_PUBLIC_SEARCH_CUSTOMER_KEY': '202092313-225191452',
+      'NEXT_PUBLIC_SEARCH_ENV': 'prod',
+      'NEXT_PUBLIC_SEARCH_SOURCE': '1193468',
+    },
   },
   {
     name: "luxury-retail",
-    variables: {},
+    variables: {
+      'NEXT_PUBLIC_SEARCH_API_KEY': '01-8fa0d33b-6fefe6b976b8efc209b6d71333d76141d2f549be',
+      'NEXT_PUBLIC_SEARCH_CUSTOMER_KEY': '202092313-225191452',
+      'NEXT_PUBLIC_SEARCH_ENV': 'prod',
+      'NEXT_PUBLIC_SEARCH_SOURCE': '1193018',
+    },
   },
 ];
 
