@@ -1,24 +1,32 @@
 @theme {
-  --color-foreground: #1e1e1e;
-  --color-foreground-light: #505050;
-  --color-foreground-muted: #9f9f9f;
+  /* NEB (neb.com) — text */
+  --color-foreground: #1d1d1f;
+  --color-foreground-light: #3c3c3e;
+  --color-foreground-muted: #9b9b9b;
 
+  /* Surfaces */
   --color-background: #fff;
-  --color-background-accent: #faf3ea;
-  --color-background-muted: #f7f7f7;
+  --color-background-accent: #f6f6f3;
+  --color-background-muted: #f2f2f0;
   --color-background-muted-light: #7a7a7a;
-  --color-background-muted-dark: #666;
-  --color-background-surface: #fafafa;
+  --color-background-muted-dark: #4a4a4a;
+  --color-background-surface: #faf9f6;
 
-  --color-accent: #c1a25f;
+  /* Brand / interactive (from neb.com updated UI) */
+  --color-brand: #022e4f;
+  --color-accent: #f2661b;
+  --color-accent-hover: #e6590d;
+  --color-link: #0059b3;
+  --color-highlight: #009ddc;
 
-  --color-success: #2ec1ac;
-  --color-danger: #e97171;
+  /* Semantic */
+  --color-success: #0eb58a;
+  --color-danger: #d93025;
+  --color-border: #e5e5e0;
 
-  --color-border: #e8e8e8;
-
-  --font-heading: 'Manrope', sans-serif;
-  --font-body: 'Manrope', sans-serif;
+  /* Typography — matches neb.com (Arial/Helvetica + Minion / minion-pro); webfont loads only the serif. */
+  --font-heading: 'Source Serif 4', 'Minion Pro', minion-pro, Georgia, 'Times New Roman', serif;
+  --font-body: Arial, Helvetica, sans-serif;
 
   --radius-base: 0.5rem;
 
