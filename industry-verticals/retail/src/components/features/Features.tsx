@@ -185,32 +185,42 @@ export const NumberedGrid = (props: FeaturesProps) => {
 export const FourColGrid = (props: FeaturesProps) => {
   // results of the graphql
   const results = props.fields.data.datasource.children.results;
+  const hideAccentLine = props.params.styles?.includes(CommonStyles.HideAccentLine);
+  const sectionTitle = props.fields.data.datasource.title;
 
   return (
     <FeatureWrapper props={props}>
-      <div className="container grid grid-cols-1 gap-20 py-24 md:grid-cols-2 lg:grid-cols-4 lg:gap-10">
-        {results.map((item, index) => {
-          const title = item.featureTitle.jsonValue;
-          const description = item.featureDescription.jsonValue;
-          const image = item.featureImage.jsonValue;
-          return (
-            <div className="grid grid-cols-[1fr_2fr] gap-2.5" key={index}>
-              {/* Image */}
-              <div className="flex items-center justify-center rounded-full">
-                <Image field={image} />
-              </div>
-              {/* Title and Description */}
-              <div className="flex flex-col justify-center">
-                <div className="text-xl leading-9 font-bold">
-                  <Text className="text-foreground" field={title} />
+      <div className="container py-24">
+        <h2 className="text-foreground mx-auto mb-12 max-w-3xl text-center font-bold max-lg:text-[42px]">
+          <Text field={sectionTitle.jsonValue} />
+          {!hideAccentLine && <AccentLine className="mx-auto w-full max-w-xs" />}
+        </h2>
+        <div className="grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-4 lg:gap-10">
+          {results.map((item, index) => {
+            const title = item.featureTitle.jsonValue;
+            const description = item.featureDescription.jsonValue;
+            const image = item.featureImage.jsonValue;
+            const link = item.featureLink.jsonValue;
+            return (
+              <div className="bg-background flex h-full min-h-0 flex-col gap-4" key={index}>
+                <div className="flex items-center justify-center overflow-hidden">
+                  <Image className="h-auto w-full object-contain" field={image} />
                 </div>
-                <div className="text-background-muted-light leading-8">
-                  <Text field={description} />
+                <div className="flex min-h-0 flex-1 flex-col px-4 pt-1 pb-5">
+                  <div className="text-xl leading-9 font-bold">
+                    <Text className="text-foreground" field={title} />
+                  </div>
+                  <div className="text-background-muted-light mt-2 min-h-0 flex-1 leading-8">
+                    <Text field={description} />
+                  </div>
+                  <div className="mt-4">
+                    <Link className="arrow-btn hover:opacity-90" field={link} />
+                  </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </FeatureWrapper>
   );
