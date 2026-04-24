@@ -4,6 +4,9 @@ Parent: "4e869961-efef-4b47-bb69-170a251d689b"
 Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
 Path: "/sitecore/content/industry-verticals/forma-lux/Home/Landing Pages"
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{98E60957-0783-4A9A-85CC-77DAD30E9711}"
 - ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
   Hint: NavigationFilter
   Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
@@ -16,7 +19,7 @@ SharedFields:
     <image mediaid="{9766AC43-3CA0-49A6-A724-D9A9C0D11297}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f6d1a4ca-c643-45b2-a706-d8dfff9074d8"
+  Value: "5a9f75fa-2e2f-4a8c-a514-ac1552e38345"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -69,14 +72,14 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2a2dc78d-8419-4512-8686-9e9d94d12e78"
+      Value: "5773a30f-da52-4701-bf69-6c0d7146ca47"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T073952Z
+      Value: 20260423T143507Z
 - Language: "es-ES"
   Versions:
   - Version: 1

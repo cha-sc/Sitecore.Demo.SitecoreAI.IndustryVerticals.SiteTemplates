@@ -77,7 +77,7 @@ Languages:
       Value: Furniture
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Furniture
+      Value: Applications & Products
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
       Value: About us
@@ -86,14 +86,14 @@ Languages:
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "343a5471-8f0c-424d-b1b6-658f45b6a84e"
+      Value: "d0f21edc-8348-4959-a29f-1dd6d068bf46"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082508Z
+      Value: 20260423T051120Z
 - Language: "es-ES"
   Versions:
   - Version: 1
