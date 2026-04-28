@@ -1,24 +1,33 @@
 @theme {
-  --color-foreground: #1e1e1e;
-  --color-foreground-light: #505050;
-  --color-foreground-muted: #9f9f9f;
+  /* Brand */
+  --color-brand-primary: #009132;
+  --color-brand-secondary: #de3804;
 
-  --color-background: #fff;
-  --color-background-accent: #faf3ea;
-  --color-background-muted: #f7f7f7;
-  --color-background-muted-light: #7a7a7a;
-  --color-background-muted-dark: #666;
-  --color-background-surface: #fafafa;
+  /* Text */
+  --color-foreground: #ffffff;
+  --color-foreground-light: rgba(255, 255, 255, 0.82);
+  --color-foreground-muted: rgba(255, 255, 255, 0.64);
 
-  --color-accent: #c1a25f;
+  /* Surfaces */
+  --color-background: var(--color-brand-primary);
+  --color-background-surface: #ffffff;
+  --color-background-muted: #f3f5f4;
+  --color-background-accent: #e7f4ec;
+  --color-background-muted-light: rgba(0, 0, 0, 0.55);
+  --color-background-muted-dark: rgba(0, 0, 0, 0.72);
 
-  --color-success: #2ec1ac;
-  --color-danger: #e97171;
+  /* Actions / links */
+  --color-accent: var(--color-brand-primary);
+  --color-link-background: #000000;
+  --color-link-hover: var(--color-brand-primary);
 
-  --color-border: #e8e8e8;
+  --color-success: var(--color-brand-primary);
+  --color-danger: var(--color-brand-secondary);
 
-  --font-heading: 'Manrope', sans-serif;
-  --font-body: 'Manrope', sans-serif;
+  --color-border: rgba(255, 255, 255, 0.2);
+
+  --font-heading: 'Nexa', sans-serif;
+  --font-body: 'Nexa', sans-serif;
 
   --radius-base: 0.5rem;
 
