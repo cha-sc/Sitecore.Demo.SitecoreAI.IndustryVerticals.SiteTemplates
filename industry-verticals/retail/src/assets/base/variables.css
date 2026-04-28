@@ -2,6 +2,7 @@
   /* Brand */
   --color-brand-primary: #009132;
   --color-brand-secondary: #de3804;
+  --color-brand-tertiary: #ffc302;
 
   /* Text */
   --color-foreground: #ffffff;
@@ -44,3 +45,4 @@
   --radius-3xl: calc(var(--radius-base) * 4);
   --radius-4xl: calc(var(--radius-base) * 5);
 }
+
