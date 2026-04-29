@@ -48,7 +48,7 @@ export const PromoContent = ({ ...props }) => {
         <Text field={props.fields.PromoSubTitle} />
       </div>
 
-      <h2 className="inline-block max-w-md">
+      <h2 className="inline-block max-w-xl">
         <Text field={props.fields.PromoTitle} />
         {isAccentLineVisible && <AccentLine className="w-full max-w-xs" />}
       </h2>
@@ -342,7 +342,7 @@ export const IPCTwoColumn = (props: PromoProps): JSX.Element => {
         <div className="relative aspect-4/3 w-full overflow-hidden rounded-2xl lg:w-1/2">
           <ContentSdkImage
             field={props.fields.PromoImageOne}
-            className="absolute inset-0 h-full w-full object-cover"
+            className="absolute inset-0 h-full w-full object-contain object-center"
           />
         </div>
         <div className="flex w-full flex-col gap-5 lg:w-1/2">
