@@ -26,6 +26,14 @@
   &:not(.container),
   &.container > .component-content {
     @apply bg-background;
+
+    h2 {
+      @apply text-accent;
+    }
+
+    p {
+      @apply text-center;
+    }
   }
 }
 
