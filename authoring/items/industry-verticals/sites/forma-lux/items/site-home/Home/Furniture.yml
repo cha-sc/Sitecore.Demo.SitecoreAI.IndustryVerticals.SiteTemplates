@@ -6,7 +6,7 @@ Path: "/sitecore/content/industry-verticals/forma-lux/Home/Furniture"
 SharedFields:
 - ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
   Hint: NavigationFilter
-  Value: 
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
@@ -20,7 +20,7 @@ SharedFields:
     <image mediaid="{964961D6-A1B4-45F0-9F67-E5B420BE896A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b3408dca-ba81-4634-88ab-543d94208d8e"
+  Value: "9720552b-e61d-42e4-917b-38b5300e62aa"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -86,14 +86,14 @@ Languages:
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "343a5471-8f0c-424d-b1b6-658f45b6a84e"
+      Value: "786bd4da-00e3-44e8-b0c8-caac58178522"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082508Z
+      Value: 20260429T155349Z
 - Language: "es-ES"
   Versions:
   - Version: 1

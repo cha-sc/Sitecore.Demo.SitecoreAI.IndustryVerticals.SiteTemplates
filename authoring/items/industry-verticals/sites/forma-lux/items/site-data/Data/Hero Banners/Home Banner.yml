@@ -7,13 +7,13 @@ SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/dd145e888d304e39817304f66b3a63e3?v=e5bb2c96" dam-id="SCgtuRczTe62TfoX9UnSAw" width="1536" height="1024" alt="Rectangle 1441.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/67095/thumbnail" />
+    <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/f3925a5aa58d482c93a974c2b95fde06?v=37d091ae" dam-id="MimkdRkrQz-YqOBEjQFzng" width="2000" height="1127" alt="homepage.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/82675/thumbnail" />
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f7af10b3-f772-4ac1-87ef-e8b6a51e5bd3"
+  Value: "85974ed7-e073-4c8b-81ce-7d67a5d4027b"
 Languages:
 - Language: en
   Versions:
@@ -24,8 +24,7 @@ Languages:
       Value: <r />
     - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
       Hint: Description
-      Value: |
-        <div class="ck-content"><p>A curated collection of modern pieces that blend elegance and functionality.</p></div>
+      Value: 
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250904T165442Z
@@ -39,21 +38,20 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7fd1102d-a755-4e15-a952-51c4b316ae6e"
+      Value: "c9169c55-06b6-41a2-ba16-7d53176b5f3a"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
-      Value: Discover Design That Speaks to You
+      Value: Welcome to Independent Purchasing Cooperative
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082514Z
+      Value: 20260429T165740Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
-      Value: |
-        <link class="" querystring="" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" target="" title="" linktype="internal" text="See what's new" url="/industry-verticals/forma-lux/Home" />
+      Value: 
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -46,10 +46,10 @@ SharedFields:
   Value: "{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}"
 - ID: "d0ce707c-342f-4c02-ac0a-edb21346dde4"
   Hint: SupportedLanguages
-  Value: af58419145c9420187405409f4cf8bdd|e28229459ebe42c2956ace34ddc847bf|18959c3876954d4e8475a37a226b5e49
+  Value: af58419145c9420187405409f4cf8bdd|18959c3876954d4e8475a37a226b5e49|e28229459ebe42c2956ace34ddc847bf|2b9659e49bba4809b7f2f974ca1c4e9b|7dbbad01f9714c13a74a88c5263d29b0|e0ca6aa67ea845bc8ac2971e33600b25|1c5c390ff56c4255bf80e7d0ac04633e|7559b51393c44fd59adf27ce32ce04e3|2feb07acd9044403a7e8003ff064723e
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9f62d540-ad0f-4930-85ea-a4d7a7241ad2"
+  Value: "10c90450-2060-4ef2-9b6f-9e79b18a9d8f"
 - ID: "e8881464-38af-4655-be4a-ee10586578a2"
   Hint: Templates
   Value: "{5FDD8C61-B5A8-4F0C-B855-5ED157ED470D}"
@@ -77,14 +77,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b7870af4-d3dd-4e36-9fbe-a190938a6818"
+      Value: "c3e87c9c-a843-4099-b38d-7881b88e12c2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251222T142508Z
+      Value: 20260423T063923Z
 - Language: "es-ES"
   Versions:
   - Version: 1

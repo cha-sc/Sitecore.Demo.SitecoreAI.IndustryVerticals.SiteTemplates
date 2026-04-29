@@ -15,10 +15,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/5088bfb43f814f57bd15548a6f7b38c5?v=ea9d86c1" dam-id="O9R-vEgER8GZHbOh0UNb7g" width="2500" height="1667" alt="Rectangle 1447.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/67106/thumbnail" />
+    <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/1197583d595c4ec9bf57d18f506d3bf7?v=df5c4a69" dam-id="ADF9NwbRRDat3LVOOfejbA" width="800" height="429" alt="imgi_18_franchisee-green.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/82739/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "195afbe6-359a-4c44-b324-0c3b2f635d6b"
+  Value: "e1bf8edb-5ed1-4d2a-81e4-afa6a766fc3e"
 Languages:
 - Language: en
   Versions:
@@ -36,8 +36,7 @@ Languages:
         <link linktype="external" url="" target="" text="More Info" title="" class=""/>
     - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
       Hint: PromoDescription
-      Value: |
-        <div class="ck-content"><p><meta charset="utf-8" /><span style="white-space:pre-wrap;">We stand behind every item we sell — with premium materials, exceptional comfort, and a satisfaction guarantee you can trust.</span></p></div>
+      Value: 
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -48,20 +47,20 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "79332b7d-ea7f-47d7-a9c2-bfaae4806296"
       Hint: PromoSubTitle
-      Value: Materials
+      Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0fb9d78e-1dd1-443f-9466-f3acd543848c"
+      Value: "e2e21203-a8c9-417b-b7ad-588812d63025"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082515Z
+      Value: 20260429T145710Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
-      Value: Our Promise  to furniture 
+      Value: IPC has saved Members nearly $3 BILLION since 1996
 - Language: "es-ES"
   Versions:
   - Version: 1

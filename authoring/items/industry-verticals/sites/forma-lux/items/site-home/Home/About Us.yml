@@ -6,7 +6,7 @@ Path: "/sitecore/content/industry-verticals/forma-lux/Home/About Us"
 SharedFields:
 - ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
   Hint: NavigationFilter
-  Value: 
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
@@ -20,7 +20,7 @@ SharedFields:
     <image mediaid="{0B081450-C058-43DA-9F4C-A6083D93066D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4f3a9dae-abed-4399-947a-930aa30ddf40"
+  Value: "d100fde2-77a8-4c34-bae9-0c0560228140"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -115,17 +115,17 @@ Languages:
       Value: Learn how Forma Lux blends artisan craftsmanship, premium materials and modern design philosophy to create timeless furniture.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "494547e9-e2cd-434d-a50b-43b5acf51656"
+      Value: "f6479a4b-5c27-433c-8528-6e2c08b5bf5f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: Our heritage, materials, and design ethos—Forma Lux is where tradition meets modernity for pieces that last.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082512Z
+      Value: 20260429T155408Z
 - Language: "es-ES"
   Versions:
   - Version: 1
