@@ -5,20 +5,20 @@
   --color-brand-tertiary: #ffc302;
 
   /* Text */
-  --color-foreground: #ffffff;
+  --color-foreground: #555555;
   --color-foreground-light: rgba(255, 255, 255, 0.82);
   --color-foreground-muted: rgba(255, 255, 255, 0.64);
 
   /* Surfaces */
-  --color-background: var(--color-brand-primary);
+  --color-background: #ffffff; /* clean */
   --color-background-surface: #ffffff;
-  --color-background-muted: #f3f5f4;
-  --color-background-accent: #e7f4ec;
+  --color-background-muted: #f3f5f4; /* gray */
+  --color-background-accent: #e7f4ec; /* color */
   --color-background-muted-light: rgba(0, 0, 0, 0.55);
   --color-background-muted-dark: rgba(0, 0, 0, 0.72);
 
   /* Actions / links */
-  --color-accent: var(--color-brand-primary);
+  --color-accent: var(--color-brand-primary); /* dark */
   --color-link-background: #000000;
   --color-link-hover: var(--color-brand-primary);
 
