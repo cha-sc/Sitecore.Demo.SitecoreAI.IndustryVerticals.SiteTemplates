@@ -38,6 +38,15 @@
   }
 }
 
+/* Outline / filled swap on hover; dark-context overrides in layout.css */
+.box-btn {
+  @apply border-accent bg-background text-accent mx-auto box-border flex w-1/2 max-w-full min-w-0 items-center justify-center border px-4 py-3 text-center text-lg font-semibold transition-colors;
+
+  &:hover {
+    @apply border-background bg-accent text-background;
+  }
+}
+
 .carousel-btn {
   @apply text-foreground! bg-background z-10 size-12 content-center rounded-full shadow-md;
 }

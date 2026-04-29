@@ -60,6 +60,45 @@
         @apply bg-background;
       }
     }
+
+    .box-btn {
+      @apply border-background text-background bg-transparent;
+
+      &:hover {
+        @apply border-accent bg-background text-accent;
+      }
+    }
+  }
+}
+
+.container-secondary-background {
+  > .component-content {
+    @apply border-[color:var(--color-brand-secondary)];
+  }
+
+  &:not(.container),
+  &.container > .component-content {
+    @apply text-background border-[color:var(--color-brand-secondary)] bg-[var(--color-brand-secondary)];
+
+    * {
+      @apply text-inherit;
+    }
+
+    .arrow-btn {
+      @apply border-b-background;
+
+      &::after {
+        @apply bg-background;
+      }
+    }
+
+    .box-btn {
+      @apply border-background text-background bg-transparent;
+
+      &:hover {
+        @apply bg-background border-[color:var(--color-brand-secondary)] text-[color:var(--color-brand-secondary)];
+      }
+    }
   }
 }
 

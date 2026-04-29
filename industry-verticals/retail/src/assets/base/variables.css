@@ -6,7 +6,7 @@
 
   /* Text */
   --color-foreground: #555555;
-  --color-foreground-light: rgba(255, 255, 255, 0.82);
+  --color-foreground-light: #555555;
   --color-foreground-muted: rgba(255, 255, 255, 0.64);
 
   /* Surfaces */

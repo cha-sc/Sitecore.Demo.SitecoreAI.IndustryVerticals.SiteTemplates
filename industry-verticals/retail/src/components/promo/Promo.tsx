@@ -57,7 +57,7 @@ export const PromoContent = ({ ...props }) => {
         <ContentSdkRichText field={props.fields.PromoDescription} />
       </div>
 
-      <Link field={props.fields.PromoMoreInfo} className="arrow-btn" />
+      <Link field={props.fields.PromoMoreInfo} className="box-btn" />
     </div>
   );
 };
@@ -272,6 +272,7 @@ export const WithQuote = (props: PromoProps): JSX.Element => {
 
 export const IPCCentered = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
+  const showPromoImageTwo = Boolean(props.fields.PromoImageTwo?.value?.src);
 
   return (
     <section
@@ -286,6 +287,14 @@ export const IPCCentered = (props: PromoProps): JSX.Element => {
       </div>
       <div className="relative z-10 flex min-h-[min(70vh,720px)] flex-col items-center justify-center px-6 py-15">
         <div className="flex max-w-3xl flex-col items-center justify-center text-center [&_.eyebrow]:flex [&_.eyebrow]:justify-center [&_h2]:mx-auto">
+          {showPromoImageTwo && (
+            <div className="mb-8 flex w-full justify-center">
+              <ContentSdkImage
+                field={props.fields.PromoImageTwo}
+                className="max-h-48 w-auto max-w-full object-contain md:max-h-56"
+              />
+            </div>
+          )}
           <PromoContent {...props} />
         </div>
       </div>
@@ -300,10 +309,10 @@ export const IPCTextOnly = (props: PromoProps): JSX.Element => {
     <section className={`${props.params.styles} py-15`} id={id ? id : undefined}>
       <div className="container mx-auto grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-12">
         <div className="flex flex-col gap-3 lg:col-span-1">
-          <h3 className="font-semibold uppercase">
+          <h5>
             <Text field={props.fields.PromoSubTitle} />
-          </h3>
-          <h2 className="text-3xl font-bold md:text-4xl">
+          </h5>
+          <h2 className="text-accent text-5xl leading-[1.05] tracking-tight md:text-6xl xl:text-7xl">
             <Text field={props.fields.PromoTitle} />
           </h2>
         </div>
@@ -340,7 +349,7 @@ export const IPCTwoColumn = (props: PromoProps): JSX.Element => {
           <div className="font-semibold uppercase">
             <Text field={props.fields.PromoSubTitle} />
           </div>
-          <h2 className="text-3xl font-bold md:text-4xl">
+          <h2 className="text-5xl leading-[1.05] tracking-tight md:text-6xl xl:text-7xl">
             <Text field={props.fields.PromoTitle} />
           </h2>
           <div className="max-w-xl text-lg">
