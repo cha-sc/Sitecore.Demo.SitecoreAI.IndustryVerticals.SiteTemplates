@@ -12,6 +12,7 @@ export enum PromoFlags {
   HidePromoShapes = 'hide-promo-shapes',
   HidePromoShadows = 'hide-promo-shadows',
   HidePromoQuotes = 'hide-promo-quotes',
+  HideCTALink = 'hide-cta-link',
 }
 
 export enum HeroBannerStyles {

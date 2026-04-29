@@ -269,3 +269,85 @@ export const WithQuote = (props: PromoProps): JSX.Element => {
     </section>
   );
 };
+
+export const IPCCentered = (props: PromoProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+
+  return (
+    <section
+      className={`relative ${props.params.styles} isolate min-h-[min(70vh,720px)] overflow-hidden`}
+      id={id ? id : undefined}
+    >
+      <div className="absolute inset-0">
+        <ContentSdkImage
+          field={props.fields.PromoImageOne}
+          className="h-full w-full object-cover"
+        />
+      </div>
+      <div className="relative z-10 flex min-h-[min(70vh,720px)] flex-col items-center justify-center px-6 py-15">
+        <div className="flex max-w-3xl flex-col items-center justify-center text-center [&_.eyebrow]:flex [&_.eyebrow]:justify-center [&_h2]:mx-auto">
+          <PromoContent {...props} />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export const IPCTextOnly = (props: PromoProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+
+  return (
+    <section className={`${props.params.styles} py-15`} id={id ? id : undefined}>
+      <div className="container mx-auto grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-12">
+        <div className="flex flex-col gap-3 lg:col-span-1">
+          <h3 className="font-semibold uppercase">
+            <Text field={props.fields.PromoSubTitle} />
+          </h3>
+          <h2 className="text-3xl font-bold md:text-4xl">
+            <Text field={props.fields.PromoTitle} />
+          </h2>
+        </div>
+        <div className="lg:col-span-2">
+          <ContentSdkRichText
+            className="text-base leading-relaxed"
+            field={props.fields.PromoDescription}
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export const IPCTwoColumn = (props: PromoProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const isReversed = props?.params?.styles?.includes(LayoutStyles.Reversed);
+
+  return (
+    <section className={`${props.params.styles} py-15`} id={id ? id : undefined}>
+      <div
+        className={clsx(
+          'container mx-auto flex flex-col gap-10 lg:flex-row lg:items-center lg:gap-12',
+          isReversed && 'lg:flex-row-reverse'
+        )}
+      >
+        <div className="relative aspect-4/3 w-full overflow-hidden rounded-2xl lg:w-1/2">
+          <ContentSdkImage
+            field={props.fields.PromoImageOne}
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+        </div>
+        <div className="flex w-full flex-col gap-5 lg:w-1/2">
+          <div className="font-semibold uppercase">
+            <Text field={props.fields.PromoSubTitle} />
+          </div>
+          <h2 className="text-3xl font-bold md:text-4xl">
+            <Text field={props.fields.PromoTitle} />
+          </h2>
+          <div className="max-w-xl text-lg">
+            <ContentSdkRichText field={props.fields.PromoDescription} />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
