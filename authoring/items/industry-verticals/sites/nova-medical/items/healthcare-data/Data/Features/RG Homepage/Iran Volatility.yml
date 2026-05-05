@@ -4,12 +4,16 @@ Parent: "a0d6a470-a9cd-4e63-b040-422cf0413e76"
 Template: "0a39f168-834c-46c5-8866-65a60764c0a4"
 Path: "/sitecore/content/industry-verticals/nova-medical/Data/Features/RG Homepage/Iran Volatility"
 SharedFields:
+- ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
+  Hint: FeatureImage
+  Value: |
+    <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/f56cd38cc5ba46449d131672f22dfc49?v=9bb0f2f0" dam-id="CTqp0Do5S22d7SHjiCKtSA" width="508" height="602" alt="imgi_4_fight_cancer.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/83575/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b1aab83a-9098-46de-b80a-4c5efcb220a3"
+  Value: "0a5b7682-61d0-4895-9088-831edf7ba422"
 Languages:
 - Language: en
   Versions:
@@ -23,7 +27,7 @@ Languages:
       Value: 20260505T050917Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Market Volatility and Iran
+      Value: Market Volatility and Iran make a change
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -41,11 +45,11 @@ Languages:
         <link linktype="internal" id="09dbe61d-b540-470b-b4df-34ba542f66ee" anchor="" querystring="" target="" class="" text="Learn More" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bff60b93-4b2e-448c-bf70-9024e7075838"
+      Value: "8be082b0-e059-421e-ad02-435a453336d5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260505T064835Z
+      Value: 20260505T180143Z
