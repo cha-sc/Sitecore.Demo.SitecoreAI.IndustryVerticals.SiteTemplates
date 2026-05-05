@@ -39,6 +39,7 @@ export const DefaultHeaderExtended = (props: HeaderProps) => {
               height={45}
               className="dark:hidden"
               priority
+              unoptimized={true}
             />
             <ContentSdkImage
               field={props.fields.LogoDark}
@@ -46,6 +47,7 @@ export const DefaultHeaderExtended = (props: HeaderProps) => {
               height={45}
               className="hidden dark:block"
               priority
+              unoptimized={true}
             />
           </Link>
         </div>
