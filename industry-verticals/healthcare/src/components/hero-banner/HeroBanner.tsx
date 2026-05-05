@@ -1,18 +1,24 @@
-'use client';
-
-import React from 'react';
-import { useI18n } from 'next-localization';
 import {
+  Field,
   ImageField,
+  LinkField,
+  RichTextField,
   NextImage as ContentSdkImage,
+  Text as ContentSdkText,
+  RichText as ContentSdkRichText,
+  Link as ContentSdkLink,
+  useSitecore,
   withDatasourceCheck,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
-import BlobAccent from '@/assets/shapes/BlobAccent';
-import HeroClip from '@/assets/shapes/HeroClip';
 
 interface Fields {
   Image: ImageField;
+  Video: ImageField;
+  Title: Field<string>;
+  Description: RichTextField;
+  CtaLink: LinkField;
+  SecondaryCtaLink: LinkField;
 }
 
 interface HeroBannerProps extends ComponentProps {
@@ -20,84 +26,67 @@ interface HeroBannerProps extends ComponentProps {
 }
 
 export const DefaultHeroBanner = (props: HeroBannerProps) => {
+  const { page } = useSitecore();
   const id = props.params.RenderingIdentifier;
-  const { t } = useI18n();
+  const { fields, params } = props;
+  const isPageEditing = page.mode.isEditing;
+
+  const imageSrc = fields?.Image?.value?.src;
+  const videoSrc = fields?.Video?.value?.src;
+  const hasImage = Boolean(imageSrc);
+  const hasVideo = Boolean(videoSrc);
+  const showMedia = hasImage || hasVideo;
+
+  if (!fields) {
+    return isPageEditing ? (
+      <div className={`component hero-banner ${params?.styles}`} id={id}>
+        [HERO BANNER]
+      </div>
+    ) : null;
+  }
 
   return (
-    <section className={`relative pb-12 ${props?.params?.styles}`} id={id || undefined}>
-      <div className="relative">
-        <div className="absolute inset-0 z-0 mask-[var(--background-image-hero-clip)] mask-cover">
-          <ContentSdkImage field={props.fields.Image} className="h-full w-full object-cover" />
-        </div>
-        <HeroClip />
-        <BlobAccent className="absolute bottom-14 left-0 z-1 lg:left-4" />
-        <div className="pointer-events-none relative z-10 container flex min-h-[80vh] flex-col">
-          <div className="mt-auto flex items-end justify-end">
-            <div className="pointer-events-auto relative flex basis-full items-end justify-center pt-14 lg:basis-1/2">
-              <BlobAccent
-                size="full"
-                fill="solid"
-                colorScheme="secondary"
-                mirrored
-                className="relative z-1"
+    <section className={`relative bg-background-tertiary-dark ${params?.styles}`} id={id || undefined}>
+      {showMedia && (
+        <div className="relative w-full overflow-hidden">
+          <div className="relative aspect-21/9 min-h-48 w-full max-h-[85vh] sm:min-h-64">
+            {!isPageEditing && hasVideo ? (
+              <video
+                className="absolute inset-0 h-full w-full object-cover"
+                autoPlay
+                muted
+                loop
+                playsInline
+                poster={hasImage ? imageSrc : undefined}
+              >
+                <source src={videoSrc} />
+              </video>
+            ) : hasImage ? (
+              <ContentSdkImage
+                field={fields.Image}
+                className="absolute inset-0 h-full w-full object-cover"
+                priority
               />
-              <BlobAccent
-                size="lg"
-                className="absolute top-0 left-1/2 z-2 !max-w-3/5 -translate-x-1/2"
-              />
-              <BlobAccent
-                shape="circle"
-                size="sm"
-                fill="solid"
-                colorScheme="tertiary"
-                className="absolute -bottom-12 left-1/2 z-2 -translate-x-1/2"
-              />
-              <BlobAccent
-                shape="circle"
-                size="sm"
-                className="absolute top-4 right-4 z-0 lg:right-16"
-              />
-              <div className="absolute top-1/2 left-1/2 z-3 w-3/4 -translate-x-1/2 -translate-y-1/2 sm:w-2/3 xl:w-1/2">
-                <form action="" className="mt-12 flex flex-col gap-4 md:ml-12">
-                  <input
-                    type="text"
-                    name="your-name"
-                    id="your-name"
-                    placeholder={t('your_name') || 'Your Name'}
-                    className="form-input"
-                  />
-                  <input
-                    type="email"
-                    name="your-email"
-                    id="your-email"
-                    placeholder={t('your_email') || 'Your Email'}
-                    className="form-input"
-                  />
-                  <input
-                    type="text"
-                    name="select-doctor"
-                    id="select-doctor"
-                    placeholder={t('select_doctor') || 'Select a Doctor'}
-                    className="form-input"
-                  />
-                  <input
-                    type="text"
-                    name="select-date"
-                    id="select-date"
-                    placeholder={t('select_date') || 'Select a Date'}
-                    className="form-input"
-                  />
-
-                  <input
-                    type="submit"
-                    value={t('make_appointment') || 'Make an appointment'}
-                    className="btn self-center"
-                  />
-                </form>
-              </div>
-            </div>
+            ) : null}
           </div>
         </div>
+      )}
+
+      <div className="container relative z-10 py-12">
+        <h1 className="font-heading text-foreground-dark text-4xl font-bold lg:text-5xl">
+          <ContentSdkText field={fields.Title} />
+        </h1>
+        <div className="text-foreground-dark mt-4 max-w-3xl text-lg">
+          <ContentSdkRichText field={fields.Description} />
+        </div>
+        {(fields.CtaLink || fields.SecondaryCtaLink) && (
+          <div className="mt-8 flex flex-wrap gap-4">
+            {fields.CtaLink && <ContentSdkLink field={fields.CtaLink} className="btn" />}
+            {fields.SecondaryCtaLink && (
+              <ContentSdkLink field={fields.SecondaryCtaLink} className="main-btn" />
+            )}
+          </div>
+        )}
       </div>
     </section>
   );

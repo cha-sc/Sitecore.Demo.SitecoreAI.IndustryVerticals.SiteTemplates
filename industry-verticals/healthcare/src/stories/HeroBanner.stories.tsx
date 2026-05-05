@@ -1,8 +1,14 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
+import type { ImageField } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'react';
 import { Default as HeroBanner } from '../components/hero-banner/HeroBanner';
 import { CommonParams, CommonRendering } from './common/commonData';
-import { createImageField } from './helpers/createFields';
+import {
+  createImageField,
+  createLinkField,
+  createRichTextField,
+  createTextField,
+} from './helpers/createFields';
 
 type StoryProps = ComponentProps<typeof HeroBanner>;
 
@@ -31,6 +37,11 @@ const baseRendering = {
 // Mock fields for the HeroBanner component
 const createHeroBannerFields = () => ({
   Image: createImageField('placeholder'),
+  Video: { value: {} } as ImageField,
+  Title: createTextField('Care that puts you first'),
+  Description: createRichTextField(2),
+  CtaLink: createLinkField('Book an appointment'),
+  SecondaryCtaLink: createLinkField('Our services'),
 });
 
 export const Default: Story = {
