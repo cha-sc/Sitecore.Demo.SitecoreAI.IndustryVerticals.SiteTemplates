@@ -79,6 +79,48 @@ export const DefaultHeroBanner = (props: HeroBannerProps) => {
         <div className="text-foreground-dark mt-4 max-w-3xl text-lg">
           <ContentSdkRichText field={fields.Description} />
         </div>
+        <div className="border-background text-foreground-dark mt-4 border-b pb-3 text-lg">
+          <form className="flex flex-col gap-3 sm:flex-row sm:items-stretch" role="search" action="">
+            <input
+              type="search"
+              name="search"
+              placeholder="Search"
+              className="form-input flex-1 bg-transparent! text-xl text-foreground-dark shadow-none! placeholder:text-foreground-dark"
+              aria-label="Search"
+            />
+            <button
+              type="submit"
+              name="search-submit"
+              value="Search"
+              className="text-foreground-dark inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-transparent px-6 py-3 text-base font-semibold transition-opacity hover:opacity-90"
+            >
+              Search
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 21 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden
+              >
+                <path
+                  d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M18.9984 18.9999L14.6484 14.6499"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="square"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
         {(fields.CtaLink || fields.SecondaryCtaLink) && (
           <div className="mt-8 flex flex-wrap gap-4">
             {fields.CtaLink && <ContentSdkLink field={fields.CtaLink} className="btn" />}
