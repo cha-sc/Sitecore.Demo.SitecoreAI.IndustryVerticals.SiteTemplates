@@ -170,7 +170,7 @@ const SimpleFeatures = ({ fields, params }: FeaturesProps) => {
   return (
     <div className={`relative ${params?.styles}`} id={id || undefined}>
       <ul className="grid gap-6">
-        {features?.map((feature) => (
+        {features?.slice(0, 1).map((feature) => (
           <SimpleFeatureItem
             key={feature.id}
             feature={feature}
@@ -182,5 +182,79 @@ const SimpleFeatures = ({ fields, params }: FeaturesProps) => {
   );
 };
 
+const newsCardLinkClass =
+  'group block h-full rounded-lg bg-[#f8f8f8] p-6 text-foreground no-underline transition-colors hover:bg-background-tertiary-dark hover:text-background';
+
+const NewsItem = ({ feature }: { feature: FeatureFields }) => {
+  const linkField = feature?.featureLink?.jsonValue;
+  const titleBlock = (
+    <div className="border-b border-background-tertiary-dark pb-3 transition-colors group-hover:border-[rgb(110,156,152)]">
+      <ContentSdkText
+        tag="span"
+        className="font-heading text-xl font-bold"
+        field={feature?.featureTitle?.jsonValue}
+      />
+    </div>
+  );
+  const descriptionBlock = (
+    <div className="mt-4 text-base leading-relaxed">
+      <ContentSdkText field={feature?.featureDescription?.jsonValue} />
+    </div>
+  );
+  const cardBody = (
+    <>
+      {titleBlock}
+      {descriptionBlock}
+    </>
+  );
+
+  if (linkField?.value?.href) {
+    return (
+      <li>
+        <ContentSdkLink field={linkField} className={newsCardLinkClass}>
+          {cardBody}
+        </ContentSdkLink>
+      </li>
+    );
+  }
+
+  return (
+    <li>
+      <div className={`${newsCardLinkClass} hover:bg-background-tertiary-dark hover:text-background cursor-default`}>
+        {cardBody}
+      </div>
+    </li>
+  );
+};
+
+const NewsGridLayout = ({ fields, params }: FeaturesProps) => {
+  const id = params?.RenderingIdentifier;
+  const features = fields?.data?.datasource?.children?.results?.slice(0, 9);
+  const hideBlobAccent = params?.styles.includes(CommonStyles.HideBlobAccent);
+
+  return (
+    <section className={`relative py-16 ${params?.styles}`} id={id || undefined}>
+      {!hideBlobAccent && <BlobAccent className="absolute top-16 right-4 z-0" />}
+      <div className="relative z-10 container">
+        <div className="max-w-4xl">
+          <h2>
+            <ContentSdkText field={fields?.data?.datasource?.title?.jsonValue} />
+          </h2>
+          <ContentSdkRichText
+            className="text-lg"
+            field={fields?.data?.datasource?.description?.jsonValue}
+          />
+        </div>
+        <ul className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
+          {features?.map((feature) => (
+            <NewsItem key={feature.id} feature={feature} />
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+};
+
 export const Default = withDatasourceCheck()<FeaturesProps>(DefaultFeatures);
 export const Simple = withDatasourceCheck()<FeaturesProps>(SimpleFeatures);
+export const NewsGrid = withDatasourceCheck()<FeaturesProps>(NewsGridLayout);

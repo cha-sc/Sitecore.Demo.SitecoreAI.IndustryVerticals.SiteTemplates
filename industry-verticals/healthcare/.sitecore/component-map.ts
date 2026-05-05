@@ -17,6 +17,7 @@ import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-
 import * as PageContent from 'src/components/page-content/PageContent';
 import * as Navigation from 'src/components/navigation/Navigation';
 import * as LinkList from 'src/components/link-list/LinkList';
+import * as LatestNews from 'src/components/latest-news/LatestNews';
 import * as Image from 'src/components/image/Image';
 import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
 import * as HeaderExtended from 'src/components/header-extended/HeaderExtended';
@@ -45,8 +46,9 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['PageContent', { ...PageContent }],
   ['Navigation', { ...Navigation, componentType: 'client' }],
   ['LinkList', { ...LinkList }],
+  ['LatestNews', { ...LatestNews }],
   ['Image', { ...Image }],
-  ['HeroBanner', { ...HeroBanner, componentType: 'client' }],
+  ['HeroBanner', { ...HeroBanner }],
   ['HeaderExtended', { ...HeaderExtended }],
   ['Footer', { ...Footer, componentType: 'client' }],
   ['Features', { ...Features, componentType: 'client' }],
