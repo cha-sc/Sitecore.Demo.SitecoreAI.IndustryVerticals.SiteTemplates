@@ -183,7 +183,7 @@ const SimpleFeatures = ({ fields, params }: FeaturesProps) => {
 };
 
 const newsCardLinkClass =
-  'group block h-full rounded-lg bg-[#f8f8f8] p-6 text-foreground no-underline transition-colors hover:bg-background-tertiary-dark hover:text-background';
+  'group block w-full max-w-full rounded-lg bg-[#f8f8f8] p-6 text-foreground no-underline transition-colors hover:bg-background-tertiary-dark hover:text-background';
 
 const NewsItem = ({ feature }: { feature: FeatureFields }) => {
   const linkField = feature?.featureLink?.jsonValue;
@@ -210,7 +210,7 @@ const NewsItem = ({ feature }: { feature: FeatureFields }) => {
 
   if (linkField?.value?.href) {
     return (
-      <li>
+      <li className="min-w-0">
         <ContentSdkLink field={linkField} className={newsCardLinkClass}>
           {cardBody}
         </ContentSdkLink>
@@ -219,7 +219,7 @@ const NewsItem = ({ feature }: { feature: FeatureFields }) => {
   }
 
   return (
-    <li>
+    <li className="min-w-0">
       <div className={`${newsCardLinkClass} hover:bg-background-tertiary-dark hover:text-background cursor-default`}>
         {cardBody}
       </div>
@@ -229,7 +229,7 @@ const NewsItem = ({ feature }: { feature: FeatureFields }) => {
 
 const NewsGridLayout = ({ fields, params }: FeaturesProps) => {
   const id = params?.RenderingIdentifier;
-  const features = fields?.data?.datasource?.children?.results?.slice(0, 9);
+  const newsFeatures = fields?.data?.datasource?.children?.results?.slice(0, 9) ?? [];
   const hideBlobAccent = params?.styles.includes(CommonStyles.HideBlobAccent);
 
   return (
@@ -245,11 +245,26 @@ const NewsGridLayout = ({ fields, params }: FeaturesProps) => {
             field={fields?.data?.datasource?.description?.jsonValue}
           />
         </div>
-        <ul className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
-          {features?.map((feature) => (
-            <NewsItem key={feature.id} feature={feature} />
-          ))}
-        </ul>
+
+        <div className="mt-16 w-full min-w-0">
+          {/* Small screens: single column, items 1–9 in order */}
+          <ul className="flex w-full flex-col gap-2 lg:hidden">
+            {newsFeatures.map((feature) => (
+              <NewsItem key={feature.id} feature={feature} />
+            ))}
+          </ul>
+
+          {/* lg+: three equal-width columns (minmax 0 1fr); flex stacks = no shared row heights */}
+          <div className="hidden min-w-0 lg:grid lg:grid-cols-3 lg:gap-2">
+            {[0, 1, 2].map((columnIndex) => (
+              <ul key={columnIndex} className="flex min-h-0 min-w-0 flex-col gap-2">
+                {newsFeatures.slice(columnIndex * 3, columnIndex * 3 + 3).map((feature) => (
+                  <NewsItem key={feature.id} feature={feature} />
+                ))}
+              </ul>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
