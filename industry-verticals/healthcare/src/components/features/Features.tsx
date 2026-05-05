@@ -6,6 +6,7 @@ import {
   RichText as ContentSdkRichText,
   NextImage as ContentSdkImage,
   Link as ContentSdkLink,
+  useSitecore,
   withDatasourceCheck,
   ComponentRendering,
   ComponentParams,
@@ -182,11 +183,18 @@ const SimpleFeatures = ({ fields, params }: FeaturesProps) => {
   );
 };
 
-const newsCardLinkClass =
-  'group block w-full max-w-full rounded-lg bg-[#f8f8f8] p-6 text-foreground no-underline transition-colors hover:bg-background-tertiary-dark hover:text-background';
+const newsCardShellClass =
+  'group block w-full max-w-full overflow-hidden rounded-lg bg-[#f8f8f8] text-foreground no-underline transition-colors hover:bg-background-tertiary-dark hover:text-background';
+
+const newsCardContentClass = 'p-6';
 
 const NewsItem = ({ feature }: { feature: FeatureFields }) => {
+  const { page } = useSitecore();
   const linkField = feature?.featureLink?.jsonValue;
+  const imageField = feature?.featureImage?.jsonValue;
+  const showFeatureImage =
+    Boolean(imageField?.value?.src) || page.mode.isEditing;
+
   const titleBlock = (
     <div className="border-b border-background-tertiary-dark pb-3 transition-colors group-hover:border-[rgb(110,156,152)]">
       <ContentSdkText
@@ -201,17 +209,28 @@ const NewsItem = ({ feature }: { feature: FeatureFields }) => {
       <ContentSdkText field={feature?.featureDescription?.jsonValue} />
     </div>
   );
+
   const cardBody = (
     <>
-      {titleBlock}
-      {descriptionBlock}
+      {showFeatureImage && imageField && (
+        <div className="relative w-full shrink-0">
+          <ContentSdkImage
+            field={imageField}
+            className="aspect-video w-full object-cover"
+          />
+        </div>
+      )}
+      <div className={newsCardContentClass}>
+        {titleBlock}
+        {descriptionBlock}
+      </div>
     </>
   );
 
   if (linkField?.value?.href) {
     return (
       <li className="min-w-0">
-        <ContentSdkLink field={linkField} className={newsCardLinkClass}>
+        <ContentSdkLink field={linkField} className={newsCardShellClass}>
           {cardBody}
         </ContentSdkLink>
       </li>
@@ -220,7 +239,9 @@ const NewsItem = ({ feature }: { feature: FeatureFields }) => {
 
   return (
     <li className="min-w-0">
-      <div className={`${newsCardLinkClass} hover:bg-background-tertiary-dark hover:text-background cursor-default`}>
+      <div
+        className={`${newsCardShellClass} hover:bg-background-tertiary-dark hover:text-background cursor-default`}
+      >
         {cardBody}
       </div>
     </li>
