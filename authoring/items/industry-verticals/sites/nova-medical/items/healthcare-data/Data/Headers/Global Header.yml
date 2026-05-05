@@ -7,7 +7,10 @@ SharedFields:
 - ID: "d53d7eee-4d9a-46a9-afcf-bc46d0e6974d"
   Hint: LogoLight
   Value: |
-    <image mediaid="1e2893d1-3578-4372-b350-c72f8f0982be" />
+    <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/233ea844081a4e7d89d2f63a99c3795b?v=ffd20b93" dam-id="tqecbHTwQOyavDQLA3SxMg" width="257" height="66" alt="imgi_1_RopesGrayLLPlogo 3.svg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/83568/thumbnail" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "eec0a444-06c3-4929-9984-3a512846a85a"
 - ID: "fe72d918-559d-4a56-bc6d-1c108017d768"
   Hint: LogoDark
   Value: |
@@ -33,7 +36,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "385bc137-bb6a-4449-90ef-647ae6f88f14"
+      Value: "2259378f-f37a-4a03-8a3d-37221fbb1e04"
     - ID: "b3731078-ddd2-4faa-9535-87138237566f"
       Hint: MailLink
       Value: |
@@ -41,10 +44,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251118T083725Z
+      Value: 20260505T055202Z
     - ID: "fcdd653f-a7af-41a9-b65b-be60ad68b640"
       Hint: PhoneLink
       Value: |

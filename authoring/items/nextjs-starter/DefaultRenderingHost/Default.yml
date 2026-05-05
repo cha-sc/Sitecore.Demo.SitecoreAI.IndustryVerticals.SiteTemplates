@@ -9,19 +9,19 @@ SharedFields:
   Value: nextjsstarter
 - ID: "94470b31-e282-4d8d-bc54-85689efb294c"
   Hint: ServerSideRenderingEngineConfigUrl
-  Value: "https://xmc-3yfqtkz6fupa2p4fubx5vp-eh.sitecorecloud.io/api/editing/config"
+  Value: "https://xmc-5k7wnohqimj45q9stbakhr-eh.sitecorecloud.io/api/editing/config"
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
   Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "bdb971e9-be36-455c-bb1e-f91355cfff2f"
+  Value: "bdd6a03c-42b8-4bd1-9398-4d1dd488cf0c"
 - ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
   Hint: ServerSideRenderingEngineApplicationUrl
-  Value: "https://xmc-3yfqtkz6fupa2p4fubx5vp-eh.sitecorecloud.io"
+  Value: "https://xmc-5k7wnohqimj45q9stbakhr-eh.sitecorecloud.io"
 - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
   Hint: ServerSideRenderingEngineEndpointUrl
-  Value: "https://xmc-3yfqtkz6fupa2p4fubx5vp-eh.sitecorecloud.io/api/editing/render"
+  Value: "https://xmc-5k7wnohqimj45q9stbakhr-eh.sitecorecloud.io/api/editing/render"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -47,14 +47,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "{1EB7272F-8314-463E-A3CD-0FE6977E5E53}"
+      Value: "ad3b7c5f-62f7-41cc-8138-7809b716fad0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Admin
+        sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260202T191350Z
+      Value: 20260505T013400Z
 - Language: en
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -72,14 +72,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "41ed06e0-57c0-42dc-b9a5-89e8a3ec181c"
+      Value: "7ff4e209-9ac9-4dc3-b846-874e5948a628"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260202T203917Z
+      Value: 20260505T074800Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -93,17 +93,56 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2c04a2e5-8812-45e5-909c-00fcd2d681b1"
+      Value: "6923ba0a-75c5-4c4a-a77c-5ffff845cd8c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260202T200910Z
+      Value: 20260505T013400Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260505T013400Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "40297aa4-a336-4270-8a6f-c6466f3ccd44"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260505T013400Z
+- Language: "hi-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260505T013400Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "18900890-0f1a-406a-9b6c-fba8b40e6df7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260505T013400Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -128,14 +167,35 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "{1EB7272F-8314-463E-A3CD-0FE6977E5E53}"
+      Value: "fe889e5f-5ddb-469b-b8d1-ad1e0486244e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Admin
+        sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260202T191350Z
+      Value: 20260505T013400Z
+- Language: "ko-KR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260505T013400Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d510256b-0902-42b6-9000-9c2c414d8383"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260505T013400Z
 - Language: "zh-CN"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -160,11 +220,32 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "{1EB7272F-8314-463E-A3CD-0FE6977E5E53}"
+      Value: "7515963f-199b-4336-a0b6-8cfc9a607212"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Admin
+        sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260202T191350Z
+      Value: 20260505T013400Z
+- Language: "zh-SG"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260505T013400Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "571112d0-d24b-469a-a2ad-2004ee42ae33"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260505T013400Z

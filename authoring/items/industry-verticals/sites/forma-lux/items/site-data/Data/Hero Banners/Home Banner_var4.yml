@@ -1,0 +1,305 @@
+﻿---
+ID: "b2d82bee-3533-43b0-88c2-9b5340138e04"
+Parent: "e79d8586-d4b5-42f5-aec1-ae82c4f47f0f"
+Template: "ac18eef2-f134-4985-8b74-6ad16cca6577"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Hero Banners/Home Banner_var4"
+SharedFields:
+- ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
+  Hint: Image
+  Value: |
+    <image mediaid="c22f22fe-dd07-4865-a8a8-d47fbc6f8222" />
+- ID: "d74790ee-7289-4a66-b921-71da75df6cde"
+  Hint: Video
+  Value: 
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "aa3803e2-273f-4938-853f-cf892647a326"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>in 2025, 55K+ bankers turned to ABA webinars for insights in AML, digital assets, regulatory updates, wealth management and more. Stay ahead.</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T165442Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a5f3685d-f7c2-4bec-a63f-62a8d501fabf"
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: Yellow Affinity
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260417T064846Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link linktype="internal" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" querystring="" target="" class="" text="Explore Webinars" title=""/>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Una colección curada de piezas modernas que combinan elegancia y funcionalidad.</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250910T093310Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "48244291-cf04-4067-8104-15b09c273fd8"
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: Descubre el diseño que te habla
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260416T033007Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link class="" querystring="" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" target="" title="" linktype="internal" text="Vea las novedades" url="/industry-verticals/forma-lux/Home" />
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Una colección curada de piezas modernas que combinan elegancia y funcionalidad.</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T165442Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3f763fac-4bcb-4ce5-93cf-70f5da76e49d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: Descubre el diseño que te habla
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260416T033008Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link class="" id="4e869961-efef-4b47-bb69-170a251d689b" querystring="" anchor="" target="" title="" linktype="internal" text="Descubre las novedades" url="/industry-verticals/forma-lux/Home" />
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>En 2025, más de 55.000 banqueros recurrieron a los seminarios web de ABA para obtener información sobre AML, activos digitales, actualizaciones regulatorias, gestión de patrimonio y más. Mantente a la vanguardia</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T165442Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "09961bc3-430e-4eee-ad96-c7aabbc5de4e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: Obtén las últimas perspectivas bancarias
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260416T033008Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link class="" querystring="" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" target="" title="Explorar seminarios web" linktype="internal" text="Explorar seminarios web" />
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Une collection soigneusement sélectionnée de pièces modernes qui allient élégance et fonctionnalité.</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T165442Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9bbf2feb-51fe-4cea-8d5a-6ef1ebae1739"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: Découvrez un design qui vous parle
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260416T033008Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link class="" id="4e869961-efef-4b47-bb69-170a251d689b" querystring="" anchor="" target="" title="" linktype="internal" text="Découvrez les nouveautés" url="/industry-verticals/forma-lux/Home" />
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Une collection soignée de pièces modernes alliant élégance et fonctionnalité.</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250910T094841Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0e9acbc-2734-4a99-aeb5-61004268cb50"
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: Découvrez un design qui vous parle
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260416T033008Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link class="" querystring="" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" target="" title="" linktype="internal" text="Découvrez les nouveautés" url="/industry-verticals/forma-lux/Home" />
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>En 2025, plus de 55 000 banquiers se sont tournés vers les webinaires de l'ABA pour des informations sur la LBA, les actifs numériques, les mises à jour réglementaires, la gestion de patrimoine et plus encore. Restez en avance</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T165442Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f75eb6da-5ffa-458a-986d-0d7dddf556c1"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: Obtenez les dernières informations bancaires
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260416T033008Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link class="" querystring="" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" target="" title="" linktype="internal" text="Découvrez les webinaires" />

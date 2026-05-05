@@ -26,6 +26,13 @@ SharedFields:
   Value: 
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "dc5b1019-8903-433c-9e43-4b5daf768f00"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Jonathan Abensour
   Versions:
   - Version: 1
     Fields:
@@ -37,38 +44,39 @@ Languages:
       Value: 20251114T111942Z
     - ID: "3ac1a186-26b7-4845-9048-443c0dd0e487"
       Hint: Bio
-      Value: "<p>A dedicated oncologist, Dr. Angelina Serzila provides comprehensive cancer care with an emphasis on compassion and innovation. She works closely with patients to guide them through every step of treatment, combining advanced therapies with a personalized approach that focuses on long-term health and wellness. Her philosophy of care balances clinical expertise with empathy, ensuring patients feel supported both medically and emotionally. Dr. Serzila remains engaged in research and education, staying at the forefront of advancements in oncology while maintaining a strong commitment to delivering the best possible outcomes for her patients.</p>"
+      Value: |
+        <div class="ck-content"><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px 0px 1.25rem;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">For more than 15 years, Jonathan has advised private equity sponsors, investment funds, and multinational corporations on complex international mergers and acquisitions, private equity transactions, and investment fund formations and structurings. He has particular experience at the intersection of tax, transactional execution and fund advisory work, guiding clients through the full investment lifecycle—from fundraise and deployment to portfolio build‑out, exits and secondary processes. Known for his pragmatic style and calm leadership on high‑stakes matters, Jonathan regularly navigates multi‑jurisdictional issues, sophisticated capital structures, and cross‑border transactions.</p><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:1.25rem 0px;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Through a 2017 secondment at a private equity firm, Jonathan gained a first-hand perspective on sponsor priorities and investment committee decision-making, which informs his work today.</p><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:1.25rem 0px 0px;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Jonathan was mentor at the International University Campus of Paris (Cité Internationale Universitaire de Paris), reflecting his commitment to developing the next generation of business and legal talent.</p></div>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Angelina Serzila
+      Value: Jonathan Abensour
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58a94784-3297-4c4a-a2b4-e4f87d015f50"
       Hint: JobTitle
-      Value: Oncologist
+      Value: PARTNER
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "65d340d2-4eb3-4593-9bdd-9a66c4dcfab7"
       Hint: FullName
-      Value: Angelina Serzila
+      Value: Jonathan Abensour
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4f3f8eae-b105-4ae7-bde9-1eff6bc7dc72"
+      Value: "56618b25-4a74-401d-a63f-518c99b700fa"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T081815Z
+      Value: 20260505T072759Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |
-        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78913-HomePageHero-2000x800?v=399382b9" dam-id="Kk4UUTmIRqS50Qhlz2_R9g" width="2000" height="800" alt="AngelinaSerzila.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78913/thumbnail" />
+        <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/07d851fe16364c20a469586b9b38cf57?v=da0e208b" dam-id="E5WEAtOoQsOx3rniw-0g5g" width="454" height="568" alt="imgi_2_abensour_jonathan_web.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/83639/thumbnail" />
     - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
       Hint: Title
-      Value: Angelina Serzila
+      Value: Jonathan Abensour

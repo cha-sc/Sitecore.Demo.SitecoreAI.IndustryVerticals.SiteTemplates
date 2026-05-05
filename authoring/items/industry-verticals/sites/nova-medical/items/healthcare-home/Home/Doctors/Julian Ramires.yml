@@ -16,6 +16,13 @@ SharedFields:
   Value: "6c8de7bc-2e57-4b6c-97e4-99cac86edf71"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "99179cf3-51fa-4f99-b8ec-7b167e660a2c"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Chris Agnoli
   Versions:
   - Version: 1
     Fields:
@@ -27,7 +34,8 @@ Languages:
       Value: 20251114T112248Z
     - ID: "3ac1a186-26b7-4845-9048-443c0dd0e487"
       Hint: Bio
-      Value: "<p>Focused on creating confident smiles, Dr. Julian Ramires offers comprehensive dental care that blends precision with comfort. From preventive services to advanced restorative treatments, he takes a patient-centered approach designed to promote lifelong oral health. His philosophy is rooted in building trust with patients, ensuring that every visit is a positive and comfortable experience. Dr. Ramires is dedicated to educating patients about oral hygiene and empowering them to take an active role in their dental care. Known for his approachable manner and attention to detail, he strives to deliver outcomes that improve both health and confidence. He remains committed to advancing dental techniques and technologies to continually enhance the quality of care he provides.</p>"
+      Value: |
+        <div class="ck-content"><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px 0px 1.25rem;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Sophisticated investors worldwide turn to Chris Agnoli, a partner based in London, for complex tax advice on p<span style="background-color:white;"><span style="box-sizing:inherit;outline:none;">rivate equity and M&amp;A deals, private investment fund structuring, and investment and finance matters</span></span>. Chris regularly works with <span style="background-color:white;"><span style="box-sizing:inherit;outline:none;">private equity funds,&nbsp;institutional investors, sovereign wealth funds, REITs and public companies on their most important UK and cross-border transactions. Clients appreciate Chris’s </span></span>ability to deliver clear, commercially focused tax guidance.<span style="background-color:white;box-sizing:inherit;outline:none;"></span></p><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:1.25rem 0px;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Clients also value Chris’s deep understanding of the UK and international tax landscape. Most recently, Chris has guided clients through highly complex transactions in the pharmaceutical, healthcare and healthcare technology sectors, as well as significant fund investments by institutional and sovereign clients. He has also advised on prime real estate and real estate development matters in the UK and throughout Europe.</p><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:1.25rem 0px 0px;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Chris is deeply committed to pro bono work and has been recognised with Ropes &amp; Gray’s outstanding pro bono contributor award for London. He currently plays a leading role in the firm’s efforts to help members of Britain’s “Windrush Generation” apply for government compensation, and also volunteers at the London office’s Domestic Violence and Family Law Clinic in the city’s East End.</p></div>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Julian Ramires
@@ -37,28 +45,28 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58a94784-3297-4c4a-a2b4-e4f87d015f50"
       Hint: JobTitle
-      Value: Dentist
+      Value: PARTNER
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "65d340d2-4eb3-4593-9bdd-9a66c4dcfab7"
       Hint: FullName
-      Value: Julian Ramires
+      Value: Chris Agnoli
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "096e9e6d-a227-4424-a583-a7dce307e495"
+      Value: "8cae91e3-3c7f-425c-8ede-18db3b06d7a9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T092443Z
+      Value: 20260505T073403Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |
-        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78936-LandingPageHero-2000x600?v=d4d0ce53" dam-id="H4UPdj8yS2i8m185xvz9Nw" width="2000" height="600" alt="JulianRamires.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78936/thumbnail" />
+        <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/bf39601a4b6642acbee3b419d6dcb5c1?v=1819c671" dam-id="XcPHPnIISpG98WZnc2ngHQ" width="454" height="568" alt="imgi_6_agnoli_chris_web.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/83646/thumbnail" />
     - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
       Hint: Title
-      Value: Julian Ramires
+      Value: Chris Agnoli

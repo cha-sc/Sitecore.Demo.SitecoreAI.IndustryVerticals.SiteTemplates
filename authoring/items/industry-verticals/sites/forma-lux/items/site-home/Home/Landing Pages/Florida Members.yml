@@ -1,0 +1,75 @@
+﻿---
+ID: "f68005fd-8bee-4596-b89c-ab04cb597e45"
+Parent: "af977a9b-c5e9-4195-aa90-00c05f900365"
+Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Landing Pages/Florida Members"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9207C03F-6A3E-498D-9061-60BAD0BA8A58}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{44D8E8AC-2CFE-4323-8F86-0709B080945E}"
+              p:before="*"
+              s:ds="020eb926-746c-4a44-8006-5558becf2145"
+              s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B945FA565-3B86-4FF1-BA7E-E5AB71318906%7D&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D%7C%7BEB728F9E-C2AC-4572-8AE4-A948B68B7EC8%7D%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
+              uid="{3C5CE78F-E775-4CB5-A54F-D0C485D9AF0E}"
+              p:after="r[@uid='{44D8E8AC-2CFE-4323-8F86-0709B080945E}']"
+              s:ds="52eab210-3c07-49dd-a8f7-7c319b3cf89b"
+              s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B4091EF1F-FB38-4E84-8776-076441E040BF%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main" />
+            <r
+              uid="{53CE50A3-AA6E-4610-A527-8143D3C110A3}"
+              p:after="*[1=2]"
+              s:ds="8e43117c-21fd-403b-9339-181ae644ea21"
+              s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B4091EF1F-FB38-4E84-8776-076441E040BF%7D&amp;Styles=%7C%7B1D7E4033-FFD2-40D3-99EB-E0BE364BB74F%7D%7C%7BF0287895-D69D-4A5F-9EA4-4238A54C05FF%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260205T201720Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Florida Members
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Florida Members
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f71d20fc-703e-46c1-92b5-50690c35bba8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260206T072219Z

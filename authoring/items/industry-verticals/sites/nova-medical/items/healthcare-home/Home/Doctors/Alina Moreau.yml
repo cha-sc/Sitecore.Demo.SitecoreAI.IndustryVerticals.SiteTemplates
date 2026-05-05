@@ -16,6 +16,13 @@ SharedFields:
   Value: "2f6b319e-e5cf-404b-8117-a1e2535ce2be"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "cd0966cc-ca63-4a10-92b4-fea0bbd9ea16"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Ranee Adipat
   Versions:
   - Version: 1
     Fields:
@@ -27,38 +34,39 @@ Languages:
       Value: 20251114T112201Z
     - ID: "3ac1a186-26b7-4845-9048-443c0dd0e487"
       Hint: Bio
-      Value: "<p>With years of experience in dermatology, Dr. Aline Moreau is committed to helping patients achieve healthy, radiant skin. She provides medical, surgical, and cosmetic care, emphasizing treatments that address both immediate concerns and long-term skin wellness. Her approach is centered on understanding the unique needs of each patient, offering guidance that blends clinical knowledge with a focus on overall confidence and well-being. Dr. Moreau believes in the power of preventive care as much as treatment, ensuring patients feel empowered to maintain their skin health. She also participates in ongoing education and professional collaboration, continually refining her skills to deliver the most effective dermatological solutions.</p>"
+      Value: |
+        <div class="ck-content"><p><span style="color:rgb(0,0,0);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Ranee represents hospitals, health systems, academic medical centers, pediatric providers and other health care providers in sophisticated, precedent setting transactions. She has over 15 years of corporate experience, including in mergers, acquisitions, joint ventures, affiliations and governance matters. Ranee provides clear, concise counsel to management and in-house legal teams while working seamlessly with consultants, financial advisors and co-outside counsel to ensure transaction completion.</span></span></p></div>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Alina Moreau
+      Value: Ranee Adipat
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58a94784-3297-4c4a-a2b4-e4f87d015f50"
       Hint: JobTitle
-      Value: Dermatologist
+      Value: PARTNER
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "65d340d2-4eb3-4593-9bdd-9a66c4dcfab7"
       Hint: FullName
-      Value: Alina Moreau
+      Value: Ranee Adipat
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a88fd3be-abff-42ac-a013-1b59f8673436"
+      Value: "1664b943-3244-40a7-a957-dbfb1791a064"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T092443Z
+      Value: 20260505T073253Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |
-        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78911-HomePageHero-2000x800?v=cf76dc28" dam-id="1AUPIfGESUOKst1uq2ywzg" width="2000" height="800" alt="AlinaMoreau.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78911/thumbnail" />
+        <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/a0528484937e44f1a2b50f3cf00dbb1d?v=7ac5d6dc" dam-id="U3Oygn4xRE-498PSF243QQ" width="454" height="568" alt="imgi_5_adipat_ranee.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/83645/thumbnail" />
     - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
       Hint: Title
-      Value: Alina Moreau
+      Value: Ranee Adipat

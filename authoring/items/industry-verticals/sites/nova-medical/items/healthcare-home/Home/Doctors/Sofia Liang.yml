@@ -16,6 +16,13 @@ SharedFields:
   Value: "131ec185-e9dd-4ce0-8346-1bd055e92730"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "d0cada5c-080e-4459-804c-e0b4b5623e05"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Allie Alperovich
   Versions:
   - Version: 1
     Fields:
@@ -27,38 +34,39 @@ Languages:
       Value: 20251114T112447Z
     - ID: "3ac1a186-26b7-4845-9048-443c0dd0e487"
       Hint: Bio
-      Value: "<p>Guided by a commitment to patient well-being, Dr. Sofia Liang helps individuals manage complex hormonal and metabolic conditions. She tailors treatment plans with both clinical expertise and compassion, empowering patients to achieve healthier, balanced lives. Her work emphasizes the importance of understanding each patient’s unique journey, ensuring they feel supported throughout the process of diagnosis, treatment, and long-term care. Dr. Liang is passionate about educating patients on their conditions, fostering collaboration and trust in the management of their health. She also remains actively engaged in the evolving field of endocrinology, continuously seeking new approaches that can enhance outcomes and improve quality of life for those she serves.</p>"
+      Value: |
+        <div class="ck-content"><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px 0px 1.25rem;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Allie Alperovich leads the executive compensation and employee benefits group. Allie advises companies, investors, fund sponsors and executives on complex executive compensation, benefits and ERISA issues. Her practice focuses on the benefits and executive compensation aspects of mergers and acquisitions, as well as ongoing executive compensation matters for both companies and executives.</p><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:1.25rem 0px;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Allie’s experience spans a wide range of industries, with particular emphasis on the health care and industrial sectors. Over the course of her career, she has advised public and private companies both large and small.</p><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:1.25rem 0px 0px;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Allie also advises companies on all aspects of the design, compliance and administration of their executive compensation and employee benefits arrangements, drawing on her extensive experience with respect to qualified and nonqualified benefits plans, ERISA fiduciary issues, and other benefits matters.</p></div>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Sofia Liang
+      Value: Allie Alperovich
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58a94784-3297-4c4a-a2b4-e4f87d015f50"
       Hint: JobTitle
-      Value: Endocrinologist
+      Value: PARTNER
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "65d340d2-4eb3-4593-9bdd-9a66c4dcfab7"
       Hint: FullName
-      Value: Sofia Liang
+      Value: Allie Alperovich
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88d03d27-830a-4983-be68-441e10f188bd"
+      Value: "40a00c12-23b6-49b6-8409-35693d3f7bc3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T092443Z
+      Value: 20260505T073720Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |
-        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78939-HomepagePromoCTAs-1100x740?v=b0fc83a7" dam-id="A2gweQtHSriYzpRfDU5fNQ" width="1100" height="740" alt="SofiaLiang.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78939/thumbnail" />
+        <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/7f099345b7bc49feab5a12e164798e5c?v=c45978fa" dam-id="14hNXOXDTleti1zf9Q_mxQ" width="400" height="500" alt="imgi_8_alperovich_allie_200.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/83651/thumbnail" />
     - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
       Hint: Title
-      Value: Sofia Liang
+      Value: Allie Alperovich

@@ -16,6 +16,13 @@ SharedFields:
   Value: "77ce9d90-5d32-4d13-b2ec-5d4b83c2f3ba"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "dfa52218-daab-4473-95b4-2316d175d501"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Scott A. Abramowitz
   Versions:
   - Version: 1
     Fields:
@@ -27,38 +34,39 @@ Languages:
       Value: 20251114T112026Z
     - ID: "3ac1a186-26b7-4845-9048-443c0dd0e487"
       Hint: Bio
-      Value: "<p>Passionate about advancing heart health, Dr. Anna Guanche delivers personalized cardiovascular care rooted in clinical expertise. She integrates prevention, diagnosis, and treatment to ensure patients receive comprehensive support tailored to their needs, always with a patient-first philosophy. Her approach emphasizes not only addressing immediate heart concerns but also equipping patients with tools and knowledge to manage their long-term health. By combining evidence-based medicine with individualized care plans, Dr. Guanche is dedicated to improving outcomes and enhancing quality of life. She continues to contribute to ongoing developments in cardiology, reinforcing her commitment to the well-being of every patient she serves.</p>"
+      Value: |
+        <div class="ck-content"><p><span style="color:rgb(0,0,0);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Scott Abramowitz is a partner in Ropes &amp; Gray’s private equity transactions practice group, based in New York. He has broad experience representing private equity funds, their portfolio companies and corporate clients in a wide variety of complex business transactions, including mergers, acquisitions, recapitalizations, leveraged buyouts, growth equity financings, joint ventures and other investment transactions. He also regularly counsels clients on general corporate matters and corporate governance. Scott has advised on transactions across many industries, including business services and technology, health care, financial services and industrials.</span></span></p></div>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Anna Guanche
+      Value: Scott A. Abromowitz
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58a94784-3297-4c4a-a2b4-e4f87d015f50"
       Hint: JobTitle
-      Value: Cardiologist
+      Value: PARTNER
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "65d340d2-4eb3-4593-9bdd-9a66c4dcfab7"
       Hint: FullName
-      Value: Anna Guanche
+      Value: Scott A. Abramowitz
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e03d7fc9-04db-420a-b8f5-a3c1c023bd36"
+      Value: "1309cd37-a0d2-45cd-ae62-5ee4075d9f07"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T092443Z
+      Value: 20260505T072930Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |
-        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78919-HomePageHero-2000x800?v=a23ddeb3" dam-id="-U7GaM8FTcaEqvP7LfCg1g" width="2000" height="800" alt="AnnaGuanche.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78919/thumbnail" />
+        <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/1b89d7dcadb64e8abe15db640af9775b?v=567021db" dam-id="UIxVY3TPSm-4Dz_bVuG3vQ" width="454" height="568" alt="imgi_3_abramowitz_scott_web.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/83640/thumbnail" />
     - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
       Hint: Title
-      Value: Anna Guanche
+      Value: Scott A. Abramowitz

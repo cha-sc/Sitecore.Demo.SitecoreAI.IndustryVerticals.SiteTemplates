@@ -16,6 +16,13 @@ SharedFields:
   Value: "ee4da141-0719-40ee-bfa1-9bf7110f0ce8"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "761e0a1b-3821-4675-9618-69048edef591"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Tom Alabaster
   Versions:
   - Version: 1
     Fields:
@@ -27,38 +34,39 @@ Languages:
       Value: 20251114T112330Z
     - ID: "3ac1a186-26b7-4845-9048-443c0dd0e487"
       Hint: Bio
-      Value: "<p>As an otolaryngologist, Dr. Marcus Veldt specializes in diagnosing and treating ear, nose, and throat conditions. He is dedicated to improving patient quality of life through advanced procedures and individualized care, ensuring long-term relief and wellness. His approach balances clinical expertise with compassion, creating a supportive environment where patients feel confident in their treatment. Dr. Veldt works with both common and complex conditions, tailoring solutions to meet the specific needs of each patient. His ongoing commitment to research and continuous learning allows him to integrate new techniques and technologies into his practice, always with the goal of achieving better outcomes and greater comfort for his patients.</p>"
+      Value: |
+        <div class="ck-content"><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px 0px 1.25rem;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"><span style="box-sizing:inherit;outline:none;">Tom is a partner in the asset management group and leads the firm’s EMEA funds practice. He advises sponsors and institutional investors on the formation, fundraising, marketing and ongoing operations of private funds and fund managers across private equity, credit, real assets and impact strategies, including with respect to closed‑ended funds, evergreen funds and private wealth‑focused vehicles (including Part II UCIs and ELTIFs). He also has extensive experience in sponsor‑to‑sponsor M&amp;A, GP‑led secondaries (including continuation vehicles), joint ventures, separately managed accounts and co‑investments.</span></p><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:1.25rem 0px;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Tom is consistently recognised by clients and peers as a leading investment management lawyer, including in <em style="box-sizing:inherit;outline:none;"><em>The Legal 500</em></em> and <em style="box-sizing:inherit;outline:none;"><em>Chambers UK</em></em>. Directory feedback describes him as “absolutely awesome,” “the best funds legal adviser in London”&nbsp; and&nbsp; “at the forefront of funds lawyers in the UK.” Clients praise his “deep insights in the market,” “clarity of thinking” and ability to “protect clients while understanding the counterparty’s position and concerns and finding a common solution,” noting that he “combines deep legal expertise with a commercial mindset,” “doesn’t over complicate,” is “extremely responsive, commercial and practical,” is “clear in his timings and … really informative,” and “starts with the commercial objectives.” Clients also highlight his “collaborative ability, responsiveness and business sense/commerciality” and that he “consistently provides … invaluable high quality advice in a timely manner.” He is ranked “Highly Regarded” by <em style="box-sizing:inherit;outline:none;"><em>IFLR1000</em></em> and was named by <em style="box-sizing:inherit;outline:none;"><em>PEI’s Private Fund Manager</em></em> as one of the global private funds industry’s top 30 under 40.</p><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:1.25rem 0px;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Tom previously served on the BVCA’s Legal and Accounting Committee and Regulatory Committee, as well as on Invest Europe’s Regulatory Committee. Prior to joining Ropes &amp; Gray, he was an investment funds partner at another global law firm, before that serving in house as a senior in-house funds lawyer and Europe &amp; Africa Chief Compliance Officer at The Carlyle Group. Tom’s practice is strongly international and includes a six year period in New York.</p><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:1.25rem 0px;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"><span style="box-sizing:inherit;outline:none;">Representative clients include:</span></p><ul style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin-block:1em;margin-bottom:0px;margin-right:0px;margin-top:1rem;orphans:2;outline:none;padding-inline-start:40px;padding:0px 0px 0px 2em;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:0px;outline:none;"><p style="margin-left:0px;">3i Group</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">Adams Street Partners</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">Alcentra</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">Baillie Gifford</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">BlackRock</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">Bracebridge Capital</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">GCM Grosvenor Capital Management</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">Goldman Sachs Asset Management</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">HarbourVest Partners</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">iCapital</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">Incus Capital</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">Intermediate Capital Group</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">Limerston Capital Partners</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">Nexus Point</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">Partners Group</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">Siguler Guff &amp; Company</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:1em;margin-top:1em;outline:none;"><p style="margin-left:0px;">State Street</p></li><li style="box-sizing:inherit;list-style-type:disc;margin-bottom:0px;margin-top:1em;outline:none;"><p style="margin-left:0px;">Tillman Holdings</p></li></ul></div>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Marcus Veldt
+      Value: Tom Alabaster
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58a94784-3297-4c4a-a2b4-e4f87d015f50"
       Hint: JobTitle
-      Value: Otolaryngologist
+      Value: PARTNER
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "65d340d2-4eb3-4593-9bdd-9a66c4dcfab7"
       Hint: FullName
-      Value: Marcus Veldt
+      Value: Tom Alabaster
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "805ff8b5-0ca4-465b-b351-f28a2f35b6d9"
+      Value: "d57fe6b2-e8b1-4412-8e57-c5cc44357ec4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T092443Z
+      Value: 20260505T073519Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |
-        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78937-LandingPageHero-2000x600?v=6f25b00e" dam-id="111rkZFFS-68ykAO1osMKA" width="2000" height="600" alt="MarcusVeldt.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78937/thumbnail" />
+        <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/b785d3a51c8746a2a11f11a68461b2da?v=be91d9bb" dam-id="SuhJOueNRsa6Wet-fmWnwQ" width="454" height="568" alt="imgi_7_alabaster_tom_454x568_bio.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/83647/thumbnail" />
     - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
       Hint: Title
-      Value: Marcus Veldt
+      Value: Tom Alabaster

@@ -16,6 +16,13 @@ SharedFields:
   Value: "f127920f-4b28-45de-aaff-874a73812eda"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "ba027d1e-ccee-4338-89b5-5dccce3ed485"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Ama A. Adams
   Versions:
   - Version: 1
     Fields:
@@ -27,38 +34,39 @@ Languages:
       Value: 20251114T112122Z
     - ID: "3ac1a186-26b7-4845-9048-443c0dd0e487"
       Hint: Bio
-      Value: "<p>Dr. David Vassilakis is a highly skilled neurosurgeon recognized for his expertise in complex brain and spine procedures. He is committed to combining advanced surgical techniques with a patient-centered approach, ensuring every individual receives care tailored to their unique needs. Known for his precision in the operating room, Dr. Vassilakis also places great emphasis on communication, guiding patients and families with clarity and compassion throughout the treatment journey. His dedication extends beyond clinical practice, as he actively engages in research and education aimed at advancing neurosurgical methods and improving patient outcomes. By blending innovation with empathy, Dr. Vassilakis remains devoted to enhancing quality of life and providing the highest standard of neurological care.</p>"
+      Value: |
+        <div class="ck-content"><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px 0px 1.25rem;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Ama Adams is a leading international trade and national security lawyer with more than two decades of experience guiding companies and investors through complex cross-border risks and U.S. regulatory regimes. As managing partner of the Washington, D.C. office and co-chair of the firm’s national security practice, she advises on the full spectrum of trade and investment controls, including export controls, economic sanctions, anti-corruption and anti-money laundering, foreign direct investment, and customs. Her practice spans counseling, investigations, enforcement defense, and high-stakes regulatory approvals.</p><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:1.25rem 0px;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">She brings deep industry fluency across financial services, aviation, biotechnology and life sciences, energy and natural resources, advanced manufacturing, technology and software, and chemicals. She regularly designs and enhances global compliance programs, leads pre- and post-acquisition due diligence, conducts internal investigations, and represents clients before OFAC, BIS, DOJ, DDTC, CBP, and other agencies in licensing, enforcement, and inquiry matters.</p><p style="-webkit-text-stroke-width:0px;box-sizing:inherit;color:rgb(0, 0, 0);font-family:&quot;EB Garamond&quot;;font-size:22px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:1.25rem 0px 0px;orphans:2;outline:none;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">A leading CFIUS practitioner, she has also successfully guided numerous clients—both foreign and domestic—through the most complex and challenging CFIUS national security reviews and investigations, including the only reversal of a presidential block.</p></div>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: David Vassilakis
+      Value: Ama A. Adams
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "58a94784-3297-4c4a-a2b4-e4f87d015f50"
       Hint: JobTitle
-      Value: Neurosurgeon
+      Value: PARTNER
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "65d340d2-4eb3-4593-9bdd-9a66c4dcfab7"
       Hint: FullName
-      Value: David Vassilakis
+      Value: Ama A. Adams
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "04d3d11a-297e-436d-b289-00d6a62f7acc"
+      Value: "e85b592e-fc6e-45c8-ac61-967d825fde48"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T092443Z
+      Value: 20260505T073133Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |
-        <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/78923-HomePageHero-2000x800?v=76c301a4" dam-id="aqWtD1TxTO6RspQ8prP7kA" width="2000" height="800" alt="DavidVassilakis.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/78923/thumbnail" />
+        <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/02780cbfec82480d9abcaccac11061ee?v=07dc9280" dam-id="7-DF3V91TJO9WKQ5vCvjfg" width="400" height="500" alt="imgi_4_amma-new2023.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/83641/thumbnail" />
     - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
       Hint: Title
-      Value: David Vassilakis
+      Value: Ama A. Adams
