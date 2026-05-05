@@ -67,7 +67,7 @@
 
 .container-color-background > .component-content,
 .component-color-background {
-  @apply !bg-background-secondary dark:!bg-background-secondary-dark;
+  @apply bg-background-tertiary-dark;
 }
 
 .container-dark-background > .component-content,

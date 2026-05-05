@@ -83,6 +83,10 @@ SharedFields:
             "link": "https://fonts.googleapis.com/css2?family=Cormorant:wght@300..700&display=swap"
           },
           {
+            "name": "EB Garamond",
+            "link": "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+          },
+          {
             "name": "Libre Baskerville",
             "link": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
           },
@@ -175,8 +179,8 @@ SharedFields:
     
     --color-border: #e8e8e8;
     
-    --font-heading: 'Mulish', sans-serif;
-    --font-body: 'Noto Sans', sans-serif;
+    --font-heading: 'EB Garamond', Garamond, 'Times New Roman', serif;
+    --font-body: 'EB Garamond', Garamond, Georgia, serif;
     
     --radius-base: 0.5rem;
 Languages:

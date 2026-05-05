@@ -1,26 +1,50 @@
 @theme {
+  /*
+   * Ropes & Gray LLP–aligned palette (ropesgray.com inline styles + logo system).
+   * Brand blues/navy from the live site; gray accents per firm wordmark.
+   */
+
+  /* Brand primitives — use for guidelines, logos, and precise marketing matches */
+  --color-brand-blue: #006699;
+  --color-brand-blue-deep: #005e96;
+  --color-brand-navy: #1f3a5d;
+  --color-brand-navy-deep: #01426a;
+  --color-brand-gray: #999999;
+  --color-brand-gray-light: #b3b3b3;
+  --color-brand-gray-dark: #666666;
+
+  /* Semantic surfaces — light */
   --color-background: #ffffff;
-  --color-background-secondary: #f4fdfd;
-  --color-background-tertiary: #b8eff2;
-  --color-foreground: #023859;
+  --color-background-secondary: #f5f7fa;
+  --color-background-tertiary: #e8f1f6;
+  --color-foreground: #1f3a5d;
+  --color-foreground-muted: #5c6b7a;
+  --color-foreground-subtle: #999999;
 
-  --color-background-dark: #011119;
-  --color-background-secondary-dark: #047294;
-  --color-background-tertiary-dark: #023859;
+  /* Semantic surfaces — dark / inverted (footer-style stacks) */
+  --color-background-dark: #01426a;
+  --color-background-secondary-dark: #005e96;
+  --color-background-tertiary-dark: #1f3a5d;
   --color-foreground-dark: #ffffff;
-  --color-foreground-secondary-dark: #b8eff2;
+  --color-foreground-secondary-dark: #c9d4dc;
 
-  --color-accent: #6cd8c9;
-  --color-accent-muted: #a3ddcf;
+  /* Accent & interactive */
+  --color-accent: #006699;
+  --color-accent-muted: #8cb3cc;
+  --color-link: #006699;
+  --color-link-hover: #005e96;
+  --color-on-accent: #ffffff;
 
-  --color-background-input: #e7f7f4;
-  --color-disabled: #dcdcdc;
-  --color-disabled-dark: #70a7b8;
+  --color-background-input: #f0f5f9;
+  --color-disabled: #d9dfe6;
+  --color-disabled-dark: #6b8fa3;
 
-  --color-border: #e8e8e8;
+  --color-border: #dde4ea;
+  --color-border-strong: #006699;
 
-  --font-heading: 'Mulish', sans-serif;
-  --font-body: 'Noto Sans', sans-serif;
+  /* ropesgray.com: EB Garamond for display and body (CJK uses Noto Serif on their site) */
+  --font-heading: 'EB Garamond', Garamond, 'Times New Roman', serif;
+  --font-body: 'EB Garamond', Garamond, Georgia, serif;
 
   --radius-base: 0.5rem;
 
@@ -38,6 +62,6 @@
   --radius-4xl: calc(var(--radius-base) * 5);
 
   /* Other variables */
-  --shadow-soft: 0px 3px 45px rgba(0, 0, 0, 0.16);
+  --shadow-soft: 0px 3px 45px rgba(1, 66, 106, 0.14);
   --background-image-hero-clip: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1601.7 992.77' preserveAspectRatio='none'%3E%3Cg fill='black'%3E%3Cpath d='M.83,636.38s121.41,339.4,484.75,353.09,578.3-16.53,644.58-66.01,469.84-402.66,469.84-402.66l1.7-520.8L0,.05l.83,636.33Z'/%3E%3C/g%3E%3C/svg%3E");
 }

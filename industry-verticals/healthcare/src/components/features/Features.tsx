@@ -1,13 +1,15 @@
 'use client';
 
-import { IGQLImageField, IGQLRichTextField, IGQLTextField } from 'src/types/igql';
+import { IGQLField, IGQLImageField, IGQLRichTextField, IGQLTextField } from 'src/types/igql';
 import {
   Text as ContentSdkText,
   RichText as ContentSdkRichText,
   NextImage as ContentSdkImage,
+  Link as ContentSdkLink,
   withDatasourceCheck,
   ComponentRendering,
   ComponentParams,
+  LinkField,
 } from '@sitecore-content-sdk/nextjs';
 import BlobAccent from '../../assets/shapes/BlobAccent';
 import { FeatureStyles, CommonStyles } from '@/types/styleFlags';
@@ -30,6 +32,7 @@ interface FeatureFields {
   featureDescription: IGQLTextField;
   featureImage: IGQLImageField;
   featureImageDark: IGQLImageField;
+  featureLink?: IGQLField<LinkField>;
 }
 
 type FeaturesProps = {
@@ -37,6 +40,12 @@ type FeaturesProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
+
+const hasDarkContainerBackground = (styles: string | undefined) =>
+  Boolean(
+    styles &&
+      (styles.includes('component-dark-background') || styles.includes('component-color-background'))
+  );
 
 const FeatureItem = ({
   feature,
@@ -84,6 +93,41 @@ const FeatureItem = ({
   );
 };
 
+const SimpleFeatureItem = ({
+  feature,
+  onDarkContainer,
+}: {
+  feature: FeatureFields;
+  onDarkContainer: boolean;
+}) => {
+  const toneClass = onDarkContainer
+    ? 'text-background'
+    : 'text-foreground dark:text-foreground-dark';
+
+  const linkField = feature?.featureLink?.jsonValue;
+  const linkClass = onDarkContainer
+    ? `${toneClass} font-medium underline underline-offset-2 hover:opacity-90`
+    : 'text-link font-medium underline-offset-2 hover:text-link-hover hover:underline';
+
+  return (
+    <li>
+      <div
+        className={`flex flex-wrap items-baseline gap-x-2 gap-y-1 px-6 py-3 text-base lg:text-lg ${toneClass}`}
+      >
+        <span className="font-heading font-bold">
+          <ContentSdkText tag="span" field={feature?.featureTitle?.jsonValue} />
+        </span>
+        <ContentSdkText tag="span" field={feature?.featureDescription?.jsonValue} />
+        {linkField && (
+          <ContentSdkLink field={linkField} className={linkClass}>
+            {linkField?.value?.text}
+          </ContentSdkLink>
+        )}
+      </div>
+    </li>
+  );
+};
+
 const DefaultFeatures = ({ fields, params }: FeaturesProps) => {
   const id = params?.RenderingIdentifier;
   const features = fields?.data?.datasource?.children?.results;
@@ -121,17 +165,16 @@ const DefaultFeatures = ({ fields, params }: FeaturesProps) => {
 const SimpleFeatures = ({ fields, params }: FeaturesProps) => {
   const id = params?.RenderingIdentifier;
   const features = fields?.data?.datasource?.children?.results;
-  const useAccentColor = params?.styles.includes(FeatureStyles.UseAccentColor);
+  const onDarkContainer = hasDarkContainerBackground(params?.styles);
 
   return (
     <div className={`relative ${params?.styles}`} id={id || undefined}>
       <ul className="grid gap-6">
         {features?.map((feature) => (
-          <FeatureItem
+          <SimpleFeatureItem
             key={feature.id}
             feature={feature}
-            useAccentColor={useAccentColor}
-            layout="horizontal"
+            onDarkContainer={onDarkContainer}
           />
         ))}
       </ul>

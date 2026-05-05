@@ -51,4 +51,5 @@ export const createFeatureItems = (count: number) =>
     featureDescription: createIGQLField(createTextField('', 2)),
     featureImage: createIGQLField(createImageField()),
     featureImageDark: createIGQLField(createImageField()),
+    featureLink: createIGQLField(createLinkField(`Learn more ${i + 1}`)),
   }));
