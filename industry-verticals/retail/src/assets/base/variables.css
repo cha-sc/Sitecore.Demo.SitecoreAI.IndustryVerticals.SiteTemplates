@@ -1,26 +1,41 @@
 @theme {
-  --color-foreground: #1e1e1e;
-  --color-foreground-light: #505050;
-  --color-foreground-muted: #9f9f9f;
+  /*
+   * CFP Board (cfp.net)–aligned tokens: gold #fc3 / #ffcc33, cyan #00b5ea, body #333,
+   * Gotham SSm → Montserrat + Arial (see main.css Google Fonts import).
+   */
+  --color-brand-gold: #ffcc33;
+  --color-brand-gold-deep: #f2b90d;
+  --color-brand-gold-muted: #fff4d4;
+  --color-brand-cyan: #00b5ea;
+  --color-brand-cyan-deep: #0093c4;
+  --color-brand-navy: #0a0a0a;
+  --color-brand-link: #0066cc;
+  --color-brand-red: #be0000;
+  --color-brand-red-bright: #ff4242;
 
-  --color-background: #fff;
-  --color-background-accent: #faf3ea;
-  --color-background-muted: #f7f7f7;
-  --color-background-muted-light: #7a7a7a;
-  --color-background-muted-dark: #666;
+  --color-foreground: #333333;
+  --color-foreground-light: #4e4e4e;
+  --color-foreground-muted: #666666;
+
+  --color-background: #ffffff;
+  --color-background-accent: #fff4d4;
+  --color-background-muted: #f6f6f6;
+  --color-background-muted-light: #666666;
+  --color-background-muted-dark: #4e4e4e;
   --color-background-surface: #fafafa;
 
-  --color-accent: #c1a25f;
+  /* Primary actions: CFP interactive cyan (contrast on white with light text) */
+  --color-accent: var(--color-brand-gold);
 
   --color-success: #2ec1ac;
-  --color-danger: #e97171;
+  --color-danger: #be0000;
 
-  --color-border: #e8e8e8;
+  --color-border: #e6e6e6;
 
-  --font-heading: 'Manrope', sans-serif;
-  --font-body: 'Manrope', sans-serif;
+  --font-heading: 'Montserrat', Arial, sans-serif;
+  --font-body: 'Montserrat', Arial, sans-serif;
 
-  --radius-base: 0.5rem;
+  --radius-base: 0;
 
   /*
   This does not show in the theme editor
@@ -35,3 +50,4 @@
   --radius-3xl: calc(var(--radius-base) * 4);
   --radius-4xl: calc(var(--radius-base) * 5);
 }
+
