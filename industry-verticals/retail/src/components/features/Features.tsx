@@ -9,6 +9,7 @@ import {
   type LinkField,
   type TextField,
 } from '@sitecore-content-sdk/nextjs';
+import NextLink from 'next/link';
 import React from 'react';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { CommonStyles } from '@/types/styleFlags';
@@ -258,21 +259,21 @@ export const ImageCardGrid = (props: FeaturesProps) => {
                 <Text className="text-white" field={title.jsonValue} />
               </h2>
               <nav className="inline-flex flex-wrap items-center gap-x-2 gap-y-1 bg-[#2d2d2d] text-sm text-white sm:text-base">
-                <a
+                <NextLink
                   href="/news"
                   className="decoration-brand-cyan text-white underline decoration-2 underline-offset-[5px] hover:opacity-90"
                 >
                   All News
-                </a>
+                </NextLink>
                 <span className="text-white/60 select-none" aria-hidden>
                   |
                 </span>
-                <a
+                <NextLink
                   href="/events"
                   className="decoration-brand-cyan text-white underline decoration-2 underline-offset-[5px] hover:opacity-90"
                 >
                   All Events
-                </a>
+                </NextLink>
               </nav>
             </header>
 
