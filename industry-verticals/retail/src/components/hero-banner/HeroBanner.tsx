@@ -97,10 +97,26 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
       <div className="relative w-full">
         <div className="container mx-auto px-4">
           <div
-            className={`flex min-h-238 w-full py-10 lg:w-1/2 lg:items-center ${reverseLayout ? 'lg:mr-auto' : 'lg:ml-auto'}`}
+            className={clsx(
+              'flex min-h-238 w-full py-10 lg:items-center',
+              reverseLayout ? 'lg:mr-auto' : 'lg:ml-auto',
+              withPlaceholder ? 'lg:w-full' : 'lg:w-1/2'
+            )}
           >
-            <div className="max-w-182">
-              <div className={clsx({ shim: screenLayer })}>
+            <div
+              className={clsx(
+                'w-full',
+                withPlaceholder
+                  ? 'grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-center lg:gap-10 xl:gap-14'
+                  : 'max-w-182'
+              )}
+            >
+              <div
+                className={clsx(
+                  { shim: screenLayer },
+                  withPlaceholder && reverseLayout && 'lg:order-2'
+                )}
+              >
                 {/* Title */}
                 <h1 className="text-center text-5xl leading-[110%] font-bold capitalize md:text-7xl md:leading-[130%] lg:text-left xl:text-[80px]">
                   <ContentSdkText field={fields.Title} />
@@ -115,15 +131,22 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
                   />
                 </div>
 
-                {/* CTA Link or Placeholder */}
+                {/* CTA Link */}
                 <div className="mt-6 flex w-full justify-center lg:justify-start">
-                  {withPlaceholder ? (
-                    <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
-                  ) : (
-                    <Link field={fields.CtaLink} className="arrow-btn" />
-                  )}
+                  <Link field={fields.CtaLink} className="arrow-btn" />
                 </div>
               </div>
+
+              {withPlaceholder && (
+                <div
+                  className={clsx(
+                    'flex w-full flex-col justify-center',
+                    reverseLayout && 'lg:order-1'
+                  )}
+                >
+                  <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
+                </div>
+              )}
             </div>
           </div>
         </div>

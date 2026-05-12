@@ -222,6 +222,7 @@ export const WithQuote = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const withQuote = !props?.params?.styles?.includes(PromoFlags.HidePromoQuotes);
   const isReversed = !props?.params?.styles?.includes(LayoutStyles.Reversed);
+  const isAccentLineVisible = !props?.params?.styles?.includes(CommonStyles.HideAccentLine);
 
   const classesWhenReversed = {
     container: isReversed ? 'container-align-left' : 'container-align-right',
@@ -237,30 +238,43 @@ export const WithQuote = (props: PromoProps): JSX.Element => {
       className={`relative ${props.params.styles} z-10 overflow-hidden pb-15 xl:pb-[4%]`}
       id={id ? id : undefined}
     >
-      {withQuote && (
-        <div
-          className={`absolute left-5 md:top-[10%] lg:top-[25%] lg:left-1/2 lg:-translate-x-1/2 ${classesWhenReversed.quoteFlip} } text-background-accent! z-20`}
-        >
-          <Quote className="h-10 md:h-20 lg:h-25 xl:h-30" />
-        </div>
-      )}
       <div className="bg-background">
         <div className={`${classesWhenReversed.container} `}>
-          <div className={`grid grid-cols-1 lg:grid-cols-3 lg:gap-0`}>
+          <div className="grid grid-cols-1 items-stretch gap-0 lg:grid-cols-3">
             <div
-              className={`relative mt-10 flex items-center justify-center lg:col-span-1 ${classesWhenReversed.contentOrder}`}
+              className={`relative mt-10 flex justify-center self-stretch lg:col-span-1 lg:mt-0 ${classesWhenReversed.contentOrder}`}
             >
-              <div className="text-foreground! mb-5 max-w-sm">
-                <PromoContent {...props} />
+              <div className="relative mb-5 flex w-full max-w-sm flex-col justify-center bg-[#ebebeb] px-6 py-8 text-foreground before:absolute before:-left-1 before:top-[10%] before:block before:h-[80%] before:w-1 before:bg-accent before:content-[''] lg:mb-0 lg:max-w-none lg:min-h-full">
+                {withQuote && (
+                  <div className={`text-foreground/40 mb-4 ${classesWhenReversed.quoteFlip}`}>
+                    <Quote className="h-5 w-auto md:h-6" aria-hidden />
+                  </div>
+                )}
+                <div className="space-y-5">
+                  <div className="eyebrow">
+                    <Text field={props.fields.PromoSubTitle} />
+                  </div>
+
+                  <h4 className="inline-block max-w-md text-xl font-bold md:text-2xl">
+                    <Text field={props.fields.PromoTitle} />
+                    {isAccentLineVisible && <AccentLine className="w-full max-w-xs" />}
+                  </h4>
+
+                  <div className="max-w-lg text-lg">
+                    <ContentSdkRichText field={props.fields.PromoDescription} />
+                  </div>
+
+                  <Link field={props.fields.PromoMoreInfo} className="arrow-btn" />
+                </div>
               </div>
             </div>
 
             <div
-              className={`relative z-30 order-2 mb-2 aspect-2/1 w-full translate-y-[25%] scale-100 place-self-end lg:order-1 lg:col-span-2 lg:h-3/4 xl:scale-90 ${classesWhenReversed.imageTransform}`}
+              className={`relative z-30 order-2 min-h-[280px] w-full self-stretch overflow-hidden lg:order-1 lg:col-span-2 lg:min-h-full lg:h-full ${classesWhenReversed.imageTransform}`}
             >
               <ContentSdkImage
                 field={props.fields.PromoImageOne}
-                className="absolute inset-0 h-full w-full rounded-2xl object-cover"
+                className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
           </div>
