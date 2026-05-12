@@ -38,6 +38,19 @@
   }
 }
 
+/* Link label uses brand black; underline and ::after arrow stay accent */
+.arrow-btn.arrow-btn-label-brand-black {
+  @apply text-brand-black;
+}
+
+.container-dark-background .arrow-btn.arrow-btn-label-brand-black {
+  @apply border-b-accent text-brand-black;
+
+  &::after {
+    @apply bg-accent;
+  }
+}
+
 .carousel-btn {
   @apply text-foreground! bg-background z-10 size-12 content-center rounded-full shadow-md;
 }
