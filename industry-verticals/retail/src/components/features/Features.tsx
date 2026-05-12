@@ -126,7 +126,7 @@ export const ThreeColGridCentered = (props: FeaturesProps) => {
 
   return (
     <FeatureWrapper props={props}>
-      <div className="mx-auto w-[80%] py-16 lg:py-20">
+      <div className="border-brand-black mx-auto my-2 w-[80%] border-2">
         <div className="drop-shadow-2xl">
           {/* Single row: title (black + arrow) | description | links (evenly spaced in remaining width) */}
           <div className="bg-background flex min-h-16 w-full min-w-0 flex-nowrap items-stretch overflow-x-auto">
@@ -245,22 +245,22 @@ export const ImageCardGrid = (props: FeaturesProps) => {
   return (
     <FeatureWrapper props={props}>
       <div className="container py-12 lg:py-16">
-        <div className="relative isolate bg-[#2d2d2d] px-5 pb-10 pt-6 sm:px-8 sm:pb-12 sm:pt-8">
+        <div className="relative isolate bg-[#2d2d2d] px-5 pt-6 pb-10 sm:px-8 sm:pt-8 sm:pb-12">
           {/* Gold frame: sits behind all content */}
           <div
-            className="pointer-events-none absolute inset-0 z-0 box-border border-2 border-brand-gold"
+            className="border-brand-gold pointer-events-none absolute inset-0 z-0 box-border border-2"
             aria-hidden
           />
 
           <div className="relative z-10">
             <header className="mb-8 flex flex-wrap items-start justify-between gap-x-8 gap-y-4 sm:mb-10">
-              <h2 className="inline-block max-w-[min(100%,36rem)] bg-[#2d2d2d] font-heading text-2xl font-bold tracking-tight text-white sm:text-3xl md:text-4xl">
+              <h2 className="font-heading inline-block max-w-[min(100%,36rem)] bg-[#2d2d2d] text-2xl font-bold tracking-tight text-white sm:text-3xl md:text-4xl">
                 <Text className="text-white" field={title.jsonValue} />
               </h2>
               <nav className="inline-flex flex-wrap items-center gap-x-2 gap-y-1 bg-[#2d2d2d] text-sm text-white sm:text-base">
                 <a
                   href="/news"
-                  className="text-white underline decoration-brand-cyan decoration-2 underline-offset-[5px] hover:opacity-90"
+                  className="decoration-brand-cyan text-white underline decoration-2 underline-offset-[5px] hover:opacity-90"
                 >
                   All News
                 </a>
@@ -269,7 +269,7 @@ export const ImageCardGrid = (props: FeaturesProps) => {
                 </span>
                 <a
                   href="/events"
-                  className="text-white underline decoration-brand-cyan decoration-2 underline-offset-[5px] hover:opacity-90"
+                  className="decoration-brand-cyan text-white underline decoration-2 underline-offset-[5px] hover:opacity-90"
                 >
                   All Events
                 </a>
@@ -284,7 +284,7 @@ export const ImageCardGrid = (props: FeaturesProps) => {
                   <Link
                     key={index}
                     field={item.featureLink.jsonValue}
-                    className="group flex h-full flex-col overflow-hidden bg-white shadow-md transition-shadow hover:shadow-lg focus-visible:ring-2 focus-visible:ring-brand-cyan focus-visible:ring-offset-2 focus-visible:ring-offset-[#2d2d2d] focus-visible:outline-none"
+                    className="group focus-visible:ring-brand-cyan flex h-full flex-col overflow-hidden bg-white shadow-md transition-shadow hover:shadow-lg focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-[#2d2d2d] focus-visible:outline-none"
                   >
                     <div className="aspect-4/3 w-full shrink-0 overflow-hidden bg-zinc-300">
                       <Image
