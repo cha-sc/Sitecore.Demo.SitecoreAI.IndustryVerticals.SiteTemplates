@@ -7,6 +7,7 @@ import {
   Link,
   Text,
   type LinkField,
+  type TextField,
 } from '@sitecore-content-sdk/nextjs';
 import React from 'react';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
@@ -26,9 +27,11 @@ interface Fields {
 
 interface Feature {
   featureImage: { jsonValue: { value: { src: string; alt?: string } } };
-  featureTitle: { jsonValue: { value: string } };
-  featureDescription: { jsonValue: { value: string } };
+  featureTitle: { jsonValue: TextField };
+  featureDescription: { jsonValue: TextField };
   featureLink: { jsonValue: LinkField };
+  /** Optional uppercase label (e.g. ANNOUNCEMENT). Falls back to featureDescription when absent. */
+  featureCategory?: { jsonValue: TextField };
 }
 
 type FeaturesProps = {
@@ -235,31 +238,77 @@ export const FourColGrid = (props: FeaturesProps) => {
 };
 
 export const ImageCardGrid = (props: FeaturesProps) => {
-  const results = props.fields.data.datasource.children.results;
+  const raw = props.fields.data.datasource.children.results;
+  const cards: Feature[] = Array.isArray(raw) ? raw : raw ? [raw as Feature] : [];
+  const { title } = props.fields.data.datasource;
 
   return (
     <FeatureWrapper props={props}>
-      <div className="outline-non container grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-        {results.map((item, index) => {
-          const title = item.featureTitle.jsonValue;
-          const description = item.featureDescription.jsonValue;
-          const image = item.featureImage.jsonValue;
-          return (
-            <div key={index}>
-              <div className="mb-7 aspect-4/3 w-full overflow-hidden rounded-lg bg-white">
-                <Image field={image} className="h-full w-full object-cover" />
-              </div>
+      <div className="container py-12 lg:py-16">
+        <div className="relative isolate bg-[#2d2d2d] px-5 pb-10 pt-6 sm:px-8 sm:pb-12 sm:pt-8">
+          {/* Gold frame: sits behind all content */}
+          <div
+            className="pointer-events-none absolute inset-0 z-0 box-border border-2 border-brand-gold"
+            aria-hidden
+          />
 
-              <h6>
-                <Text field={title} />
-              </h6>
+          <div className="relative z-10">
+            <header className="mb-8 flex flex-wrap items-start justify-between gap-x-8 gap-y-4 sm:mb-10">
+              <h2 className="inline-block max-w-[min(100%,36rem)] bg-[#2d2d2d] font-heading text-2xl font-bold tracking-tight text-white sm:text-3xl md:text-4xl">
+                <Text className="text-white" field={title.jsonValue} />
+              </h2>
+              <nav className="inline-flex flex-wrap items-center gap-x-2 gap-y-1 bg-[#2d2d2d] text-sm text-white sm:text-base">
+                <a
+                  href="/news"
+                  className="text-white underline decoration-brand-cyan decoration-2 underline-offset-[5px] hover:opacity-90"
+                >
+                  All News
+                </a>
+                <span className="text-white/60 select-none" aria-hidden>
+                  |
+                </span>
+                <a
+                  href="/events"
+                  className="text-white underline decoration-brand-cyan decoration-2 underline-offset-[5px] hover:opacity-90"
+                >
+                  All Events
+                </a>
+              </nav>
+            </header>
 
-              <p className="text-foreground-muted mt-1 text-lg">
-                <Text field={description} />
-              </p>
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
+              {cards.map((item, index) => {
+                const categoryField =
+                  item.featureCategory?.jsonValue ?? item.featureDescription.jsonValue;
+                return (
+                  <Link
+                    key={index}
+                    field={item.featureLink.jsonValue}
+                    className="group flex h-full flex-col overflow-hidden bg-white shadow-md transition-shadow hover:shadow-lg focus-visible:ring-2 focus-visible:ring-brand-cyan focus-visible:ring-offset-2 focus-visible:ring-offset-[#2d2d2d] focus-visible:outline-none"
+                  >
+                    <div className="aspect-4/3 w-full shrink-0 overflow-hidden bg-zinc-300">
+                      <Image
+                        field={item.featureImage.jsonValue}
+                        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                      />
+                    </div>
+                    <div className="flex flex-1 flex-col gap-3 px-4 py-4 sm:px-5 sm:py-5">
+                      <div className="flex items-center gap-2">
+                        <span className="bg-brand-cyan h-2 w-2 shrink-0" aria-hidden />
+                        <span className="text-foreground line-clamp-1 text-xs font-bold tracking-wide uppercase">
+                          <Text field={categoryField} />
+                        </span>
+                      </div>
+                      <div className="text-foreground font-heading text-base leading-snug font-bold sm:text-lg">
+                        <Text field={item.featureTitle.jsonValue} />
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
-          );
-        })}
+          </div>
+        </div>
       </div>
     </FeatureWrapper>
   );
