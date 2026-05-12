@@ -1,0 +1,56 @@
+﻿---
+ID: "bbfed7d1-2118-44f8-ba36-6f4b469ade28"
+Parent: "e79d8586-d4b5-42f5-aec1-ae82c4f47f0f"
+Template: "ac18eef2-f134-4985-8b74-6ad16cca6577"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Hero Banners/CFP 2nd Home"
+SharedFields:
+- ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
+  Hint: Image
+  Value: |
+    <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/a68b314cbc5645c180370dfad13b3eea?v=f982f303" dam-id="ZxSgIYzrSqWN9se6io-JRQ" width="1600" height="556" alt="imgi_13_financial-planner-wide.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/83967/thumbnail" />
+- ID: "d74790ee-7289-4a66-b921-71da75df6cde"
+  Hint: Video
+  Value: |
+    <file src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/d3df8419b0ff4b6a8fa3fb7e18074c3b?v=1821284c" title="CFP-Board-Why-CFP-Certification_Media_KEwdDKmOBwI_001_1080p.mp4" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9caf588f-fa91-4295-8f7e-abe1fd963132"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: "Work-life balance. Financial success. Meaningful impact. As a CERTIFIED FINANCIAL PLANNER professional, you get it all. It's no surprise that financial advisor is ranked #2 in best business jobs by U.S. News &amp; World Report. And with demand growing every year, it's a smart move for your future."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260512T065819Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c026071e-e1a2-46fa-9265-2a60a44d94c3"
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: "Join a Career That Pays Off - in Every Way"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260512T072355Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link text="Why CFP Certification?" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{4E869961-EFEF-4B47-BB69-170A251D689B}" />

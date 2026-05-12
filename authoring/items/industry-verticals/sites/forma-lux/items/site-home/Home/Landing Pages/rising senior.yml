@@ -7,7 +7,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{E6A59175-B887-407E-8911-91A24EC546A3}" />
+    <image mediaid="{CB611EBD-E76F-4727-9850-FAF42B80D55C}" />
 Languages:
 - Language: en
   Versions:
@@ -27,7 +27,7 @@ Languages:
               uid="{B35D44DF-2BC3-4849-AB1B-C386E3700C96}"
               s:ds="78c21b19-bea4-4050-b6eb-eea9bba5430d"
               s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC70D10EE-B6D8-4030-A000-A577D84E7208%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:par="FieldNames=%7bC70D10EE-B6D8-4030-A000-A577D84E7208%7d&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
               s:ph="headless-main">
               <rls>
                 <ruleset
@@ -44,8 +44,7 @@ Languages:
                     <actions>
                       <action
                         uid="{DA1F87DA-C16D-4534-B117-BFC65A2C14C3}"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="4751fd50-5387-48bf-91c4-31ec378a2712" />
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" />
                     </actions>
                   </rule>
                   <rule
@@ -81,11 +80,11 @@ Languages:
         sitecore\chris.haddad@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ce076d3c-fca0-4e16-8314-d07881b6faf2"
+      Value: "63d2427d-fdea-4eeb-ae86-59787d6a6084"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260310T145812Z
+      Value: 20260512T065805Z
