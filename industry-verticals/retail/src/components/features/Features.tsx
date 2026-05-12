@@ -6,6 +6,7 @@ import {
   Image,
   Link,
   Text,
+  type LinkField,
 } from '@sitecore-content-sdk/nextjs';
 import React from 'react';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
@@ -18,6 +19,7 @@ interface Fields {
         results: Feature[];
       };
       title: IGQLTextField;
+      description?: IGQLTextField;
     };
   };
 }
@@ -26,7 +28,7 @@ interface Feature {
   featureImage: { jsonValue: { value: { src: string; alt?: string } } };
   featureTitle: { jsonValue: { value: string } };
   featureDescription: { jsonValue: { value: string } };
-  featureLink: { jsonValue: { value: { href: string } } };
+  featureLink: { jsonValue: LinkField };
 }
 
 type FeaturesProps = {
@@ -113,34 +115,50 @@ export const ImageGrid = (props: FeaturesProps) => {
 };
 
 export const ThreeColGridCentered = (props: FeaturesProps) => {
-  // results of the graphql
   const results = props.fields.data.datasource.children.results;
+  const { title, description } = props.fields.data.datasource;
+
+  const blackClipDesktop =
+    '[clip-path:polygon(0_0,calc(100%-2.25rem)_0,100%_50%,calc(100%-2.25rem)_100%,0_100%)]';
 
   return (
     <FeatureWrapper props={props}>
-      <div className="container flex flex-col flex-wrap justify-evenly gap-20 md:flex-row lg:gap-20">
-        {results.map((item, index) => {
-          const title = item.featureTitle.jsonValue;
-          const description = item.featureDescription.jsonValue;
-          const image = item.featureImage.jsonValue;
-          return (
-            <div className="flex flex-col items-center justify-start 2xl:w-80" key={index}>
-              {/* Image */}
-              <div className="bg-accent mb-7 flex h-20 w-20 items-center justify-center rounded-full">
-                <Image field={image} />
-              </div>
-              {/* Title and Description */}
-              <div className="flex flex-col items-center justify-center">
-                <div className="mb-2 leading-0.5">
-                  <Text tag="h5" className="text-accent" field={title} />
-                </div>
-                <div className="text-background-muted-light text-center">
-                  <Text field={description} />
-                </div>
-              </div>
+      <div className="mx-auto w-[80%] py-16 lg:py-20">
+        <div className="drop-shadow-2xl">
+          {/* Single row: title (black + arrow) | description | links (evenly spaced in remaining width) */}
+          <div className="bg-background flex min-h-16 w-full min-w-0 flex-nowrap items-stretch overflow-x-auto">
+            <div
+              className={`text-background flex w-[40%] max-w-md min-w-42 shrink-0 flex-col justify-center bg-black px-5 py-5 sm:px-6 sm:py-6 ${blackClipDesktop}`}
+            >
+              <Text
+                tag="h2"
+                className="text-background font-heading text-lg leading-tight font-bold sm:text-xl md:text-2xl lg:text-2xl"
+                field={title.jsonValue}
+              />
             </div>
-          );
-        })}
+
+            <div className="text-foreground bg-background flex max-w-lg shrink-0 items-center px-4 py-4 sm:px-5 lg:px-6">
+              {description?.jsonValue ? (
+                <Text
+                  field={description.jsonValue}
+                  className="line-clamp-3 text-sm leading-snug sm:line-clamp-4 sm:text-base md:line-clamp-none"
+                />
+              ) : null}
+            </div>
+
+            <div className="bg-background flex min-h-16 min-w-0 flex-1 justify-evenly self-stretch px-3 py-3 sm:px-5 sm:py-3">
+              {results.map((item, index) => (
+                <Link
+                  key={`feature-cta-${index}-${item.featureTitle?.jsonValue?.value ?? ''}`}
+                  field={item.featureLink.jsonValue}
+                  className="bg-brand-gold text-brand-black hover:bg-brand-gold-deep inline-flex shrink-0 items-center justify-center px-4 py-2.5 text-sm font-semibold whitespace-nowrap md:px-5 md:text-base"
+                >
+                  <Text field={item.featureTitle.jsonValue} />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </FeatureWrapper>
   );

@@ -170,6 +170,11 @@ export const FeatureThreeColGridCentered: Story = {
           count: 3,
           topLevelFields: {
             title: createIGQLField(createTextField('Features Title')),
+            description: createIGQLField(
+              createTextField(
+                'Choose a focus area to explore related resources and quick links.',
+              ),
+            ),
           },
           createItems: (count) =>
             Array.from({ length: count }, () => ({
