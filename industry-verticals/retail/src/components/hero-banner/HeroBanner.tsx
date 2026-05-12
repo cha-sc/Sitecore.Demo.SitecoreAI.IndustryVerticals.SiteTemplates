@@ -84,6 +84,7 @@ const HeroBannerCommon = ({
 };
 
 export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
+  const { page } = useSitecore();
   const styles = params.styles || '';
   const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
   const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
@@ -91,7 +92,8 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
   const screenLayer = styles.includes(HeroBannerStyles.ScreenLayer);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
   const hasImageOnly =
-    Boolean(fields.Image?.value?.src) && !fields.Video?.value?.src;
+    (Boolean(fields.Image?.value?.src) && !fields.Video?.value?.src) ||
+    page.mode.isEditing;
   const screenLayerImage = screenLayer && hasImageOnly;
 
   return (
@@ -175,6 +177,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
 };
 
 export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
+  const { page } = useSitecore();
   const styles = params.styles || '';
   const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
   const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
@@ -182,7 +185,8 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
   const screenLayer = styles.includes(HeroBannerStyles.ScreenLayer);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
   const hasImageOnly =
-    Boolean(fields.Image?.value?.src) && !fields.Video?.value?.src;
+    (Boolean(fields.Image?.value?.src) && !fields.Video?.value?.src) ||
+    page.mode.isEditing;
   const screenLayerImage = screenLayer && hasImageOnly;
 
   return (
