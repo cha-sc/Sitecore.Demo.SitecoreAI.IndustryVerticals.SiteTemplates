@@ -142,7 +142,7 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{AE225B7C-0876-4FAE-A959-B3AFC8E0E91B}"
-              s:par="FieldNames=%7B96409BF2-9023-4CE1-8EF3-AA01ED5D1F3A%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D%7C%7BEB728F9E-C2AC-4572-8AE4-A948B68B7EC8%7D%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D%7C%7BA6090229-01A2-40E6-A0B1-56C817BA77E2%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1&amp;HideGradientOverlay=0&amp;HideAccentLine=0&amp;WithPlaceholder=0&amp;ReverseLayout=0" />
+              s:par="FieldNames=%7B96409BF2-9023-4CE1-8EF3-AA01ED5D1F3A%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D%7C%7BEB728F9E-C2AC-4572-8AE4-A948B68B7EC8%7D%7C%7BA6090229-01A2-40E6-A0B1-56C817BA77E2%7D%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1&amp;HideGradientOverlay=0&amp;HideAccentLine=0&amp;WithPlaceholder=0&amp;ReverseLayout=0" />
             <r
               uid="{335D3948-776E-4A8D-B9AC-60E7FE730DC9}">
               <p:d />
@@ -297,7 +297,7 @@ Languages:
       Value: Home
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
-      Value: Forma Lux
+      Value: CFP Board
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -314,7 +314,7 @@ Languages:
       Value: "Explore Forma Lux’s luxurious furniture collections: heritage craftsmanship meets modern, sustainable design for elegant living spaces."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "025b4da6-34d0-400b-9f7b-2b6eef13ec0d"
+      Value: "77a52443-d6c9-46cc-8148-e20bfa4aea2c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -324,7 +324,7 @@ Languages:
       Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260512T070207Z
+      Value: 20260512T152743Z
 - Language: "es-ES"
   Versions:
   - Version: 2
