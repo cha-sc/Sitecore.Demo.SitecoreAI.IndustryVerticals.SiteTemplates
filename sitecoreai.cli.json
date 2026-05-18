@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.sitecoreai.dev/v1/sitecoreai.cli.json",
+  "modules": [
+    "./**/*.module.json"
+  ],
+  "recipes": [
+    "recipes/**/*.recipe.ts"
+  ],
+  "serialization": {
+    "defaultMaxRelativeItemPathLength": 120,
+    "defaultModuleRelativeSerializationPath": "serialization",
+    "removeOrphansForRoles": true,
+    "removeOrphansForUsers": true,
+    "continueOnItemFailure": false,
+    "excludedFields": []
+  },
+  "settings": {
+    "cacheAuthenticationToken": true,
+    "versionComparisonEnabled": true,
+    "apiClientTimeoutInMinutes": 5,
+    "telemetryEnabled": true
+  },
+  "envProfiles": {
+    "cha-moonshot-dev": {
+      "organizationId": "org_JypIqqJsbEly6gh2",
+      "projectId": "4VzkQIGqT2WW2H5IV7F07C",
+      "environmentId": "EDeb0yKP28if8L2fVgYRZ",
+      "environmentType": "cm",
+      "editingHostEnvironmentIds": [
+        "71E90Qib5HpmVulyPUYvNm",
+        "7w9FCeYfKmOgTvuZdVndfb",
+        "3w8wC5gzo6plJkcPDx9uOp",
+        "6qb4ShAxxaft9lMlPXIfO3",
+        "4ZS3PGGLAMrMBtRHyhiMIW",
+        "BBcrZ7m2jTqs6k9HqkAmJ",
+        "1WxbaGUlLqgerzWHGxlemW",
+        "4WSQqeDpLzx7fcemRcTspZ",
+        "2NZtEhBHRWxauFvidlNx60",
+        "6SE8tPEYivwDyzjw0osP0q"
+      ],
+      "deployTokenExpiresIn": 86400,
+      "deployTokenLastUpdated": "2026-05-18T14:42:21.890Z",
+      "host": "xmc-sitecoresaac2c7-chamoonshot7772-chamoonshot393b.sitecorecloud.io",
+      "authority": "https://auth.sitecorecloud.io",
+      "allowWrite": true
+    }
+  },
+  "defaultEnvProfile": "cha-moonshot-dev"
+}
