@@ -32,7 +32,7 @@ const baseRendering = {
 const createHeroBannerFields = () => ({
   Image: createImageField('placeholder'),
   Description: createRichTextField(1),
-  CTALink: createLinkField('Make an appointment'),
+  CtaLink: createLinkField('Make an appointment'),
 });
 
 export const Default: Story = {
