@@ -1,0 +1,50 @@
+﻿---
+ID: "69d158a2-7f9f-45d7-83dd-a7690013ab66"
+Parent: "6da1b885-8fcd-40a2-8a15-baac9a76a31d"
+Template: "ac18eef2-f134-4985-8b74-6ad16cca6577"
+Path: "/sitecore/content/industry-verticals/nova-medical/Data/Hero Banners/Home Hero Banner_var2"
+SharedFields:
+- ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
+  Hint: Image
+  Value: |
+    <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/f916de8be91d4c108877e25cb3748b6e?v=6bd7f06e" dam-id="zkv8kzB6TnKreom4v2rqrQ" width="2400" height="1440" alt="imgi_42_HomepageHero_USNWROverall.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/84432/thumbnail" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fdc6b4c4-7dfe-4307-9a14-205ed365e192"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Congratulations Stamford Hospital! Ranked #1 in Cardiology Care in Fairfield County</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251112T153110Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2eced4dd-0a40-4fbb-8a29-0f8b32b53bb1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260518T173709Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link linktype="internal" id="09dbe61d-b540-470b-b4df-34ba542f66ee" anchor="" querystring="" target="" class="" text="Learn about our high-quality care" title=""/>
