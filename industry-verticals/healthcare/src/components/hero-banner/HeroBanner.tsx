@@ -8,7 +8,6 @@ import {
   NextImage as ContentSdkImage,
   RichText as ContentSdkRichText,
   RichTextField,
-  useSitecore,
   withDatasourceCheck,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
