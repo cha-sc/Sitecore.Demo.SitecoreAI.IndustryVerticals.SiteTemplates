@@ -50,7 +50,7 @@
   }
 
   *::placeholder {
-    @apply text-foreground dark:text-foreground-dark;
+    @apply text-foreground-muted dark:text-foreground-secondary-dark;
   }
 
   .eyebrow {

@@ -64,13 +64,13 @@ export const DefaultHeaderExtended = (props: HeaderProps) => {
         <div className="flex items-center gap-2">
           <ContentSdkLink
             field={props.fields.MailLink}
-            className="flex h-6 w-6 items-center justify-center"
+            className="text-accent flex h-6 w-6 items-center justify-center"
           >
             <FontAwesomeIcon icon={faEnvelope} width={16} height={16} />
           </ContentSdkLink>
           <ContentSdkLink
             field={props.fields.PhoneLink}
-            className="flex h-6 w-6 items-center justify-center"
+            className="text-accent flex h-6 w-6 items-center justify-center"
           >
             <FontAwesomeIcon icon={faPhone} width={14} height={14} />
           </ContentSdkLink>

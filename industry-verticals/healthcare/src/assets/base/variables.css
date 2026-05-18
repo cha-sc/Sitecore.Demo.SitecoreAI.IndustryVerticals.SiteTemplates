@@ -1,26 +1,35 @@
 @theme {
+  /* Stamford Health brand palette (stamfordhealth.org) */
+  --color-brand: #8d1b3d;
+  --color-brand-light: #be2752;
+  --color-brand-dark: #6a1a21;
+  --color-teal: #04414d;
+  --color-teal-light: #89c6cc;
+  --color-teal-bright: #41b8d9;
+
   --color-background: #ffffff;
-  --color-background-secondary: #f4fdfd;
-  --color-background-tertiary: #b8eff2;
-  --color-foreground: #023859;
+  --color-background-secondary: #f9f9f9;
+  --color-background-tertiary: #edf6f8;
+  --color-foreground: #1a1a1a;
+  --color-foreground-muted: #757575;
 
-  --color-background-dark: #011119;
-  --color-background-secondary-dark: #047294;
-  --color-background-tertiary-dark: #023859;
+  --color-background-dark: #141619;
+  --color-background-secondary-dark: #8d1b3d;
+  --color-background-tertiary-dark: #04414d;
   --color-foreground-dark: #ffffff;
-  --color-foreground-secondary-dark: #b8eff2;
+  --color-foreground-secondary-dark: #e5c7ca;
 
-  --color-accent: #6cd8c9;
-  --color-accent-muted: #a3ddcf;
+  --color-accent: #8d1b3d;
+  --color-accent-muted: #be2752;
 
-  --color-background-input: #e7f7f4;
+  --color-background-input: #f9f9f9;
   --color-disabled: #dcdcdc;
-  --color-disabled-dark: #70a7b8;
+  --color-disabled-dark: #9199a4;
 
   --color-border: #e8e8e8;
 
-  --font-heading: 'Mulish', sans-serif;
-  --font-body: 'Noto Sans', sans-serif;
+  --font-heading: 'Montserrat', 'Open Sans', Helvetica, Verdana, Tahoma, sans-serif;
+  --font-body: 'Open Sans', Helvetica, Verdana, Tahoma, sans-serif;
 
   --radius-base: 0.5rem;
 
@@ -41,3 +50,4 @@
   --shadow-soft: 0px 3px 45px rgba(0, 0, 0, 0.16);
   --background-image-hero-clip: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1601.7 992.77' preserveAspectRatio='none'%3E%3Cg fill='black'%3E%3Cpath d='M.83,636.38s121.41,339.4,484.75,353.09,578.3-16.53,644.58-66.01,469.84-402.66,469.84-402.66l1.7-520.8L0,.05l.83,636.33Z'/%3E%3C/g%3E%3C/svg%3E");
 }
+

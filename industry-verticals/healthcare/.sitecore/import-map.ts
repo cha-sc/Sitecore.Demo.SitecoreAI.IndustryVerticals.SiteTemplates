@@ -14,11 +14,10 @@ import { useTheme } from 'next-themes';
 import Head from 'next/head';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { isParamEnabled } from '@/helpers/isParamEnabled';
 import BlobAccent from 'src/assets/shapes/BlobAccent';
 import CurvedClip from 'src/assets/shapes/CurvedClip';
-import BlobAccent_ff719d36323bb13e49440edf42521225aa8ecaa1 from '@/assets/shapes/BlobAccent';
 import { CommonStyles, FeatureStyles } from '@/types/styleFlags';
+import BlobAccent_ff719d36323bb13e49440edf42521225aa8ecaa1 from '@/assets/shapes/BlobAccent';
 import { faArrowRight, faBars, faChevronDown, faChevronUp, faTimes, faEnvelope, faPhone, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import BlobAccent_c450f25c63b00a2e370305e155038c473dbb9c49 from 'src/components/non-sitecore/BlobAccent';
 import CurvedClip_6089ba18dc7000eae1dc64c54178a20f58206b41 from 'src/components/non-sitecore/CurvedClip';
@@ -87,12 +86,6 @@ const importMap = [
     ]
   },
   {
-    module: '@/helpers/isParamEnabled',
-    exports: [
-      { name: 'isParamEnabled', value: isParamEnabled },
-    ]
-  },
-  {
     module: 'src/assets/shapes/BlobAccent',
     exports: [
       { name: 'default', value: BlobAccent },
@@ -105,16 +98,16 @@ const importMap = [
     ]
   },
   {
-    module: '@/assets/shapes/BlobAccent',
-    exports: [
-      { name: 'default', value: BlobAccent_ff719d36323bb13e49440edf42521225aa8ecaa1 },
-    ]
-  },
-  {
     module: '@/types/styleFlags',
     exports: [
       { name: 'CommonStyles', value: CommonStyles },
       { name: 'FeatureStyles', value: FeatureStyles },
+    ]
+  },
+  {
+    module: '@/assets/shapes/BlobAccent',
+    exports: [
+      { name: 'default', value: BlobAccent_ff719d36323bb13e49440edf42521225aa8ecaa1 },
     ]
   },
   {
