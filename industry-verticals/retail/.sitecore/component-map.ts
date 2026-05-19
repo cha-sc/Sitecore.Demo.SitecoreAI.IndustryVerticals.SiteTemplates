@@ -43,6 +43,7 @@ import * as LanguageSwitcher from 'src/components/language-switcher/LanguageSwit
 import * as performanceoverviewtypes from 'src/components/ipcoop/performance-overview.types';
 import * as performanceoverviewmock from 'src/components/ipcoop/performance-overview.mock';
 import * as PerformanceOverview from 'src/components/ipcoop/PerformanceOverview';
+import * as KnowledgeBase from 'src/components/ipcoop/KnowledgeBase';
 import * as Image from 'src/components/image/Image';
 import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
 import * as Header from 'src/components/header/Header';
@@ -99,6 +100,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['LanguageSwitcher', { ...LanguageSwitcher, componentType: 'client' }],
   ['performance-overview', { ...performanceoverviewtypes, ...performanceoverviewmock }],
   ['PerformanceOverview', { ...PerformanceOverview }],
+  ['KnowledgeBase', { ...KnowledgeBase }],
   ['Image', { ...Image }],
   ['HeroBanner', { ...HeroBanner }],
   ['Header', { ...Header }],
