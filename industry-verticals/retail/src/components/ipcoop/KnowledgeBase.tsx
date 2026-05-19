@@ -115,10 +115,11 @@ function ContactSidebar({
           {(hasEmail || isEditing) && (
             <div className="flex items-center gap-3 bg-[#f3f5f4] px-4 py-3">
               <Mail className="size-5 shrink-0 text-[#5b9bd5]" aria-hidden />
-              <Link
-                field={contactEmail}
-                className="text-[#5b9bd5] hover:underline"
-              />
+              {contactEmail ? (
+                <Link field={contactEmail} className="text-[#5b9bd5] hover:underline" />
+              ) : (
+                <span className="text-[#888888]">[Contact email]</span>
+              )}
             </div>
           )}
           {(hasPhone || isEditing) && (
@@ -152,7 +153,7 @@ function ContactSidebar({
               '[&_li]:leading-snug'
             )}
           >
-            <RichText field={quickLinks} />
+            {quickLinks ? <RichText field={quickLinks} /> : null}
           </div>
         ) : (
           <ul className="space-y-2 text-sm leading-snug">
