@@ -82,7 +82,7 @@ import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields 
 import { useRouter as useRouter_0e8a928699f624a3ad05eb9c9906b0e7ce1a00be } from 'next/router';
 import { Select as Select_4a7098778d43a9b4dcd5871ec48ea51b5a246850, SelectContent, SelectItem, SelectTrigger, SelectValue } from 'src/shadcn/components/ui/select';
 import { localeOptions } from '@/constants/localeOptions';
-import { FRANCHISE_OWNER_STORES } from 'src/components/ipcoop/performance-overview.mock';
+import { FRANCHISE_OWNER_STORES, STORE_MANAGER_STORES } from 'src/components/ipcoop/performance-overview.mock';
 import { generateIndexes } from '@/helpers/generateIndexes';
 import client from 'lib/sitecore-client';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
@@ -643,6 +643,7 @@ const importMap = [
     module: 'src/components/ipcoop/performance-overview.mock',
     exports: [
       { name: 'FRANCHISE_OWNER_STORES', value: FRANCHISE_OWNER_STORES },
+      { name: 'STORE_MANAGER_STORES', value: STORE_MANAGER_STORES },
     ]
   },
   {

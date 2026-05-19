@@ -4,7 +4,11 @@ import { Building2, Info, Search, SlidersHorizontal, Store, Users } from 'lucide
 import { ComponentProps } from '@/lib/component-props';
 import { cn } from '@/shadcn/lib/utils';
 import { FRANCHISE_OWNER_STORES, STORE_MANAGER_STORES } from './performance-overview.mock';
-import type { StoreAddress, StorePerformanceRecord, TaxIdStatus } from './performance-overview.types';
+import type {
+  StoreAddress,
+  StorePerformanceRecord,
+  TaxIdStatus,
+} from './performance-overview.types';
 
 interface Fields {
   Content: RichTextField;
@@ -39,13 +43,7 @@ function formatAddressLines(address: StoreAddress): string[] {
   return lines;
 }
 
-function StatusBadge({
-  label,
-  variant,
-}: {
-  label: string;
-  variant: 'success' | 'warning';
-}) {
+function StatusBadge({ label, variant }: { label: string; variant: 'success' | 'warning' }) {
   return (
     <span
       className={cn(
@@ -84,11 +82,7 @@ function TabButton({
         !active && !outlined && 'bg-background-muted text-[#888888]'
       )}
       style={
-        active
-          ? { backgroundColor: IPC_GREEN }
-          : outlined
-            ? { borderColor: '#008938' }
-            : undefined
+        active ? { backgroundColor: IPC_GREEN } : outlined ? { borderColor: '#008938' } : undefined
       }
     >
       <Icon className="size-4 shrink-0" />
@@ -111,7 +105,7 @@ function AnnualDividendsCard({
     >
       <h2 className="text-base font-semibold text-[#333333]">Annual Dividends</h2>
       <p className="mt-1 text-sm text-[#666666]">Fiscal Year {fiscalYear}</p>
-      <p className="mt-4 text-2xl font-bold leading-tight text-[#008938] lg:text-3xl">
+      <p className="mt-4 text-2xl leading-tight font-bold text-[#008938] lg:text-3xl">
         {formatCurrency(annualTotal)} (USD)*
       </p>
       <p className="mt-6 text-xs leading-relaxed text-[#666666]">
