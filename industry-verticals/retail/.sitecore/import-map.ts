@@ -21,7 +21,7 @@ import ProductCarousel from 'src/components/non-sitecore/ProductCarousel';
 import { CommonStyles, LayoutStyles, PromoFlags, HeroBannerStyles } from '@/types/styleFlags';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation, A11y, Keyboard } from 'swiper/modules';
-import { ArrowRight, ChevronLeft, ChevronRight, ChevronDown, Heart, Plus, Star, User, X, Check, Loader2, LoaderCircle, ShoppingCart, Search, Globe, MoreHorizontal, Home } from 'lucide-react';
+import { ArrowRight, ChevronLeft, ChevronRight, ChevronDown, Heart, Plus, Star, User, X, Check, Loader2, LoaderCircle, ShoppingCart, Search, Globe, Building2, Info, SlidersHorizontal, Store, Users, MoreHorizontal, Home } from 'lucide-react';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { cn } from '@/shadcn/lib/utils';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
@@ -82,6 +82,7 @@ import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields 
 import { useRouter as useRouter_0e8a928699f624a3ad05eb9c9906b0e7ce1a00be } from 'next/router';
 import { Select as Select_4a7098778d43a9b4dcd5871ec48ea51b5a246850, SelectContent, SelectItem, SelectTrigger, SelectValue } from 'src/shadcn/components/ui/select';
 import { localeOptions } from '@/constants/localeOptions';
+import { FRANCHISE_OWNER_STORES } from 'src/components/ipcoop/performance-overview.mock';
 import { generateIndexes } from '@/helpers/generateIndexes';
 import client from 'lib/sitecore-client';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
@@ -219,6 +220,11 @@ const importMap = [
       { name: 'ShoppingCart', value: ShoppingCart },
       { name: 'Search', value: Search },
       { name: 'Globe', value: Globe },
+      { name: 'Building2', value: Building2 },
+      { name: 'Info', value: Info },
+      { name: 'SlidersHorizontal', value: SlidersHorizontal },
+      { name: 'Store', value: Store },
+      { name: 'Users', value: Users },
       { name: 'MoreHorizontal', value: MoreHorizontal },
       { name: 'Home', value: Home },
     ]
@@ -631,6 +637,12 @@ const importMap = [
     module: '@/constants/localeOptions',
     exports: [
       { name: 'localeOptions', value: localeOptions },
+    ]
+  },
+  {
+    module: 'src/components/ipcoop/performance-overview.mock',
+    exports: [
+      { name: 'FRANCHISE_OWNER_STORES', value: FRANCHISE_OWNER_STORES },
     ]
   },
   {
