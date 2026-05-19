@@ -1,17 +1,26 @@
 import type { ComponentType } from 'react';
+import { RichText, RichTextField, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { Building2, Info, Search, SlidersHorizontal, Store, Users } from 'lucide-react';
+import { ComponentProps } from '@/lib/component-props';
 import { cn } from '@/shadcn/lib/utils';
-import { FRANCHISE_OWNER_STORES } from './performance-overview.mock';
+import { FRANCHISE_OWNER_STORES, STORE_MANAGER_STORES } from './performance-overview.mock';
 import type { StoreAddress, StorePerformanceRecord, TaxIdStatus } from './performance-overview.types';
+
+interface Fields {
+  Content: RichTextField;
+}
 
 const IPC_GREEN = '#005a32';
 const IPC_GREEN_LIGHT = '#e8f3ec';
 
-export interface PerformanceOverviewProps {
-  stores?: StorePerformanceRecord[];
+export interface PerformanceOverviewProps extends ComponentProps {
+  fields: Fields;
+  stores: StorePerformanceRecord[];
   fiscalYear?: number;
   className?: string;
 }
+
+export type PerformanceOverviewVariantProps = Omit<PerformanceOverviewProps, 'stores'>;
 
 function formatCurrency(amount: number): string {
   return `$ ${amount.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
@@ -189,11 +198,15 @@ function RestaurantsTable({ stores }: { stores: StorePerformanceRecord[] }) {
   );
 }
 
-export default function PerformanceOverview({
-  stores = FRANCHISE_OWNER_STORES,
+function PerformanceOverview({
+  fields,
+  stores,
   fiscalYear = 2025,
   className,
 }: PerformanceOverviewProps) {
+  const { page } = useSitecore();
+  const isEditing = page.mode.isEditing;
+  const { Content: content } = fields || {};
   const annualDividends = sumYearToDateDividends(stores);
 
   return (
@@ -209,24 +222,11 @@ export default function PerformanceOverview({
         <AnnualDividendsCard fiscalYear={fiscalYear} annualTotal={annualDividends} />
 
         <div className="min-w-0 flex-1">
-          <div className="space-y-4 text-sm leading-relaxed text-[#666666]">
-            <p>
-              The information displayed on this page is provided by Doctor&apos;s Associates, LLC
-              and relates to your Subway® restaurants. Dividend and franchise agreement details are
-              updated periodically based on reports received from the franchisor.
-            </p>
-            <p>
-              If you are missing documents or believe any information is incorrect, please contact
-              your IPC representative or email{' '}
-              <a
-                href="mailto:support@ipc.org"
-                className="text-[#008938] underline hover:no-underline"
-              >
-                support@ipc.org
-              </a>{' '}
-              for assistance.
-            </p>
-          </div>
+          {(content?.value || isEditing) && (
+            <div className="ck-content space-y-4 text-sm leading-relaxed text-[#666666] [&_a]:text-[#008938] [&_a]:underline [&_a:hover]:no-underline">
+              <RichText field={content} />
+            </div>
+          )}
 
           <header className="mt-8 flex items-center gap-2">
             <Store className="size-5 text-[#333333]" aria-hidden />
@@ -264,6 +264,14 @@ export default function PerformanceOverview({
     </section>
   );
 }
+
+export const FranchiseOwner = (props: PerformanceOverviewVariantProps) => (
+  <PerformanceOverview {...props} stores={FRANCHISE_OWNER_STORES} />
+);
+
+export const StoreManager = (props: PerformanceOverviewVariantProps) => (
+  <PerformanceOverview {...props} stores={STORE_MANAGER_STORES} />
+);
 
 export { FRANCHISE_OWNER_STORES, STORE_MANAGER_STORES } from './performance-overview.mock';
 export type { StorePerformanceRecord } from './performance-overview.types';
