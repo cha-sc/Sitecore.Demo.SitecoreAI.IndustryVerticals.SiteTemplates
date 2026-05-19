@@ -27,6 +27,15 @@
 
   --color-border: rgba(255, 255, 255, 0.2);
 
+  /* Tables (IPC content tables) */
+  --color-table-header-bg: var(--color-brand-primary);
+  --color-table-header-text: #ffffff;
+  --color-table-body-text: #4a4a4a;
+  --color-table-row-alt-bg: var(--color-background-muted);
+  --table-column-gap: 0.75rem;
+  --table-cell-padding-x: 1.25rem;
+  --table-cell-padding-y: 1rem;
+
   --font-heading: 'Nexa', sans-serif;
   --font-body: 'Nexa', sans-serif;
 

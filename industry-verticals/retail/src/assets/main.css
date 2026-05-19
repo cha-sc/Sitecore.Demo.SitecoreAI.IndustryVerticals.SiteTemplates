@@ -10,6 +10,7 @@
 
 @import './base/index.css';
 @import './components/index.css';
+@import './components/tables.css';
 
 @import 'tw-animate-css';
 

@@ -1,0 +1,119 @@
+/*
+ * IPC content table styles (unlayered — must beat CKEditor / Sitecore content CSS).
+ * Markup: .ck-content > figure.table > table > thead > tr > th
+ */
+
+.component.rich-text .ck-content figure.table,
+.component.content .ck-content figure.table,
+.ck-content figure.table,
+.content figure.table,
+.rich-text figure.table,
+.field-content figure.table {
+  display: block;
+  margin-block: 1.5rem;
+  margin-inline: 10%;
+  width: auto;
+  max-width: none;
+}
+
+.component.rich-text .ck-content figure.table > table,
+.component.rich-text .ck-content .table table,
+.ck-content figure.table > table,
+.ck-content .table table,
+.ck-content > table,
+.content figure.table > table,
+.rich-text figure.table > table,
+.field-content figure.table > table,
+table.ipc-table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0.75rem 0;
+  border: none;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.component.rich-text .ck-content figure.table > table :is(thead th, tbody td, tbody th),
+.component.rich-text .ck-content .table table :is(thead th, tbody td, tbody th),
+.ck-content figure.table > table :is(thead th, tbody td, tbody th),
+.ck-content .table table :is(thead th, tbody td, tbody th),
+.ck-content > table :is(thead th, tbody td, tbody th),
+table.ipc-table :is(thead th, tbody td, tbody th) {
+  border: none !important;
+  padding-block: 1rem;
+  padding-inline: 1.25rem;
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+/* Header row — mirror CKEditor paths; !important beats injected content styles */
+.component.rich-text .ck-content figure.table > table > thead > tr > th,
+.component.rich-text .ck-content .table table > thead > tr > th,
+.ck-content figure.table > table > thead > tr > th,
+.ck-content .table table > thead > tr > th,
+.ck-content figure.table > table thead th,
+.ck-content .table table thead th,
+.ck-content > table > thead > tr > th,
+table.ipc-table > thead > tr > th,
+table.ipc-table thead th {
+  background-color: var(--color-brand-primary) !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.component.rich-text .ck-content figure.table > table > tbody > tr > :is(td, th),
+.component.rich-text .ck-content .table table > tbody > tr > :is(td, th),
+.ck-content figure.table > table > tbody > tr > :is(td, th),
+.ck-content .table table > tbody > tr > :is(td, th),
+.ck-content > table > tbody > tr > :is(td, th),
+table.ipc-table > tbody > tr > :is(td, th) {
+  color: var(--color-foreground-light);
+}
+
+.component.rich-text .ck-content figure.table > table > tbody > tr:nth-child(odd) > :is(td, th),
+.component.rich-text .ck-content .table table > tbody > tr:nth-child(odd) > :is(td, th),
+.ck-content figure.table > table > tbody > tr:nth-child(odd) > :is(td, th),
+.ck-content .table table > tbody > tr:nth-child(odd) > :is(td, th),
+.ck-content > table > tbody > tr:nth-child(odd) > :is(td, th),
+table.ipc-table > tbody > tr:nth-child(odd) > :is(td, th) {
+  background-color: var(--color-background) !important;
+}
+
+.component.rich-text .ck-content figure.table > table > tbody > tr:nth-child(even) > :is(td, th),
+.component.rich-text .ck-content .table table > tbody > tr:nth-child(even) > :is(td, th),
+.ck-content figure.table > table > tbody > tr:nth-child(even) > :is(td, th),
+.ck-content .table table > tbody > tr:nth-child(even) > :is(td, th),
+.ck-content > table > tbody > tr:nth-child(even) > :is(td, th),
+table.ipc-table > tbody > tr:nth-child(even) > :is(td, th) {
+  background-color: var(--color-background-muted) !important;
+}
+
+/* Tables without thead: first body row is the header */
+.component.rich-text .ck-content figure.table > table:not(:has(thead)) > tbody > tr:first-child > :is(td, th),
+.ck-content figure.table > table:not(:has(thead)) > tbody > tr:first-child > :is(td, th),
+.ck-content .table table:not(:has(thead)) > tbody > tr:first-child > :is(td, th),
+table.ipc-table:not(:has(thead)) > tbody > tr:first-child > :is(td, th) {
+  background-color: var(--color-brand-primary) !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.component.rich-text .ck-content figure.table > table:not(:has(thead)) > tbody > tr:first-child ~ tr:nth-child(even) > :is(td, th),
+.ck-content figure.table > table:not(:has(thead)) > tbody > tr:first-child ~ tr:nth-child(even) > :is(td, th),
+.ck-content .table table:not(:has(thead)) > tbody > tr:first-child ~ tr:nth-child(even) > :is(td, th),
+table.ipc-table:not(:has(thead)) > tbody > tr:first-child ~ tr:nth-child(even) > :is(td, th) {
+  background-color: var(--color-background) !important;
+  color: var(--color-foreground-light);
+  font-weight: 400;
+}
+
+.component.rich-text .ck-content figure.table > table:not(:has(thead)) > tbody > tr:first-child ~ tr:nth-child(odd) > :is(td, th),
+.ck-content figure.table > table:not(:has(thead)) > tbody > tr:first-child ~ tr:nth-child(odd) > :is(td, th),
+.ck-content .table table:not(:has(thead)) > tbody > tr:first-child ~ tr:nth-child(odd) > :is(td, th),
+table.ipc-table:not(:has(thead)) > tbody > tr:first-child ~ tr:nth-child(odd) > :is(td, th) {
+  background-color: var(--color-background-muted) !important;
+  color: var(--color-foreground-light);
+  font-weight: 400;
+}
