@@ -1,31 +1,27 @@
 ﻿---
-ID: "2e16c14e-555b-4ba0-abfa-9594629d1f6a"
-Parent: "528bf819-e758-4818-b212-d8431789e4db"
-Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
-Path: "/sitecore/content/industry-verticals/forma-lux/Presentation/Headless Variants/Promo/DefaultRemovedCta"
+ID: "64ebe8cb-33cb-47f4-8f9c-43e95f68d049"
+Parent: "75c9c1cc-ee00-4bc3-9786-35ec7e74f88f"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: "/sitecore/content/industry-verticals/forma-lux/Presentation/Page Designs/KnowledgeBasePage"
 SharedFields:
-- ID: "2d81c857-74cd-4a35-ad3e-6d42f11676b7"
-  Hint: Content
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "548c351d-f811-4308-852b-31e9ad6b7cad|48bf1c48-f030-47b5-9951-5501da088d34|d7e84f90-421f-4905-a27c-6ee139e41621"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
   Value: |
-    {"metadata":{"aiGenerated":true}}
+    <image mediaid="{B01E9A03-A142-410F-A539-BBB6DD6B789B}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5c6fadc0-cfe7-4538-a2cd-862b455ae6c5"
+  Value: "19810dde-abe5-4e2b-a574-8e19240fe3d9"
 Languages:
 - Language: en
-  Fields:
-  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
-    Hint: __Unversioned revision
-    Value: "cd6dc72d-56c6-4bec-ac3f-be5ef536a434"
-  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
-    Hint: __Display name
-    Value: "Default - removed CTA"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260429T171732Z
+      Value: 20260519T151623Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -36,11 +32,11 @@ Languages:
         sitecore\chris.haddad@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7afb7535-2469-4d35-a13f-3161eb7a4c8f"
+      Value: "9c41e488-15f5-4510-b1a5-8c7aa800bb09"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260429T171732Z
+      Value: 20260519T151645Z

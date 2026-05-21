@@ -1,0 +1,86 @@
+﻿---
+ID: "dbd5d290-6cde-4a1d-8440-09678b8642fd"
+Parent: "4e869961-efef-4b47-bb69-170a251d689b"
+Template: "b5acd819-9137-4e66-a5dc-33dd6e670ec8"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/kb1"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{64EBE8CB-33CB-47F4-8F9C-43E95F68D049}"
+- ID: "4400c946-82b5-451c-9db8-27ea16712244"
+  Hint: Author
+  Value: "{9B44F7C4-472E-4F20-8957-8D9D482E692F}"
+- ID: "5725717d-581c-4a1c-9e91-1ce5dd6d9a00"
+  Hint: Tags
+  Value: "{EA0C996A-ABFD-4E4F-96E1-AE4DB6125B8A}"
+- ID: "5cf6aecc-bb78-48a3-9654-f37fefc826db"
+  Hint: Image
+  Value: |
+    <Image src="https://cha-moonshot.sitecoresandbox.cloud/api/public/content/0d6cd473d8974ed4ac8fea3ecb5d67c1?v=52424535" dam-id="9jqWyjQYTH2tq7jSmYCQJA" width="300" height="450" alt="imgi_4_michulka_kirsten.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/82681/thumbnail" />
+- ID: "af2e8b36-5236-4f7f-a9c4-83df4822d403"
+  Hint: Category
+  Value: "{53E47824-D8CD-4263-AAC6-A4358F7E5DB4}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{29209C84-BBE1-4367-9D77-805FCA3B0AA7}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "664660a2-5a46-41bd-9579-3ceb743d8477"
+- ID: "eee243c7-3b42-4cb3-92e5-19613ee2151a"
+  Hint: PublishedDate
+  Value: 20260519T000000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0a038cc9-aa2e-4325-b1b7-58bf0ad0cdab"
+      Hint: ShortDescription
+      Value: This is the short description
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260519T151731Z
+    - ID: "2d01fe6d-1e46-43b8-8652-0e12d3d0ca1b"
+      Hint: ReadTime
+      Value: 5 minutes
+    - ID: "3cb3cf94-0bf1-4c87-9596-55149a7d4155"
+      Hint: Title
+      Value: Sample Knowledge Base Article
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: kb1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8c494c9d-72d8-4414-9e79-aa1b40c1755a"
+      Hint: Shares
+      Value: 15
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "808225b2-7d5e-45f2-ad95-1f7ba48db051"
+    - ID: "95ac42a2-44cb-440e-ad2c-fe5735167249"
+      Hint: Likes
+      Value: 4
+    - ID: "98d5cb35-fa1b-4ff5-ab1e-139269c8dc06"
+      Hint: Content
+      Value: |
+        <p>This would be the longer content body.</p><figure class="table"><table><tbody><tr><td>lets</td><td>make</td><td>tables</td></tr><tr><td>look</td><td>great</td><td>for</td></tr><tr><td>this</td><td>demo</td><td>today</td></tr><tr><td>add</td><td>new</td><td>row</td></tr><tr><td>just</td><td>like</td><td>that</td></tr></tbody></table></figure><p>&nbsp;</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260519T201039Z

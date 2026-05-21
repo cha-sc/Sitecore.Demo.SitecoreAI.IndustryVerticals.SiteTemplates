@@ -13,14 +13,14 @@ SharedFields:
     <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/76531-LandingPageHero-2000x600?v=4b840920" dam-id="uogDcNJvSM65cynfU9s37g" width="2000" height="600" alt="article1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76531/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 400
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{EAB1770F-CF96-4C68-8E36-E5A4AE085BF9}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a5efabb6-814f-4b7c-9833-670808073a81"
+  Value: "61a29e38-af73-4a6f-a9e2-8ae40f9792c9"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -87,14 +87,14 @@ Languages:
       Value: Contact us
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9e67f686-e644-4f2b-ba58-9143c7e1fc59"
+      Value: "2e636859-347b-4af0-a08b-5cc69d430542"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260429T155355Z
+      Value: 20260519T134505Z
 - Language: "es-ES"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

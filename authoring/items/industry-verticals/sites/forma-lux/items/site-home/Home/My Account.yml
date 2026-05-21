@@ -1,0 +1,136 @@
+﻿---
+ID: "ebb554a0-d7a0-4a50-b233-f7328b6688ea"
+Parent: "4e869961-efef-4b47-bb69-170a251d689b"
+Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/My Account"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0511E46E-56F7-46CE-B3C9-3D475A25B1B4}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "71dcb7ae-d4a2-44d3-8a5e-07794fd77121"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "0f9642e6-16ec-47ea-be44-59b0547d30d7"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: My Account
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3DA600B7-87D3-4532-B7A7-C0F50024F9A7}"
+              p:before="*"
+              s:ds="ebb554a0-d7a0-4a50-b233-f7328b6688ea"
+              s:id="{C5686F8E-6622-4971-99C2-A8B7EFD66C9B}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BF8F0FD99-F819-44AB-84B9-B05F4AF8020E%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{40D722B4-1345-4FFC-AD82-33D80D8D56C9}"
+                    s:name="3da600b787d34532b7a7c0f50024f9a7_05f8f9094dd24dbd95eae5451c74746e">
+                    <conditions>
+                      <condition
+                        uid="C236F3DB2DC1492D9F343670A65B96C0"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="3da600b787d34532b7a7c0f50024f9a7_05f8f9094dd24dbd95eae5451c74746e" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{0B64BEE9-E5B4-4CBC-8262-5A7464586F5B}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="cd5cf1b8-beba-4f75-b6f2-c28007944b0d" />
+                      <action
+                        uid="{EE666A1C-F336-4DC6-8D91-30DCECC14854}"
+                        s:id="{525C7B5A-8FD2-4B99-89F6-4F3F6D23BB02}"
+                        s:Parameters="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BEBFA6BC9-B017-4816-A27A-AD28EC41A01C%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{DEE026F8-A0A6-4B05-AD58-0EA5B84BDDC5}"
+                    s:name="3da600b787d34532b7a7c0f50024f9a7_3fd48fe8dec34bf2b126ae9102a87d7a">
+                    <conditions>
+                      <condition
+                        uid="79748EE7761249D4AD51A6A37302D682"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="3da600b787d34532b7a7c0f50024f9a7_3fd48fe8dec34bf2b126ae9102a87d7a" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{747CDC9E-2655-4392-8002-0617737E1F2C}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="d638edaf-b067-49ea-ba1a-539ea9cf063d" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="53F771ED0D5347A181E77D0EFA8C76C2"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{9ED0FC71-4AB4-489C-A158-91B1ED4BB833}"
+              p:after="*[1=2]"
+              s:ds="0b903d8a-712a-4131-af24-da2075758c46"
+              s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BF341D619-C039-4680-A740-559CEB43E36D%7D&amp;Styles=%7C%7B8E533434-0798-41C5-A783-F7D0F9B5EC47%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260519T013108Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: My Account
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: My Account
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p style="--tw-space-y-reverse:0;-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid rgba(255, 255, 255, 0.2);box-sizing:border-box;color:rgb(85, 85, 85);font-family:Nexa, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin-block:0px 16px;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">The information displayed on this page is provided by Doctor's Associates, LLC and relates to your Subway® restaurants. Dividend and franchise agreement details are updated periodically based on reports received from the franchisor.</p><p style="--tw-space-y-reverse:0;-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid rgba(255, 255, 255, 0.2);box-sizing:border-box;color:rgb(85, 85, 85);font-family:Nexa, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin-block:0px 16px;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">&nbsp;</p><p style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid rgba(255, 255, 255, 0.2);box-sizing:border-box;color:rgb(85, 85, 85);font-family:Nexa, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">If you are missing documents or believe any information is incorrect, please contact your IPC representative or email <a class="text-[#008938] underline hover:no-underline" style="border:0px solid rgba(255, 255, 255, 0.2);box-sizing:border-box;color:rgb(0, 137, 56);margin:0px;padding:0px;text-decoration-color:inherit;text-decoration-line:underline;text-decoration-style:inherit;text-decoration-thickness:inherit;" href="mailto:support@ipc.org">support@ipc.org</a> for assistance.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c1dd8eb4-5744-4c04-8bbf-560eb20af6b6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260519T174519Z

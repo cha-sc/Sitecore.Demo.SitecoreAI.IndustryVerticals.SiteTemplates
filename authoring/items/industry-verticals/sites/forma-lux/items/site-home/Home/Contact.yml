@@ -13,14 +13,14 @@ SharedFields:
     <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/76688-LandingPageHero-2000x600?v=5a4a1047" dam-id="vO0C-1weQUe3O7K76Emhdg" width="2000" height="600" alt="contact-meta.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76688/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 800
+  Value: 900
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{FE9288F0-C03F-4408-A671-65629A8B7866}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3ad83461-318e-4e66-90fb-d79133016e52"
+  Value: "a484952e-8ce2-4e5d-96c2-023b565bbd13"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -102,14 +102,14 @@ Languages:
       Value: Get in touch with Forma Lux for design consultations, custom furniture solutions or to explore our collections and dealers.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fa0be2d0-1128-483c-b573-1796541b41d5"
+      Value: "27e19fbe-e693-4f8a-953a-6478a0f4f318"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260429T155418Z
+      Value: 20260519T134506Z
 - Language: "es-ES"
   Versions:
   - Version: 1

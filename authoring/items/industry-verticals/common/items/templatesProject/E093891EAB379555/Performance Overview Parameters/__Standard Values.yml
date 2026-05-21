@@ -1,0 +1,27 @@
+﻿---
+ID: "0c511fa5-46a2-451a-9ed8-ec1534f9a772"
+Parent: "50e62c29-03af-419b-94bd-559e98a63ac9"
+Template: "50e62c29-03af-419b-94bd-559e98a63ac9"
+Path: "/sitecore/templates/Project/industry-verticals/Components/IPCOOP/Performance Overview/Rendering Parameters/Performance Overview Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f7c7762f-3651-42b3-9d4c-46e2ade0660a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260519T031206Z

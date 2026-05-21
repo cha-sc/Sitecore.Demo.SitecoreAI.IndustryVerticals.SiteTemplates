@@ -7,7 +7,7 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { Link, Text, useSitecore, RichText, NextImage, Placeholder, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
+import { Link, Text, useSitecore, RichText, NextImage, Placeholder, DateField, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
 import { useMemo, useRef, useState, useEffect, useId, useCallback } from 'react';
 import React from 'react';
 import Head from 'next/head';
@@ -21,7 +21,7 @@ import ProductCarousel from 'src/components/non-sitecore/ProductCarousel';
 import { CommonStyles, LayoutStyles, PromoFlags, HeroBannerStyles } from '@/types/styleFlags';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation, A11y, Keyboard } from 'swiper/modules';
-import { ArrowRight, ChevronLeft, ChevronRight, ChevronDown, Heart, Plus, Star, User, X, Check, Loader2, LoaderCircle, ShoppingCart, Search, Globe, Building2, Info, SlidersHorizontal, Store, Users, Mail, Phone, MoreHorizontal, Home } from 'lucide-react';
+import { ArrowRight, ChevronLeft, ChevronRight, ChevronDown, Heart, Plus, Star, User, X, Check, Loader2, LoaderCircle, ShoppingCart, Search, Globe, Building2, Info, SlidersHorizontal, Store, Users, Calendar, Tag, MoreHorizontal, Home } from 'lucide-react';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { cn } from '@/shadcn/lib/utils';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
@@ -102,10 +102,10 @@ const importMap = [
       { name: 'RichText', value: RichText },
       { name: 'NextImage', value: NextImage },
       { name: 'Placeholder', value: Placeholder },
+      { name: 'DateField', value: DateField },
       { name: 'Image', value: Image_8a80e63291fea86e0744df19113dc44bec187216 },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
-      { name: 'DateField', value: DateField },
     ]
   },
   {
@@ -225,8 +225,8 @@ const importMap = [
       { name: 'SlidersHorizontal', value: SlidersHorizontal },
       { name: 'Store', value: Store },
       { name: 'Users', value: Users },
-      { name: 'Mail', value: Mail },
-      { name: 'Phone', value: Phone },
+      { name: 'Calendar', value: Calendar },
+      { name: 'Tag', value: Tag },
       { name: 'MoreHorizontal', value: MoreHorizontal },
       { name: 'Home', value: Home },
     ]
