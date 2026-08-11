@@ -7,7 +7,7 @@ SharedFields:
 - ID: "01ea8292-a476-44b5-b883-8841134989ba"
   Hint: Image5
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79327-LandingPageHero-2000x600?v=67b07f9d" dam-id="8DDqI7dxT-S_jdXGsV9dCg" width="2000" height="600" alt="737656c2eeb8f98032e5e2b9bd9d84137bbf9d6e.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79327/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/79327-LandingPageHero-2000x600?v=67b07f9d" dam-id="8DDqI7dxT-S_jdXGsV9dCg" width="2000" height="600" alt="737656c2eeb8f98032e5e2b9bd9d84137bbf9d6e.jpg" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/79327/thumbnail" />
 - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
   Hint: Tags
   Value: |
@@ -20,7 +20,7 @@ SharedFields:
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79517-HomePageHero-2000x800?v=45234cda" dam-id="H_gcSUJbQpKr2BvPSMZQjA" width="2000" height="800" alt="sakarias-armchair-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79517/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/79517-HomePageHero-2000x800?v=45234cda" dam-id="H_gcSUJbQpKr2BvPSMZQjA" width="2000" height="800" alt="sakarias-armchair-1.png" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/79517/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -35,7 +35,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/676990cc1a264f95afede460b5601bb3?v=9b6666bd" dam-id="H_gcSUJbQpKr2BvPSMZQjA" width="1400" height="1400" alt="sakarias-armchair-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79517/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/676990cc1a264f95afede460b5601bb3?v=9b6666bd" dam-id="H_gcSUJbQpKr2BvPSMZQjA" width="1400" height="1400" alt="sakarias-armchair-1.png" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/79517/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |

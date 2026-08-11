@@ -7,11 +7,11 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/76488-LandingPageHero-2000x600?v=3bce7b27" dam-id="ngNXiZDpRI2taEiS-sNRPA" width="2000" height="600" alt="Dinning design.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76488/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/76488-LandingPageHero-2000x600?v=3bce7b27" dam-id="ngNXiZDpRI2taEiS-sNRPA" width="2000" height="600" alt="Dinning design.webp" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/76488/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/living-room?v=aad40696" dam-id="dm0wrujJQ1e_uSKLhI8s8w" width="1024" height="683" alt="zac-gudakov-nhfggqH6J6A-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/69210/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/living-room?v=aad40696" dam-id="dm0wrujJQ1e_uSKLhI8s8w" width="1024" height="683" alt="zac-gudakov-nhfggqH6J6A-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/69210/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |

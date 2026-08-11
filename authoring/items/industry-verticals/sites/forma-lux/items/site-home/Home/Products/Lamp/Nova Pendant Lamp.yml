@@ -15,7 +15,7 @@ SharedFields:
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79490-HomepagePromoCTAs-1100x740?v=d34beea4" dam-id="tYCauRxpT-698Y3XzaDqAw" width="1100" height="740" alt="nova-pendant-lamp-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79490/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/79490-HomepagePromoCTAs-1100x740?v=d34beea4" dam-id="tYCauRxpT-698Y3XzaDqAw" width="1100" height="740" alt="nova-pendant-lamp-1.png" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/79490/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: "{D5D801B9-21CD-426C-8573-0FFF36FE3317}"
@@ -30,7 +30,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/c2898ef936d745a681afa39316efe1e1?v=095d0f2b" dam-id="tYCauRxpT-698Y3XzaDqAw" width="1024" height="1536" alt="nova-pendant-lamp-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79490/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/c2898ef936d745a681afa39316efe1e1?v=095d0f2b" dam-id="tYCauRxpT-698Y3XzaDqAw" width="1024" height="1536" alt="nova-pendant-lamp-1.png" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/79490/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |

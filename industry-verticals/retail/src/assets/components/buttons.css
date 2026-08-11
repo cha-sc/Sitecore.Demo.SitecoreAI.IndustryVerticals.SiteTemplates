@@ -1,0 +1,74 @@
+/*
+ * Button decorators. A single class carries typography, colors, border,
+ * shadow, hover and disabled styling, so no base `.btn` class is needed.
+ * Works on <button>, <a> and <input type="submit">.
+ */
+
+.btn--primary,
+.btn--secondary,
+.btn--tertiary {
+  @apply font-heading inline-block min-w-[200px] cursor-pointer border-0 px-2.5 pt-[11px] pb-2.5;
+  @apply rounded-sm text-center text-lg leading-[1.2] font-medium tracking-normal no-underline;
+  @apply outline-0 transition-colors hover:no-underline;
+
+  &:focus-visible {
+    @apply outline-accent outline-2 outline-offset-2;
+  }
+
+  &:disabled,
+  &.disabled {
+    @apply text-foreground-disabled pointer-events-none cursor-default shadow-none;
+  }
+}
+
+/* Filled purple, gradient at rest and flat on hover */
+.btn--primary {
+  @apply bg-accent from-accent-light to-accent text-background shadow-btn bg-linear-45/srgb;
+
+  &:hover {
+    @apply bg-accent text-background bg-none;
+  }
+
+  &:disabled,
+  &.disabled {
+    @apply bg-background-accent-light text-accent-muted/50 bg-none;
+  }
+}
+
+/* Muted lilac fill */
+.btn--secondary {
+  @apply bg-background-accent-dark text-accent-dark shadow-btn;
+
+  &:hover {
+    @apply bg-background-accent text-accent-muted;
+  }
+
+  &:disabled,
+  &.disabled {
+    @apply bg-background-accent-light text-accent-muted/50;
+  }
+}
+
+/*
+ * Outlined with a gradient border. The two backgrounds paint the fill to the
+ * padding box and the gradient to the border box, which a plain border cannot
+ * do; padding is reduced by the 3px border to keep the height of the others.
+ */
+.btn--tertiary {
+  @apply shadow-btn-soft border-[3px] border-transparent px-2.5 pt-2 pb-[7px] text-black;
+  background:
+    linear-gradient(var(--color-background), var(--color-background)) padding-box,
+    linear-gradient(228deg, var(--color-accent) 0%, var(--color-accent-lighter) 100%) border-box;
+
+  &:hover {
+    @apply text-background;
+    background:
+      linear-gradient(var(--color-accent), var(--color-accent)) padding-box,
+      linear-gradient(228deg, var(--color-accent) 0%, var(--color-accent-lighter) 100%) border-box;
+  }
+
+  &:disabled,
+  &.disabled {
+    @apply bg-background border-accent-muted-light bg-none;
+  }
+}

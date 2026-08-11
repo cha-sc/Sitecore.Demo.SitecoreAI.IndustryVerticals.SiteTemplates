@@ -8,7 +8,7 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/787e3418a15545af8929d1758540dd75?v=6c3c4b01" dam-id="6MqYHJLETIGBrWZkLvhRrA" width="148" height="48" alt="Google Logo.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76697/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/787e3418a15545af8929d1758540dd75?v=6c3c4b01" dam-id="6MqYHJLETIGBrWZkLvhRrA" width="148" height="48" alt="Google Logo.png" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/76697/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100

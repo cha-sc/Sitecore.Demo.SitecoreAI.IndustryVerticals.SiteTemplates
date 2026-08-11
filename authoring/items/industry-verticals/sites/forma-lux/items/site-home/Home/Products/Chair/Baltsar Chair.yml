@@ -20,7 +20,7 @@ SharedFields:
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/8d0b46b25a424d7a872cdb2f66184d6e?v=e270b06a" dam-id="8Ik65KtOSGOz3p6vaLAXxg" width="3000" height="3000" alt="baltsar-chair-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79387/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/8d0b46b25a424d7a872cdb2f66184d6e?v=e270b06a" dam-id="8Ik65KtOSGOz3p6vaLAXxg" width="3000" height="3000" alt="baltsar-chair-1.png" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/79387/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -44,7 +44,7 @@ SharedFields:
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/8d0b46b25a424d7a872cdb2f66184d6e?v=e270b06a" dam-id="8Ik65KtOSGOz3p6vaLAXxg" width="3000" height="3000" alt="baltsar-chair-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79387/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/8d0b46b25a424d7a872cdb2f66184d6e?v=e270b06a" dam-id="8Ik65KtOSGOz3p6vaLAXxg" width="3000" height="3000" alt="baltsar-chair-1.png" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/79387/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |

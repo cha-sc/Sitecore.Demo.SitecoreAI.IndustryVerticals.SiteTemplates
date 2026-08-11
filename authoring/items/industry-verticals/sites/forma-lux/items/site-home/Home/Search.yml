@@ -15,7 +15,7 @@ SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/bec3d8cb26154982b6cad368820d21f6?v=53371e4b" dam-id="Oa_b1yC2RG6fhK7gFMdmyQ" width="861" height="675" alt="ShowroomLayout.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/66627/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/bec3d8cb26154982b6cad368820d21f6?v=53371e4b" dam-id="Oa_b1yC2RG6fhK7gFMdmyQ" width="861" height="675" alt="ShowroomLayout.jpg" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/66627/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 850

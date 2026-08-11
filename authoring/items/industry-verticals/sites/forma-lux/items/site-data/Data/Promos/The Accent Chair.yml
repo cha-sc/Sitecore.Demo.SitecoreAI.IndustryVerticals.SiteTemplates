@@ -7,7 +7,7 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/a40cc117f6bc43b584576379e57d5352?v=0831c28d" dam-id="_6HhKmO1SFWVcvVHiNnphg" width="1024" height="1024" alt="TheLuminaChair.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/68204/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/a40cc117f6bc43b584576379e57d5352?v=0831c28d" dam-id="_6HhKmO1SFWVcvVHiNnphg" width="1024" height="1024" alt="TheLuminaChair.png" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/68204/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
   Value: "7b5f5150-a75b-40e5-9017-f1cd72956654"

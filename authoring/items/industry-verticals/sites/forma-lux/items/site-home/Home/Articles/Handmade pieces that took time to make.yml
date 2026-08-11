@@ -18,11 +18,11 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/49689e980528431b86086dc363721e0d?v=f0cd6908" dam-id="NuPqTaaSRP2KkZ6K1sMv9g" width="3840" height="2160" alt="Rectangle 68 (2).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/67023/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/49689e980528431b86086dc363721e0d?v=f0cd6908" dam-id="NuPqTaaSRP2KkZ6K1sMv9g" width="3840" height="2160" alt="Rectangle 68 (2).jpg" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/67023/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/56ed3da761284587a81b95612169f224?v=482e83fc" dam-id="JvO38VzSTBOaEPi8_cRk0g" width="3840" height="2160" alt="article4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76598/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/56ed3da761284587a81b95612169f224?v=482e83fc" dam-id="JvO38VzSTBOaEPi8_cRk0g" width="3840" height="2160" alt="article4.jpg" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/76598/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 50

@@ -7,7 +7,7 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/4ac360f89201458abdc0268b7b4573c6?v=ab96cf2e" dam-id="IjoswxWgQHulZxRMDEe7cg" width="222" height="34" alt="Samsung Logo.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76694/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/4ac360f89201458abdc0268b7b4573c6?v=ab96cf2e" dam-id="IjoswxWgQHulZxRMDEe7cg" width="222" height="34" alt="Samsung Logo.png" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/76694/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 400

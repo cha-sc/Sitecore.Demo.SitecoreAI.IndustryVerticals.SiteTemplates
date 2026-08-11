@@ -7,7 +7,7 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/0d4b4a35144b4f75b6ef85140016c2f4?v=1a808fd0" dam-id="y8Xbc2rITQK3zmovzTZOng" width="154" height="48" alt="Airbnb Logo.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76718/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/0d4b4a35144b4f75b6ef85140016c2f4?v=1a808fd0" dam-id="y8Xbc2rITQK3zmovzTZOng" width="154" height="48" alt="Airbnb Logo.png" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/76718/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300

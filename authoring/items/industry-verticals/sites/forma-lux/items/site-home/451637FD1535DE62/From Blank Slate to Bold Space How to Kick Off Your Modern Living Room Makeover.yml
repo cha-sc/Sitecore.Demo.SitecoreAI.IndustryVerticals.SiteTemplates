@@ -7,11 +7,11 @@ SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/76496-LandingPageHero-2000x600?v=2ce168c7" dam-id="M-NIE4yuSDSZ9ZUu_ZE5hw" width="2000" height="600" alt="color-conf.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76496/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/76496-LandingPageHero-2000x600?v=2ce168c7" dam-id="M-NIE4yuSDSZ9ZUu_ZE5hw" width="2000" height="600" alt="color-conf.webp" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/76496/thumbnail" />
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/c2f4307295744911a58659791d759fc4?v=e5ef8d66" dam-id="M-NIE4yuSDSZ9ZUu_ZE5hw" width="1024" height="600" alt="color-conf.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/76496/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/c2f4307295744911a58659791d759fc4?v=e5ef8d66" dam-id="M-NIE4yuSDSZ9ZUu_ZE5hw" width="1024" height="600" alt="color-conf.webp" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/76496/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |

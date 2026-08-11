@@ -7,7 +7,7 @@ SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/dd145e888d304e39817304f66b3a63e3?v=e5bb2c96" dam-id="SCgtuRczTe62TfoX9UnSAw" width="1536" height="1024" alt="Rectangle 1441.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/67095/thumbnail" />
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/dd145e888d304e39817304f66b3a63e3?v=e5bb2c96" dam-id="SCgtuRczTe62TfoX9UnSAw" width="1536" height="1024" alt="Rectangle 1441.png" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/67095/thumbnail" />
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
   Value: 
