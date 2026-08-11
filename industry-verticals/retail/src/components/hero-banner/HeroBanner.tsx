@@ -120,7 +120,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
                   {withPlaceholder ? (
                     <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
                   ) : (
-                    <Link field={fields.CtaLink} className="arrow-btn" />
+                    <Link field={fields.CtaLink} className="btn--primary" />
                   )}
                 </div>
               </div>
