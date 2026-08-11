@@ -1,0 +1,38 @@
+---
+ID: "b665d88a-d1cd-4c04-9438-17b3f0c1036d"
+Parent: "eb54a633-e852-4848-8ec7-dde2e418f682"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: "/sitecore/content/industry-verticals/forma-lux/Presentation/Headless Variants/Features/ATCCImageGrid"
+SharedFields:
+- ID: "087c0553-9162-41f5-98d3-87eb0d80edbb"
+  Hint: Compatible Renderings
+  Value: "{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+      Hint: __Display name
+      Value: ATCC Image Grid
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+      Hint: __Display name
+      Value: ATCC Image Grid
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+      Hint: __Display name
+      Value: ATCC Image Grid
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+      Hint: __Display name
+      Value: ATCC Image Grid

@@ -216,6 +216,49 @@ export const FourColGrid = (props: FeaturesProps) => {
   );
 };
 
+/**
+ * Three-column card grid where each child renders as a cover image, accent title,
+ * description and a full-width tertiary CTA pinned to the bottom of the card so
+ * buttons align across cards of differing text length.
+ */
+export const ATCCImageGrid = (props: FeaturesProps) => {
+  const results = props.fields?.data?.datasource?.children?.results ?? [];
+
+  return (
+    <FeatureWrapper props={props}>
+      <div className="container grid grid-cols-1 gap-x-5 gap-y-12.5 py-20 md:grid-cols-2 lg:grid-cols-3">
+        {results.map((item, index) => {
+          const image = item?.featureImage?.jsonValue;
+          const title = item?.featureTitle?.jsonValue;
+          const description = item?.featureDescription?.jsonValue;
+          const link = item?.featureLink?.jsonValue;
+
+          return (
+            <div className="flex flex-col" key={index}>
+              {image && (
+                <Image
+                  field={image}
+                  className="border-border h-65 w-full rounded-sm border object-cover"
+                />
+              )}
+
+              <Text tag="h6" className="text-accent mt-5 text-lg" field={title} />
+
+              <p className="text-foreground mt-2.5 text-base leading-6.5">
+                <Text field={description} />
+              </p>
+
+              <div className="mt-auto pt-5">
+                <Link field={link} className="btn--tertiary block w-full" />
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </FeatureWrapper>
+  );
+};
+
 export const ImageCardGrid = (props: FeaturesProps) => {
   const results = props.fields.data.datasource.children.results;
 
