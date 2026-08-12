@@ -64,3 +64,28 @@ export const Default = ({ params, fields }: ProductCarouselProps) => {
     </div>
   );
 };
+
+/**
+ * Carousel of all product items with no category filter UI.
+ * Always shows the full product list from the datasource.
+ */
+export const AtccCarousel = ({ params, fields }: ProductCarouselProps) => {
+  const id = params.RenderingIdentifier;
+  const { items } = fields;
+  const autoPlay = isParamEnabled(params.Autoplay);
+  const loop = isParamEnabled(params.Loop);
+
+  const productItems = useMemo(() => {
+    return (items ?? []).filter((item): item is SitecoreItem<Product> => {
+      return 'Title' in item.fields && 'Price' in item.fields;
+    });
+  }, [items]);
+
+  return (
+    <div className={`component all-products-carousel py-5 ${params.styles}`} id={id}>
+      <div className="container flex flex-col items-center gap-10 text-center">
+        <ProductCarousel products={productItems} autoPlay={autoPlay} loop={loop} />
+      </div>
+    </div>
+  );
+};

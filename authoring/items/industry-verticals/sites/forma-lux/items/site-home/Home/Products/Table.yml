@@ -20,6 +20,13 @@ SharedFields:
   Value: "817d00f7-c0ce-4ee1-9b0c-24730525faa7"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "989778f6-820a-4e53-8948-f5c25c97dd18"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Reference-quality Omics Data"
   Versions:
   - Version: 1
     Fields:
@@ -34,10 +41,10 @@ Languages:
       Value: 20251128T094323Z
     - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
       Hint: metadataTitle
-      Value: Modern Tables
+      Value: "Reference-quality Omics Data"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Table
+      Value: "Reference-quality Omics Data"
     - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
       Hint: pageSummary
       Value: The table collection showcases refined craftsmanship and versatile design. With natural materials and minimalist silhouettes, each piece adds balance and function to the modern home while standing as a work of art in its own right.
@@ -47,27 +54,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
       Hint: Title
-      Value: Lamp
+      Value: "Reference-quality Omics Data"
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "59b5fb6a-483a-4194-bf10-45f34d2cf165"
+      Value: "98e9a8a4-843e-456d-bfdc-49fb80c1cc7b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
       Hint: metadataDescription
       Value: Shop contemporary tables designed for modern living. Clean lines, natural materials, and timeless proportions create versatile pieces that elevate every room.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082512Z
+      Value: 20260812T160943Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
-      Value: Table
+      Value: "Reference-quality Omics Data"
 - Language: "es-ES"
   Versions:
   - Version: 1

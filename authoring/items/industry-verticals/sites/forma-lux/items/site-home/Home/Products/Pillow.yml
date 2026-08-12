@@ -17,6 +17,13 @@ SharedFields:
   Value: "8cdae7dc-d85b-4e0e-a015-c784e74f431f"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "8b346f83-c930-412a-b118-565c8348627a"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Standards and Controls
   Versions:
   - Version: 1
     Fields:
@@ -31,10 +38,10 @@ Languages:
       Value: 20251016T155348Z
     - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
       Hint: metadataTitle
-      Value: Decorative Pillows
+      Value: Standards and Controls
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Pillow
+      Value: Standards and Controls
     - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
       Hint: pageSummary
       Value: "Designed for both comfort and aesthetic harmony, these pillows add the finishing touch to modern interiors. Crafted from high-quality fabrics and balanced tones, they embody quiet luxury and the art of effortless living."
@@ -44,27 +51,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
       Hint: Title
-      Value: Pillow
+      Value: Standards and Controls
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2ef070cd-ef22-4d46-a695-50c9cab7f953"
+      Value: "74b9fbd8-11bf-44d6-9e28-e13191407a4c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
       Hint: metadataDescription
       Value: Discover pillows that combine comfort and design. Soft textures, timeless colors, and simple forms come together to add depth and warmth to any living space.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082510Z
+      Value: 20260812T160945Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
-      Value: Pillow
+      Value: Standards and Controls
 - Language: "es-ES"
   Versions:
   - Version: 1

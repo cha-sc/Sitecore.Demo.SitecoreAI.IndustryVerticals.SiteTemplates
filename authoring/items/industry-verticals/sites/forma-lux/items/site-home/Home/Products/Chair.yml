@@ -20,6 +20,13 @@ SharedFields:
   Value: "434ae539-20bd-4b08-84b6-0420e35a88b5"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "a6e62554-cfbe-4613-81f7-7d448413f399"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Molecular Diagnostics Development
   Versions:
   - Version: 1
     Fields:
@@ -34,10 +41,10 @@ Languages:
       Value: 20251016T154629Z
     - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
       Hint: metadataTitle
-      Value: Chairs
+      Value: Molecular Diagnostics Development
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Chair
+      Value: Molecular Diagnostics Development
     - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
       Hint: pageSummary
       Value: Crafted for balance, comfort, and elegance, this chair collection celebrates simplicity in design. With thoughtful details and enduring materials, each piece invites comfort while maintaining a clean, architectural presence.
@@ -47,27 +54,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
       Hint: Title
-      Value: Chair
+      Value: Molecular Diagnostics Development
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "03e21659-49d6-4841-a9c9-30ebdd3aa1f6"
+      Value: "2a8e75ee-713e-4c47-8530-68372f8e36fe"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
       Hint: metadataDescription
       Value: Discover chairs that combine sculptural form and ergonomic comfort. Designed with refined proportions and natural materials, each piece complements modern interiors beautifully.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082511Z
+      Value: 20260812T160942Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
-      Value: Chair
+      Value: Molecular Diagnostics Development
 - Language: "es-ES"
   Versions:
   - Version: 1

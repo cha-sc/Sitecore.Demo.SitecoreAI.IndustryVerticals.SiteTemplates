@@ -28,7 +28,7 @@ const ProductCarousel = ({
     <div className={`relative w-full ${className}`}>
       <CarouselButton
         direction="prev"
-        className={`product-carousel-prev-${uid} absolute top-1/2 -left-5 -translate-y-1/2`}
+        className={`product-carousel-prev-${uid} btn-colors--secondary absolute top-1/2 -left-5 -translate-y-1/2`}
         name="previous-product"
         aria-label="Previous product"
       />
@@ -76,7 +76,7 @@ const ProductCarousel = ({
 
       <CarouselButton
         direction="next"
-        className={`product-carousel-next-${uid} absolute top-1/2 -right-5 -translate-y-1/2`}
+        className={`product-carousel-next-${uid} btn-colors--secondary absolute top-1/2 -right-5 -translate-y-1/2`}
         name="next-product"
         aria-label="Next product"
       />

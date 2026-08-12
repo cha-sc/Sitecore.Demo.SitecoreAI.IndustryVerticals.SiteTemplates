@@ -35,9 +35,17 @@
   }
 }
 
-/* Muted lilac fill */
 .btn--secondary {
-  @apply bg-background-accent-dark text-accent-dark shadow-btn;
+  @apply shadow-btn;
+}
+
+/*
+ * Muted lilac fill. `btn-colors--secondary` carries only the font and colors,
+ * for elements that bring their own geometry, such as round icon buttons.
+ */
+.btn--secondary,
+.btn-colors--secondary {
+  @apply font-heading bg-background-accent-dark text-accent-dark;
 
   &:hover {
     @apply bg-background-accent text-accent-muted;

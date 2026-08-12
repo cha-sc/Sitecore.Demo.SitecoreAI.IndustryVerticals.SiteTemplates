@@ -20,6 +20,13 @@ SharedFields:
   Value: "d07520cc-a730-49cf-a21c-923a881e0476"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "bb223ef8-1c2e-4b4b-87c4-8e7a389c89d4"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Oncology and Immuno-oncology"
   Versions:
   - Version: 1
     Fields:
@@ -34,10 +41,10 @@ Languages:
       Value: 20251016T155045Z
     - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
       Hint: metadataTitle
-      Value: Luxury Beds
+      Value: "Oncology and Immuno-oncology"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Bed
+      Value: "Oncology and Immuno-oncology"
     - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
       Hint: pageSummary
       Value: The bed collection transforms the bedroom into a calm, restorative space. Built with natural materials and clean lines, each design emphasizes comfort, balance, and the quiet sophistication of timeless craftsmanship.
@@ -47,27 +54,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
       Hint: Title
-      Value: Bed
+      Value: "Oncology and Immuno-oncology"
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ec74e5f3-5c79-46bd-90d1-d138106a24ec"
+      Value: "b94158ec-05b5-4510-9c02-47f29210c6bc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
       Hint: metadataDescription
       Value: Explore modern beds crafted with natural materials and refined design. Each piece brings balance, serenity, and enduring comfort to the contemporary bedroom.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082508Z
+      Value: 20260812T160939Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
-      Value: Bed
+      Value: "Oncology and Immuno-oncology"
 - Language: "es-ES"
   Versions:
   - Version: 1

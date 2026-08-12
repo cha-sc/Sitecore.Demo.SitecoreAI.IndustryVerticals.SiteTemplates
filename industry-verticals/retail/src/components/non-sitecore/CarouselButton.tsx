@@ -8,7 +8,7 @@ interface CarouselButtonProps extends React.ButtonHTMLAttributes<HTMLButtonEleme
 const CarouselButton = ({ direction = 'next', className = '', ...props }: CarouselButtonProps) => {
   return (
     <button
-      className={`!text-foreground bg-background z-10 size-12 content-center rounded-full shadow-md ${className}`}
+      className={`text-foreground bg-background z-10 size-12 content-center rounded-full shadow-md ${className}`}
       {...props}
     >
       <ShortArrow className={direction === 'prev' ? 'rotate-180' : ''} />

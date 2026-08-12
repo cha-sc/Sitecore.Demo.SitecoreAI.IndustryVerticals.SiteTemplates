@@ -17,6 +17,13 @@ SharedFields:
   Value: "4f8a7fb3-4161-4154-aaec-c61e2b1d12c4"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "087a944f-de00-403b-add5-ad2271ec74aa"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Bioproduction
   Versions:
   - Version: 1
     Fields:
@@ -31,10 +38,10 @@ Languages:
       Value: 20251016T155226Z
     - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
       Hint: metadataTitle
-      Value: Modern Lamps
+      Value: Bioproduction
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Lamp
+      Value: Bioproduction
     - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
       Hint: pageSummary
       Value: The lamp collection offers refined lighting designed to complement modern interiors. Each piece is crafted to illuminate spaces with warmth and intention, creating an atmosphere that feels calm, balanced, and beautifully understated.
@@ -44,27 +51,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
       Hint: Title
-      Value: Lamp
+      Value: Bioproduction
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "09f345a4-9752-4c03-b537-4c9073486bb7"
+      Value: "19bd84af-5533-42b1-b70b-66c47e52599e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
       Hint: metadataDescription
       Value: Explore modern lamps that bring warmth, balance, and atmosphere to any space. Thoughtfully designed for beauty and function, each piece enhances the art of living through light.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082509Z
+      Value: 20260812T160945Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
-      Value: Lamp
+      Value: Bioproduction
 - Language: "es-ES"
   Versions:
   - Version: 1
