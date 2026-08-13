@@ -6,15 +6,14 @@ Path: "/sitecore/content/industry-verticals/forma-lux/Data/Hero Banners/Cancer M
 SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
-  Value: |
-    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/dd145e888d304e39817304f66b3a63e3?v=e5bb2c96" dam-id="SCgtuRczTe62TfoX9UnSAw" width="1536" height="1024" alt="See Our Latest Cancer Models" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/67095/thumbnail" />
+  Value: 
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
   Value: |
     <file src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/9dfa96402ee940c1afad0dd23b7a5f38?v=c9498281" title="ATCC Cancer Models" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "506b4bad-fa2e-40c2-add8-6611c7c36b33"
+  Value: "672f5d60-10af-4b0f-9cab-6422b014ff61"
 Languages:
 - Language: en
   Versions:
@@ -40,7 +39,7 @@ Languages:
         sitecore\chris.haddad@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "664163f9-a7f1-4f80-84c5-19a7ab9354db"
+      Value: "56410eba-4805-4653-ac9b-4f94312a4445"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: See Our Latest Cancer Models
@@ -50,7 +49,7 @@ Languages:
         sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260811T182318Z
+      Value: 20260812T171152Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |
