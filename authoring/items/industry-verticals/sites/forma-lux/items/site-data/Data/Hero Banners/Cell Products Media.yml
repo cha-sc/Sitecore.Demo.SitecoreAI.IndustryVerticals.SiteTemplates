@@ -1,4 +1,4 @@
----
+﻿---
 ID: "7d9be472-951e-488b-8bf1-195ad14f59f3"
 Parent: "e79d8586-d4b5-42f5-aec1-ae82c4f47f0f"
 Template: "ac18eef2-f134-4985-8b74-6ad16cca6577"
@@ -7,25 +7,35 @@ SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/76531-LandingPageHero-2000x600?v=4b840920" dam-id="uogDcNJvSM65cynfU9s37g" width="2000" height="600" alt="Organoid Core Kit demonstration" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/76531/thumbnail" />
+    <image mediaid="9d13c4da-ab12-436c-a6fa-7261cde8cc8b" />
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
   Value: |
     <file src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/9dfa96402ee940c1afad0dd23b7a5f38?v=c9498281" title="How to prepare complete media" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a465e30b-09e5-4861-be0b-62629b517ec4"
+  Value: "5390728a-250c-4bc6-9d57-4c4734384d61"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20260813T053000Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "82a142fe-9e87-4271-bd40-f2899c01565c"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: How to prepare complete media
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "75f792c1-7db5-41b8-a39d-737613b9f9bc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260813T144753Z
