@@ -30,6 +30,8 @@ type PromoImageGroupProps = Partial<
 > & {
   withShapes?: boolean;
   withShadows?: boolean;
+  /** Render the image at its natural aspect ratio instead of cropping it to a fixed frame. */
+  fitImage?: boolean;
 };
 
 export type PromoProps = ComponentProps & {
@@ -66,6 +68,7 @@ export const SingleImageContainer = ({
   PromoImageOne,
   withShapes,
   withShadows,
+  fitImage,
 }: PromoImageGroupProps): JSX.Element => {
   const shadowClass = isShadowClassActive(withShadows ?? false);
   return (
@@ -79,9 +82,16 @@ export const SingleImageContainer = ({
             <div className="bg-background-muted absolute top-1/2 right-0 z-0 aspect-5/3 w-3/4 -translate-y-1/2 transform rounded-2xl"></div>
           )}
           <div
-            className={`relative z-10 aspect-4/3 w-full max-w-4xl overflow-hidden rounded-2xl ${shadowClass}`}
+            className={clsx(
+              'relative z-10 w-full max-w-4xl overflow-hidden rounded-2xl',
+              { 'aspect-4/3': !fitImage },
+              shadowClass
+            )}
           >
-            <ContentSdkImage field={PromoImageOne} className="h-full w-full object-cover" />
+            <ContentSdkImage
+              field={PromoImageOne}
+              className={clsx('w-full', fitImage ? 'h-auto object-contain' : 'h-full object-cover')}
+            />
           </div>
         </div>
       </div>
@@ -146,6 +156,7 @@ export const Default = (props: PromoProps): JSX.Element => {
   const showSingleImage = !props?.params?.styles?.includes(PromoFlags.ShowMultipleImages);
   const withShapes = !props?.params?.styles?.includes(PromoFlags.HidePromoShapes);
   const withShadows = !props?.params?.styles?.includes(PromoFlags.HidePromoShadows);
+  const fitImage = props?.params?.styles?.includes(PromoFlags.FitPromoImage);
 
   const justifyContentClass = !showSingleImage ? 'justify-self-start' : '';
   const firstColumnSize = showSingleImage ? 'lg:col-span-6' : 'lg:col-span-7';
@@ -160,6 +171,7 @@ export const Default = (props: PromoProps): JSX.Element => {
               PromoImageOne={props.fields.PromoImageOne}
               withShapes={withShapes}
               withShadows={withShadows}
+              fitImage={fitImage}
             />
           ) : (
             <MultipleImageContainer

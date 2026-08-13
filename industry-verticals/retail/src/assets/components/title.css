@@ -11,3 +11,13 @@
     }
   }
 }
+
+/* Page-heading treatment: smaller than a hero headline so it reads as a page label */
+.title.title-compact {
+  @apply mt-6 mb-4;
+
+  h1,
+  .field-title {
+    @apply text-3xl md:text-4xl lg:text-[2.5rem];
+  }
+}
