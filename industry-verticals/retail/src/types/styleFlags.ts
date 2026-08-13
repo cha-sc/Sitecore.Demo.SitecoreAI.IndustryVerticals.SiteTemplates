@@ -18,4 +18,5 @@ export enum HeroBannerStyles {
   HideGradientOverlay = 'hide-gradient-overlay',
   WithPlaceholder = 'with-placeholder',
   ScreenLayer = 'screen-layer',
+  Compact = 'compact',
 }

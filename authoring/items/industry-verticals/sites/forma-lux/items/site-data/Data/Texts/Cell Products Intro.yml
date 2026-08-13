@@ -1,0 +1,20 @@
+---
+ID: "b53e2c7a-3cd4-44a6-a6f4-3c114c6bc704"
+Parent: "f7a94339-fc9f-4377-9fcb-252ee5d97844"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Texts/Cell Products Intro"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260813T053000Z
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><h2 style="text-align:center;"><strong>Don't let culture setup limit your research</strong></h2><p style="text-align:center;">ATCC organoid growth kits contain the most costly and cumbersome supplements pre-packaged in single-use formats. Each kit is matched to a specific organoid subtype so media preparation is consistent, reliable, and ready to support your experimental intent.</p></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b9d4796c-e686-41f1-b96c-e05577e7bde6"

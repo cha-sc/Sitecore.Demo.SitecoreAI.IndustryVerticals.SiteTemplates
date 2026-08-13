@@ -132,6 +132,97 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
   );
 };
 
+/**
+ * Compact, short-height hero band with a left-aligned heading over a full-bleed
+ * background image. Mirrors the ATCC "Streamlined organoid culturing" banner.
+ */
+export const Banner = ({ params, fields, rendering }: HeroBannerProps) => {
+  const { page } = useSitecore();
+  const styles = params.styles || '';
+  const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
+  const reverseLayout = styles.includes(LayoutStyles.Reversed);
+  const screenLayer = styles.includes(HeroBannerStyles.ScreenLayer);
+
+  return (
+    <HeroBannerCommon params={params} fields={fields} rendering={rendering}>
+      {/* Content Container */}
+      <div className="relative w-full">
+        <div className="container mx-auto px-4">
+          <div
+            className={`flex min-h-56 w-full items-center py-8 md:min-h-72 lg:w-1/2 ${reverseLayout ? 'lg:ml-auto' : 'lg:mr-auto'}`}
+          >
+            <div className="max-w-182">
+              <div className={clsx({ shim: screenLayer })}>
+                {/* Title */}
+                <h1 className="text-4xl leading-[120%] font-bold md:text-5xl xl:text-6xl">
+                  <ContentSdkText field={fields.Title} />
+                  {!hideAccentLine && <AccentLine className="h-4! w-[8ch]" />}
+                </h1>
+
+                {/* Description */}
+                {(fields?.Description?.value || page.mode.isEditing) && (
+                  <div className="mt-4 text-lg md:text-xl">
+                    <ContentSdkRichText field={fields.Description} />
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </HeroBannerCommon>
+  );
+};
+
+/**
+ * Gray media section with a centered heading and an inline, controllable video
+ * player. Falls back to the poster image when no video source is provided.
+ * Mirrors the ATCC "How to prepare complete media" block.
+ */
+export const MediaPlayer = ({ params, fields }: HeroBannerProps) => {
+  const { page } = useSitecore();
+  const { styles, RenderingIdentifier: id } = params;
+  const isPageEditing = page.mode.isEditing;
+  const hideAccentLine = styles?.includes(CommonStyles.HideAccentLine);
+
+  if (!fields) {
+    return isPageEditing ? (
+      <div className={`component hero-banner ${styles}`} id={id}>
+        [MEDIA PLAYER]
+      </div>
+    ) : (
+      <></>
+    );
+  }
+
+  const posterSrc = fields.Image?.value?.src as string | undefined;
+  const videoSrc = fields.Video?.value?.src as string | undefined;
+
+  return (
+    <section className={`component hero-banner bg-background-muted py-14 ${styles}`} id={id}>
+      <div className="container mx-auto flex flex-col items-center px-4">
+        {/* Title */}
+        <h2 className="text-center">
+          <ContentSdkText field={fields.Title} />
+          {!hideAccentLine && <AccentLine className="mx-auto h-4! w-[8ch]" />}
+        </h2>
+
+        {/* Media */}
+        <div className="mt-8 w-full max-w-3xl overflow-hidden rounded-2xl">
+          {videoSrc ? (
+            <video className="h-full w-full object-cover" controls poster={posterSrc}>
+              <source src={videoSrc} type="video/mp4" />
+              <source src={videoSrc} type="video/webm" />
+            </video>
+          ) : (
+            <ContentSdkImage field={fields.Image} className="h-full w-full object-cover" />
+          )}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
   const styles = params.styles || '';
   const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);

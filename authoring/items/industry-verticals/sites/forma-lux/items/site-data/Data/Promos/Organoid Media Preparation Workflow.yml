@@ -1,0 +1,38 @@
+---
+ID: "bc203b47-4d79-4e6d-9282-daf389ba50ac"
+Parent: "d7bee783-0ed9-4fb5-9cf2-6c7fef0b2f86"
+Template: "08213afb-9cb4-4c1f-a5da-865b9a095601"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Promos/Organoid Media Preparation Workflow"
+SharedFields:
+- ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
+  Hint: PromoImageOne
+  Value: |
+    <Image src="https://cha-verticals-0811.sitecoresandbox.cloud/api/public/content/76531-LandingPageHero-2000x600?v=4b840920" dam-id="uogDcNJvSM65cynfU9s37g" width="2000" height="600" alt="Organoid medium preparation workflow diagram" dam-content-type="Image" thumbnailsrc="https://cha-verticals-0811.sitecoresandbox.cloud/api/gateway/76531/thumbnail" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "752d062a-b623-4f20-9fa2-8a6af7a12310"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260813T053000Z
+    - ID: "453ed40c-5232-4e90-b023-7a3cee2bcfe8"
+      Hint: PromoMoreInfo
+      Value: |
+        <link linktype="external" url="" target="" text="" title="" class=""/>
+    - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
+      Hint: PromoDescription
+      Value: |
+        <div class="ck-content"><p><strong>Figure 1: Organoid medium made easy.</strong> To use an organoid growth kit, simply add the appropriate volume of basal medium to the vials included in the kit, and vortex to mix well. Pipette the reconstituted kit components into the basal medium and add the appropriate volume of conditioned medium. Pass this mixture through a bottle-top filter unit, and you&rsquo;re ready to feed your organoids!</p><p>Organoid technology is subject to various patent rights; please consult your patent counsel regarding the need for licenses, including without limitation for uses beyond the scope permitted by the HUB Addendum to the ATCC MTA.</p></div>
+    - ID: "79332b7d-ea7f-47d7-a9c2-bfaae4806296"
+      Hint: PromoSubTitle
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "17d60502-4ed8-4ee7-b833-e18a4860740b"
+    - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
+      Hint: PromoTitle
+      Value: Organoid media preparation workflow

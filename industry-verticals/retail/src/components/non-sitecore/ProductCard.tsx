@@ -1,5 +1,4 @@
 import { NextImage as ContentSdkImage, Text } from '@sitecore-content-sdk/nextjs';
-import StarRating from './StarRating';
 import Link from 'next/link';
 import { Product } from '@/types/products';
 import { useLocale } from '@/hooks/useLocaleOptions';
