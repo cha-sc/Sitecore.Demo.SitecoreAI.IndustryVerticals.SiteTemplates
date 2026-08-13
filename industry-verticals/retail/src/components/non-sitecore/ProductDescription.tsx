@@ -2,7 +2,7 @@ import { Text as ContentSdkText, useSitecore } from '@sitecore-content-sdk/nextj
 import { Product } from '@/types/products';
 import StarRating from '../non-sitecore/StarRating';
 import { useLocale } from '@/hooks/useLocaleOptions';
-import { calculateAverageRating } from '@/helpers/productUtils';
+import { calculateAverageRating, formatPrice } from '@/helpers/productUtils';
 
 interface ProductDescriptionProps {
   product: Product;
@@ -11,7 +11,7 @@ interface ProductDescriptionProps {
 export const ProductDescription = ({ product }: ProductDescriptionProps) => {
   const { page } = useSitecore();
   const isPageEditing = page.mode.isEditing;
-  const { currency } = useLocale();
+  const { code: locale, currency } = useLocale();
 
   const reviews = product?.Reviews || [];
   const reviewCount = reviews.length;
@@ -25,7 +25,14 @@ export const ProductDescription = ({ product }: ProductDescriptionProps) => {
 
       {(product?.Price?.value || isPageEditing) && (
         <p className="text-xl">
-          {currency} <ContentSdkText field={product.Price} />
+          {/* Keep the raw field editable in Pages; show formatted currency to visitors */}
+          {isPageEditing ? (
+            <>
+              {currency} <ContentSdkText field={product.Price} />
+            </>
+          ) : (
+            formatPrice(product.Price?.value, locale, currency)
+          )}
         </p>
       )}
 

@@ -35,7 +35,7 @@ import { Quote } from '@/assets/icons/quote/Quote';
 import { usePagination } from '@/hooks/usePagination';
 import { ProductCard } from '@/components/non-sitecore/ProductCard';
 import { Pagination as Pagination_25a2ac6977db7c44c4c657d8bc0b397259e5032a } from 'src/components/non-sitecore/Pagination';
-import { calculateAverageRatingFromIGQL, calculateAverageRating } from '@/helpers/productUtils';
+import { calculateAverageRatingFromIGQL, calculateAverageRating, formatPrice } from '@/helpers/productUtils';
 import { ProductTabs } from 'src/components/non-sitecore/ProductTabs';
 import QuantityControl from 'src/components/non-sitecore/QuantityControl';
 import { AddToCartButton } from 'src/components/non-sitecore/AddToCartButton';
@@ -312,6 +312,7 @@ const importMap = [
     exports: [
       { name: 'calculateAverageRatingFromIGQL', value: calculateAverageRatingFromIGQL },
       { name: 'calculateAverageRating', value: calculateAverageRating },
+      { name: 'formatPrice', value: formatPrice },
     ]
   },
   {
