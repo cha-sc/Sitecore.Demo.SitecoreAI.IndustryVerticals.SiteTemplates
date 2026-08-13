@@ -46,11 +46,9 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
             <Text field={product.Title} />
           </h6>
 
-          <StarRating
-            rating={product.Rating || 0}
-            showOnlyFilled
-            className="!text-accent mt-1 mb-5"
-          />
+          <p className="!text-foreground-light">
+            <Text field={product.SKU} />
+          </p>
 
           <h6 className="!text-foreground mt-auto font-semibold">
             <span className="mr-1 align-super text-sm">{currencySymbol} </span>
